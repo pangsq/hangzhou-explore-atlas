@@ -1,0 +1,86 @@
+[
+  {
+    "number": 1,
+    "title": "开放世界总览",
+    "description": "从城西出发，打开杭州的探索版图。",
+    "group": "总览",
+    "image": "maps/map01.png"
+  },
+  {
+    "number": 2,
+    "title": "杭与城北区新手村",
+    "description": "认识街区、学校与生活目的地。",
+    "group": "城市",
+    "image": "maps/map02.png"
+  },
+  {
+    "number": 3,
+    "title": "云城核心区",
+    "description": "在车站、公园与建设中的城市之间漫游。",
+    "group": "城市",
+    "image": "maps/map03.png"
+  },
+  {
+    "number": 4,
+    "title": "城西交通网络",
+    "description": "认识站点方位，为下一次出行做准备。",
+    "group": "城市",
+    "image": "maps/map04.png"
+  },
+  {
+    "number": 5,
+    "title": "仓前羊锅村",
+    "description": "沿着羊锅的烟火气，走进仓前。",
+    "group": "人文",
+    "image": "maps/map05.png"
+  },
+  {
+    "number": 6,
+    "title": "梦想小镇与未来科技城",
+    "description": "在古街与科创空间之间寻找灵感。",
+    "group": "城市",
+    "image": "maps/map06.png"
+  },
+  {
+    "number": 7,
+    "title": "苕溪绿道",
+    "description": "把目光交给水岸、田野与骑行生活。",
+    "group": "山水",
+    "image": "maps/map07.png"
+  },
+  {
+    "number": 8,
+    "title": "良渚文明",
+    "description": "从遗址到博物院，遇见五千年文明。",
+    "group": "人文",
+    "image": "maps/map08.png"
+  },
+  {
+    "number": 9,
+    "title": "西溪湿地",
+    "description": "把脚步放慢，在芦苇与水鸟之间观察。",
+    "group": "山水",
+    "image": "maps/map09.png"
+  },
+  {
+    "number": 10,
+    "title": "径山茶山与竹海",
+    "description": "一杯茶、一片竹海与一座山寺。",
+    "group": "山水",
+    "image": "maps/map10.png"
+  },
+  {
+    "number": 11,
+    "title": "富阳银湖与富春江",
+    "description": "从银湖到富春江，收藏山水的层次。",
+    "group": "山水",
+    "image": "maps/map11.png"
+  },
+  {
+    "number": 12,
+    "title": "西湖与之江文化圈",
+    "description": "从西湖风景走进之江的文化空间。",
+    "group": "人文",
+    "image": "maps/map12.png"
+  }
+]

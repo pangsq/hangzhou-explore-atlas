@@ -1,0 +1,53 @@
+/* Touch-friendly controls and a viewer that follows the visible viewport. */
+button,a{-webkit-tap-highlight-color:rgba(217,106,52,.18)}
+dialog[open]{display:flex;flex-direction:column;overflow:hidden}
+.viewer-bar,.viewer-bottom{height:auto;flex-shrink:0}
+.viewer-bar{min-height:60px}
+.viewer-bottom{min-height:58px}
+.image-stage{height:auto;flex:1;min-height:0;overscroll-behavior:contain}
+.viewer-bar button,.viewer-bar a,.viewer-bottom button{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.viewer-bar h2{line-height:1.5;min-width:0}
+.viewer-bottom>span{text-align:center;line-height:1.5}
+.card>a{min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:760px){
+  header{gap:12px;flex-wrap:wrap}
+  nav a{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+  .hero-copy,.hero-art,.about>div{min-width:0}
+  .hero h1{font-size:clamp(36px,8.8vw,54px);letter-spacing:-1px}
+  .actions{flex-wrap:wrap;gap:14px 20px}
+  .edition{flex-wrap:wrap;gap:8px}
+  .edition i{margin:0 4px}
+  .filters button{min-height:44px}
+  dialog{width:100%;max-width:100%;height:100vh;height:100dvh;max-height:100dvh;margin:0;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+  .viewer-bar{gap:8px;padding:10px 12px}
+  .viewer-bar h2{width:100%;font-size:14px}
+  .viewer-bar>div{width:100%;gap:8px}
+  #close{margin-left:auto}
+  .image-stage{padding:8px}
+  .viewer-bottom{padding:8px;gap:6px}
+  .viewer-bottom button{white-space:nowrap;padding:8px;font-size:12px}
+  .viewer-bottom>span{font-size:10px}
+}
+@media(max-width:540px){
+  header{padding:14px 5%}
+  .brand{font-size:21px;letter-spacing:2px}
+  .brand span{font-size:8px;letter-spacing:1px}
+  nav{gap:10px}
+  .hero{padding-top:28px;padding-bottom:40px}
+  .hero h1{margin:20px 0}
+  .hero-art{width:94%;box-shadow:7px 7px 0 #dedbca}
+  .grid{grid-template-columns:minmax(0,1fr);gap:32px}
+  .card h3{font-size:21px}
+  .card p{font-size:14px}
+  .card-head{font-size:12px}
+  .card>a{font-size:14px}
+  .collection{padding:36px 5%}
+  .section-head h2{font-size:26px}
+  .filters{gap:8px;margin:22px 0}
+  .filters button{padding:9px 12px}
+  .notice{display:block}
+  .notice>span{display:inline-block;margin-bottom:8px}
+  .about h2{font-size:30px}
+  footer{align-items:flex-start}
+}
+@media(hover:none){.hero-art:hover{transform:rotate(1.5deg)}.card .image-button:hover img{transform:none}}
