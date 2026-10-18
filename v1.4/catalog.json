@@ -1,0 +1,261 @@
+{
+  "version": "1.4",
+  "buildMode": "release",
+  "assembledAt": "2026-10-18T14:00:36.138Z",
+  "releaseApproval": "passed",
+  "maps": [
+    {
+      "number": 1,
+      "title": "开放世界总览",
+      "description": "从城西出发，先认清杭州的山、水与城市脉络。",
+      "group": "总览",
+      "pixel": {
+        "original": "assets/map01-pixel-205e1bd6b8.png",
+        "thumbnail": "assets/map01-pixel-205e1bd6b8-thumb.webp",
+        "preview": "assets/map01-pixel-205e1bd6b8-view.webp",
+        "width": 1160,
+        "height": 1356,
+        "originalMB": "4.6",
+        "approval": "approved",
+        "sourceSha256": "205e1bd6b8c6bb6e4af65c05d6b9cd8882c88af95b0f958123cbacd92084258c",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生尺寸分层合成；底画为1159×1356，不是3200px原生生成",
+        "limitations": []
+      },
+      "geography": null
+    },
+    {
+      "number": 2,
+      "title": "杭与城北区新手村",
+      "description": "把日常街区、学校、园区与真实出入口连成生活认知。",
+      "group": "城市",
+      "pixel": {
+        "original": "assets/map02-pixel-c4c60280d2.png",
+        "thumbnail": "assets/map02-pixel-c4c60280d2-thumb.webp",
+        "preview": "assets/map02-pixel-c4c60280d2-view.webp",
+        "width": 1024,
+        "height": 1536,
+        "originalMB": "4.8",
+        "approval": "approved",
+        "sourceSha256": "c4c60280d2163bad89db2234435aafef04f88f7a7e9664a28cb19cb01bcaa177",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1024×1536分层合成；区域11点与路河文字纠正稿，非原生4K",
+        "limitations": [
+          "上部手绘背景未严格配准；门位仍为估计，主图楼栋道路仍待逐项复核。"
+        ]
+      },
+      "geography": null
+    },
+    {
+      "number": 3,
+      "title": "云城核心区",
+      "description": "看懂家、新城与铁路枢纽之间的空间关系。",
+      "group": "城市",
+      "pixel": {
+        "original": "assets/map03-pixel-79bd1c50b9.png",
+        "thumbnail": "assets/map03-pixel-79bd1c50b9-thumb.webp",
+        "preview": "assets/map03-pixel-79bd1c50b9-view.webp",
+        "width": 1074,
+        "height": 1464,
+        "originalMB": "4.3",
+        "approval": "approved",
+        "sourceSha256": "79bd1c50b99a9b4db7fe40ae6c2689e26bf872ed0aaa93d42b0e546d83455729",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1074×1464分层合成；点位与水系纠正稿，非3200px原生生成",
+        "limitations": []
+      },
+      "geography": null
+    },
+    {
+      "number": 4,
+      "title": "城西交通网络",
+      "description": "认识站点、轨道与入口，不把代表点当作步行目的地。",
+      "group": "城市",
+      "pixel": {
+        "original": "assets/map04-pixel-140fdab0dd.png",
+        "thumbnail": "assets/map04-pixel-140fdab0dd-thumb.webp",
+        "preview": "assets/map04-pixel-140fdab0dd-view.webp",
+        "width": 1152,
+        "height": 1366,
+        "originalMB": "4.2",
+        "approval": "approved",
+        "sourceSha256": "140fdab0dd1134d0e7ce98885e34e4dfcfce940b2eb9d94391c0a4999cadb999",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1152×1366分层合成；轨道与站口纠正稿，非3200px原生生成",
+        "limitations": []
+      },
+      "geography": null
+    },
+    {
+      "number": 5,
+      "title": "仓前羊锅村",
+      "description": "区分餐馆店群与仓前古街，找到烟火气所在的位置。",
+      "group": "人文",
+      "pixel": {
+        "original": "assets/map05-pixel-41f4836711.png",
+        "thumbnail": "assets/map05-pixel-41f4836711-thumb.webp",
+        "preview": "assets/map05-pixel-41f4836711-view.webp",
+        "width": 1133,
+        "height": 1388,
+        "originalMB": "4.4",
+        "approval": "approved",
+        "sourceSha256": "41f483671189714676a7a1e065d570869f557564b29b11ccfb50876c33d40a26",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1133×1388分层合成；点位与文字纠正稿，非3200px原生生成",
+        "limitations": [
+          "艺术水面、道路与建筑仍有示意成分；未通过整图地理验收。"
+        ]
+      },
+      "geography": null
+    },
+    {
+      "number": 6,
+      "title": "梦想小镇与未来科技城",
+      "description": "沿着古街与科创空间，读懂城西的不同面貌。",
+      "group": "城市",
+      "pixel": {
+        "original": "assets/map06-pixel-8a3b695f76.png",
+        "thumbnail": "assets/map06-pixel-8a3b695f76-thumb.webp",
+        "preview": "assets/map06-pixel-8a3b695f76-view.webp",
+        "width": 1199,
+        "height": 1312,
+        "originalMB": "4.3",
+        "approval": "approved",
+        "sourceSha256": "8a3b695f76ef601aa2d23b48f41b155a28c3260f9d737f1fecbb24a911930edc",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1199×1312分层合成；水系、宝龙与景点纠正稿，非原生4K",
+        "limitations": [
+          "普通道路、建筑仍是艺术表达，不作导航；来源图层检查不等于整图验收。"
+        ]
+      },
+      "geography": null
+    },
+    {
+      "number": 7,
+      "title": "苕溪绿道",
+      "description": "先辨认河道与闸连接，再寻找合适的水岸探索方向。",
+      "group": "山水",
+      "pixel": {
+        "original": "assets/map07-pixel-8ad5d53599.png",
+        "thumbnail": "assets/map07-pixel-8ad5d53599-thumb.webp",
+        "preview": "assets/map07-pixel-8ad5d53599-view.webp",
+        "width": 1149,
+        "height": 1369,
+        "originalMB": "3.4",
+        "approval": "approved",
+        "sourceSha256": "8ad5d53599f4fa7550c318743c1938f649843ee2b49773bf4bde11799745d102",
+        "resolutionKind": "native-generated",
+        "resolutionNote": "原生生成尺寸；未放大冒充原生高清",
+        "limitations": []
+      },
+      "geography": null
+    },
+    {
+      "number": 8,
+      "title": "良渚文明",
+      "description": "从遗址到博物院，让文明故事落在真实地理中。",
+      "group": "人文",
+      "pixel": {
+        "original": "assets/map08-pixel-a2df43b727.png",
+        "thumbnail": "assets/map08-pixel-a2df43b727-thumb.webp",
+        "preview": "assets/map08-pixel-a2df43b727-view.webp",
+        "width": 1150,
+        "height": 1367,
+        "originalMB": "3.1",
+        "approval": "approved",
+        "sourceSha256": "a2df43b7270abb1f28a5b47acb4c0c40a5b4a8ddfe9cd11a550c9964cf066465",
+        "resolutionKind": "native-generated",
+        "resolutionNote": "原生生成尺寸；未放大冒充原生高清",
+        "limitations": []
+      },
+      "geography": null
+    },
+    {
+      "number": 9,
+      "title": "西溪湿地",
+      "description": "保留真实湿地轮廓，在水网与岛屿之间慢慢观察。",
+      "group": "山水",
+      "pixel": {
+        "original": "assets/map09-pixel-12b858a447.png",
+        "thumbnail": "assets/map09-pixel-12b858a447-thumb.webp",
+        "preview": "assets/map09-pixel-12b858a447-view.webp",
+        "width": 1103,
+        "height": 1426,
+        "originalMB": "4.4",
+        "approval": "approved",
+        "sourceSha256": "12b858a44784a942d7963393724e09d66c4d85e9f53854d3bb37cf7f6d3cba9b",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生艺术画幅分层合成；锁定湿地轮廓、水面及锚点，非原生4K",
+        "limitations": [
+          "背景建筑、道路仍为艺术表达；来源水系验证不等于整图地理验收。"
+        ]
+      },
+      "geography": null
+    },
+    {
+      "number": 10,
+      "title": "径山茶山与竹海",
+      "description": "分清山体、茶区与步道，不把旅游分组当作山脊。",
+      "group": "山水",
+      "pixel": {
+        "original": "assets/map10-pixel-2344f7e8a4.png",
+        "thumbnail": "assets/map10-pixel-2344f7e8a4-thumb.webp",
+        "preview": "assets/map10-pixel-2344f7e8a4-view.webp",
+        "width": 1117,
+        "height": 1409,
+        "originalMB": "4.8",
+        "approval": "approved",
+        "sourceSha256": "2344f7e8a4e3df4c73aa96ae3fac53c2b94067752252c05cefa846171367a7aa",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1117×1409分层合成；三窗地理锚点纠偏稿，非原生4K",
+        "limitations": [
+          "区域图仍留淡红装饰线，未核准且不作路线；来源图层检查不等于整图验收。"
+        ]
+      },
+      "geography": null
+    },
+    {
+      "number": 11,
+      "title": "富阳银湖与富春江",
+      "description": "从银湖到富春江，阅读水岸与山地的真实层次。",
+      "group": "山水",
+      "pixel": {
+        "original": "assets/map11-pixel-911b939fb6.png",
+        "thumbnail": "assets/map11-pixel-911b939fb6-thumb.webp",
+        "preview": "assets/map11-pixel-911b939fb6-view.webp",
+        "width": 1085,
+        "height": 1450,
+        "originalMB": "4.5",
+        "approval": "approved",
+        "sourceSha256": "911b939fb608a74f03412eba99a9e9fd84c6171c22273b6ba33acd90eaded19f",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生画幅1085×1450分层合成；江岸、岛屿与文字纠正稿，非原生4K",
+        "limitations": [
+          "背景道路可能与真实江岸不衔接；小水道未全补，地形美术仍待复核。"
+        ]
+      },
+      "geography": null
+    },
+    {
+      "number": 12,
+      "title": "西湖与之江文化圈",
+      "description": "以固定湖岸与山地为底，认识西湖和之江文化空间。",
+      "group": "人文",
+      "pixel": {
+        "original": "assets/map12-pixel-9a1c4dabf5.png",
+        "thumbnail": "assets/map12-pixel-9a1c4dabf5-thumb.webp",
+        "preview": "assets/map12-pixel-9a1c4dabf5-view.webp",
+        "width": 1057,
+        "height": 1488,
+        "originalMB": "4.4",
+        "approval": "approved",
+        "sourceSha256": "9a1c4dabf53182da699789fae1f6bb440d4e6250b720a95f52124d9c2b0a0205",
+        "resolutionKind": "native-size-layer-composite",
+        "resolutionNote": "原生尺寸分层合成；底画为1057×1488，不是3200px原生生成",
+        "limitations": []
+      },
+      "geography": null
+    }
+  ],
+  "releaseStatus": "user-approved"
+}
