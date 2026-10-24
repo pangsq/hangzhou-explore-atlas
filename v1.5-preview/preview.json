@@ -329,6 +329,13 @@
     }
   ],
   "publication": "public preview; original V1.4 unchanged",
-  "scenic_photos": 11,
-  "scenic_photo_review_date": "2026-10-25"
+  "scenic_photos": 35,
+  "scenic_photo_review_date": "2026-10-25",
+  "scenic_photo_coverage": {
+    "target_routes": 30,
+    "covered_routes": 29,
+    "missing_routes": [
+      "N03"
+    ]
+  }
 }
