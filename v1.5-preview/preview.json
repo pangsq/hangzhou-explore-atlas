@@ -1,0 +1,332 @@
+{
+  "version": "1.5-preview",
+  "date": "2026-10-24",
+  "routes": 30,
+  "scenic_pages": 40,
+  "detailed_maps": 48,
+  "geography": "OSM fixed; north-up; themed art outside geographic frame",
+  "source_version": "旅行特辑1.1景区导览增强版",
+  "pages": [
+    {
+      "id": "L01",
+      "title": "宝石山—北山街—白堤 · 山湖完整图",
+      "image": "art/L01-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "664125661d43721266d76bb28e96917c85a4d7ad51d62ffa3c7f4377b368cdb8"
+    },
+    {
+      "id": "L02",
+      "title": "云栖竹径与五云山：竹林石阶，原路折返",
+      "image": "art/L02-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "1bdbf68f3e7ba9a3812fa90ae3ee144dc046432855ea0efb5d264799380d6928"
+    },
+    {
+      "id": "L03",
+      "title": "径山：沿古道慢上山，把午后留给禅茶",
+      "image": "art/L03-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "592c294500b5f4c381a9e36001779b9ca8fa4e9672897589e5e020e95d4af774"
+    },
+    {
+      "id": "L03",
+      "title": "径山下口接驳 · 桐桥停车闸口至古道",
+      "image": "art/L03-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "f7a2730a4823de666a3125ea1bd3e700a24831aac47793f0f839930918e9d6eb"
+    },
+    {
+      "id": "L03",
+      "title": "径山上口接驳 · 已映射寺前步道",
+      "image": "art/L03-3.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "f341f5a7c573b762b817fd9302eb35965ef3ca39f38b541ebad64c0b0e44e951"
+    },
+    {
+      "id": "L04",
+      "title": "西溪：福堤、河渚街与水边慢生活",
+      "image": "art/L04-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "70d4dd5dd18e86e812f55965815e7bd2eb51a2ee2bbfd727f5851081d0876d46"
+    },
+    {
+      "id": "L05",
+      "title": "良渚博物院 · 南侧园路至映射入口",
+      "image": "art/L05-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "605d63f683d15b8538ac64cc4b485f5ce2542f7b0a31b48739a7296abc8963d8"
+    },
+    {
+      "id": "L05",
+      "title": "杭州国家版本馆 · 独立庭院西岸步道",
+      "image": "art/L05-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "1e191145e28dfe6853c729aab77156b5040657234c476096aaddbb40fca8bc7a"
+    },
+    {
+      "id": "L06",
+      "title": "运河桥西：一座桥、两间馆与街巷里的杭州",
+      "image": "art/L06-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "731f622ca72a9fb7dbfa2a831ef318730a3954b31fa3504ab6dbbbe404c9f353"
+    },
+    {
+      "id": "L07",
+      "title": "之江文化中心 · 室外馆际道路",
+      "image": "art/L07-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "03021ae8a4a1fae665ea806425906b03c3d51ac00c4f81bfbca29ab97e7a3cbc"
+    },
+    {
+      "id": "L08",
+      "title": "青山湖 · 北岸东行原路往返",
+      "image": "art/L08-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "4d15b408b10037f71d05af4529d144ca147d5f9a2eeb4e33a82f40fb02329692"
+    },
+    {
+      "id": "L09",
+      "title": "湘湖 · 北部湖岸步道与桥路往返",
+      "image": "art/L09-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "35372126ce3312ce64e07d6a734c19bc86e6af96862228a0520a77a8bf3d38b3"
+    },
+    {
+      "id": "L10",
+      "title": "吴山脚下 · 河坊街与南宋老城",
+      "image": "art/L10-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "92a04cb111aaafb59b4d3b5f739b9028c9544a56bb0c05fa944aae43c27e9b4d"
+    },
+    {
+      "id": "N01",
+      "title": "南部水乡街巷",
+      "image": "art/N01-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "ccbc004251c700614ce007c7142142b6f7633999a7b9393bfc1787eca751f87d"
+    },
+    {
+      "id": "N01",
+      "title": "北部百间楼外围",
+      "image": "art/N01-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "606478832e9c0c6c8b28a206c3d171474f70f636d066411534fdd101139792b0"
+    },
+    {
+      "id": "N02",
+      "title": "新市古镇桥街短圈",
+      "image": "art/N02-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "e8c80b5786ca48ca1183f97842aeb8bef24fe88aa55541744936cdb337d8d3ab"
+    },
+    {
+      "id": "N03",
+      "title": "余村已映射村道往返",
+      "image": "art/N03-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "191c10178801240a3bdae53af83575aa096626e5498ad394710c250f3fed9edd"
+    },
+    {
+      "id": "N04",
+      "title": "一峰古道与北侧步道",
+      "image": "art/N04-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "4a4434b915b417400fc9a1d5bacc3bc862715bd56fd014ef716a2149bee02bdb"
+    },
+    {
+      "id": "N05",
+      "title": "绩溪县城街巷",
+      "image": "art/N05-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "12a9b013ec6cf787911525925a4c4e99e74a54b5119b4d37e6e265523ecc3e02"
+    },
+    {
+      "id": "N05",
+      "title": "龙川古村水巷",
+      "image": "art/N05-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "247486104c6148d9edcc0b4cd70cfb45fd29581c562afc74d08b7db18dab4104"
+    },
+    {
+      "id": "N06",
+      "title": "屯溪老街与桥边",
+      "image": "art/N06-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "dabbf2b9c90d6cfdbbb5ef128f64221844959d25f674a40b5de26506b02e652a"
+    },
+    {
+      "id": "N06",
+      "title": "黎阳核心街巷",
+      "image": "art/N06-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "cf4a2cf6442745dc364a019778544b90d90f051a5ec070ae00b32c14e41cf2aa"
+    },
+    {
+      "id": "N07",
+      "title": "已映射绿道东端—西端往返",
+      "image": "art/N07-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "aace7fb7b71f5fe7dde84ec3b295dd1141c225afc6cd62c3d1af6e1cb472f755"
+    },
+    {
+      "id": "N08",
+      "title": "鲁迅故里至仓桥直街",
+      "image": "art/N08-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "157889d98b0cec69de6f051b718afda0e809fe188db6d715c215b96886fd648a"
+    },
+    {
+      "id": "N08",
+      "title": "兰亭园内独立窗口",
+      "image": "art/N08-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "a2adca95e80985e019f1ed7908906aa0e71b2e51d2f4b9fbad3765e9be073efa"
+    },
+    {
+      "id": "N09",
+      "title": "天一阁外围与月湖核心",
+      "image": "art/N09-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "d2d2ea1e7dbbc645138d109f3e43b4b11359533e592aafa02d072b832efdd945"
+    },
+    {
+      "id": "N10",
+      "title": "南京博物院馆区定位 · 无馆内步行线",
+      "image": "art/N10-1.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "da60e36f41d39aecc780646927a24381fad6c25014ff4ec216e4c439e23a71e8"
+    },
+    {
+      "id": "N10",
+      "title": "中山陵轴线总览 · 紫线仅示未核广场转场",
+      "image": "art/N10-2.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "14392751ebbe7b68beb1638390cc0724477527817168faa1303b23d2c3abe857"
+    },
+    {
+      "id": "N10",
+      "title": "中山陵南段步道",
+      "image": "art/N10-3.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "84229c91067c9463196acab38dcb7679927dabf7f58fa1ddcda0bdcc44322ecd"
+    },
+    {
+      "id": "N10",
+      "title": "中央台阶独立段",
+      "image": "art/N10-4.webp",
+      "width": 1800,
+      "height": 2840,
+      "sha256": "351923e8037fe0b0b7bc1f5155ada398a9dfe51d25b50a2cf19cb6bfb76b02a5"
+    },
+    {
+      "id": "F01",
+      "title": "景德镇 · 从御窑里弄到陶瓷新工场",
+      "image": "art/F01-1.webp",
+      "width": 1800,
+      "height": 5110,
+      "sha256": "43bba27124c0bcbdee904c2fbed9f89e6be1ef6627913385f3a7465d605f2abc"
+    },
+    {
+      "id": "F02",
+      "title": "婺源 · 三个村落，三种慢看的角度",
+      "image": "art/F02-1.webp",
+      "width": 1800,
+      "height": 6620,
+      "sha256": "71e21f029ee5ae1ad10cb45e5c225dc398ceb1c230611e976e36208530130759"
+    },
+    {
+      "id": "F03",
+      "title": "武夷山 · 抬头看丹霞，低头读山路",
+      "image": "art/F03-1.webp",
+      "width": 1800,
+      "height": 3480,
+      "sha256": "3dc98ea6d84979590c9dd08bb821432239810c356ababb78a9a247a892fb0312"
+    },
+    {
+      "id": "F04",
+      "title": "福州 · 一天坊巷，一天烟山",
+      "image": "art/F04-1.webp",
+      "width": 1800,
+      "height": 5070,
+      "sha256": "311802900f02562925e4898bb8b384688271265eace5cc7e0aca44fd16d38502"
+    },
+    {
+      "id": "F05",
+      "title": "厦门 · 骑楼下的日常，港湾边的风",
+      "image": "art/F05-1.webp",
+      "width": 1800,
+      "height": 5070,
+      "sha256": "8932c0103180707e76edbc826781d67a472c8b8a6604743f6c263a74857ca35e"
+    },
+    {
+      "id": "F06",
+      "title": "南昌 · 把文物与老城放在两天读",
+      "image": "art/F06-1.webp",
+      "width": 1800,
+      "height": 5030,
+      "sha256": "7f1e0d0d4ebc225d44824bc50909566dcee68387eba13c52a2a31984fc0ffdbb"
+    },
+    {
+      "id": "F07",
+      "title": "武汉 · 文博、湖岸与两岸街巷",
+      "image": "art/F07-1.webp",
+      "width": 1800,
+      "height": 6660,
+      "sha256": "7f898976835aa4e5ad46f1c0547d5c2ca6b317a07295fb37e6760ea84a163b0e"
+    },
+    {
+      "id": "F08",
+      "title": "长沙 · 一座山与一条老街的湖湘气质",
+      "image": "art/F08-1.webp",
+      "width": 1800,
+      "height": 5030,
+      "sha256": "43c88893cd23f19cc122d7b648ffa38cf033239211de2022bec809020ea308e2"
+    },
+    {
+      "id": "F09",
+      "title": "洛阳 · 沿伊水，慢读西山石刻",
+      "image": "art/F09-1.webp",
+      "width": 1800,
+      "height": 3480,
+      "sha256": "3fc4532b96ee8a6a826207d5b9cdf5444b881472355187b52be59c54dc2b7cf7"
+    },
+    {
+      "id": "F10",
+      "title": "重庆 · 沿阶梯，读一座立体的城",
+      "image": "art/F10-1.webp",
+      "width": 1800,
+      "height": 3440,
+      "sha256": "cadbf7ccb644bbfc25b5e206d6af6f7a531a03d83d56a118a6d50f03cf72ffbd"
+    }
+  ],
+  "publication": "public preview; original V1.4 unchanged"
+}

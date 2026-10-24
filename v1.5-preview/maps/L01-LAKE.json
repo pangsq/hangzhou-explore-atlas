@@ -1,0 +1,652 @@
+{
+  "key": "L01-LAKE",
+  "route_id": "L01",
+  "title": "北山街湖岸加段 · 断桥—白堤—锦带桥",
+  "scope": "北山街湖岸加段 · 断桥—白堤—锦带桥",
+  "limits": [
+    "湖岸/白堤独立加选，不含在宝石山1.960公里山线里。",
+    "红线只用OSM footway/pedestrian；桥为真实bridge=yes的断桥与锦带桥，不跨水虚接。",
+    "起点通过约5米已映射footway接湖侧步道；仍按现场信号和允许过街位置通行。",
+    "自行车遵守当地禁止骑行标识；本线按步行规划。"
+  ],
+  "distance_m": 2145.566375290034,
+  "mode": "walk",
+  "stops": [
+    {
+      "label": "前山路口",
+      "coord": [
+        120.143804,
+        30.2613681
+      ],
+      "snap_m": 0,
+      "osm": "node/2300358790"
+    },
+    {
+      "label": "断桥桥端",
+      "coord": [
+        120.1466496,
+        30.2604573
+      ],
+      "snap_m": 0,
+      "osm": "node/26315533"
+    },
+    {
+      "label": "锦带桥折返",
+      "coord": [
+        120.1432862,
+        30.256574
+      ],
+      "snap_m": 0,
+      "osm": "node/313487815"
+    },
+    {
+      "label": "原路回前山路口",
+      "coord": [
+        120.143804,
+        30.2613681
+      ],
+      "snap_m": 0,
+      "osm": "node/2300358790"
+    }
+  ],
+  "legs": [
+    {
+      "from": "前山路口",
+      "to": "断桥桥端",
+      "distance_m": 533.4438674461442
+    },
+    {
+      "from": "断桥桥端",
+      "to": "锦带桥折返",
+      "distance_m": 539.3393201988731
+    },
+    {
+      "from": "锦带桥折返",
+      "to": "原路回前山路口",
+      "distance_m": 1072.7831876450173
+    }
+  ],
+  "junctions": [
+    {
+      "node": 6642989206,
+      "coord": [
+        120.143842,
+        30.2613336
+      ],
+      "cumulative_m": 5.294953736562092,
+      "branch_count": 3,
+      "continue_to": 6642989204,
+      "route_way": 32078513,
+      "choices": [
+        32078513,
+        706908885
+      ]
+    },
+    {
+      "node": 6642989207,
+      "coord": [
+        120.1454899,
+        30.2617349
+      ],
+      "cumulative_m": 176.68148822134745,
+      "branch_count": 3,
+      "continue_to": 6642989195,
+      "route_way": 32078513,
+      "choices": [
+        32078513,
+        706908886
+      ]
+    },
+    {
+      "node": 27271890,
+      "coord": [
+        120.1474858,
+        30.2614347
+      ],
+      "cumulative_m": 398.3060907383894,
+      "branch_count": 4,
+      "continue_to": 13454786643,
+      "route_way": 28538290,
+      "choices": [
+        28538290,
+        32078513
+      ]
+    },
+    {
+      "node": 27271890,
+      "coord": [
+        120.1474858,
+        30.2614347
+      ],
+      "cumulative_m": 1747.260284551645,
+      "branch_count": 4,
+      "continue_to": 775019866,
+      "route_way": 32078513,
+      "choices": [
+        28538290,
+        32078513
+      ]
+    },
+    {
+      "node": 6642989207,
+      "coord": [
+        120.1454899,
+        30.2617349
+      ],
+      "cumulative_m": 1968.8848870686866,
+      "branch_count": 3,
+      "continue_to": 6642989196,
+      "route_way": 32078513,
+      "choices": [
+        32078513,
+        706908886
+      ]
+    },
+    {
+      "node": 6642989206,
+      "coord": [
+        120.143842,
+        30.2613336
+      ],
+      "cumulative_m": 2140.271421553472,
+      "branch_count": 3,
+      "continue_to": 2300358790,
+      "route_way": 706908885,
+      "choices": [
+        32078513,
+        706908885
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "way": 706908885,
+      "version": 2,
+      "timestamp": "2021-12-22T10:22:58Z",
+      "name": "未命名人行道",
+      "tags": {
+        "highway": "footway"
+      },
+      "length_m": 5.294953736562092,
+      "cumulative_m": 5.294953736562092,
+      "start_node": 2300358790,
+      "end_node": 6642989206
+    },
+    {
+      "way": 32078513,
+      "version": 6,
+      "timestamp": "2026-01-14T02:46:23Z",
+      "name": "未命名人行道",
+      "tags": {
+        "highway": "footway"
+      },
+      "length_m": 393.0111370018273,
+      "cumulative_m": 398.3060907383894,
+      "start_node": 6642989206,
+      "end_node": 27271890
+    },
+    {
+      "way": 28538290,
+      "version": 8,
+      "timestamp": "2026-01-25T00:43:29Z",
+      "name": "白堤",
+      "tags": {
+        "bicycle": "no",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "name": "白堤",
+        "name:en": "Baidi",
+        "name:zh": "白堤",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey",
+        "surface": "asphalt"
+      },
+      "length_m": 12.340676954818981,
+      "cumulative_m": 410.6467676932084,
+      "start_node": 27271890,
+      "end_node": 13454786643
+    },
+    {
+      "way": 28538289,
+      "version": 14,
+      "timestamp": "2026-01-24T13:28:57Z",
+      "name": "断桥",
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "motor_vehicle": "no",
+        "name": "断桥",
+        "name:en": "Broken Bridge",
+        "name:zh": "断桥",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey"
+      },
+      "length_m": 122.79709975293581,
+      "cumulative_m": 533.4438674461442,
+      "start_node": 13454786643,
+      "end_node": 26315533
+    },
+    {
+      "way": 28538286,
+      "version": 11,
+      "timestamp": "2026-01-24T13:28:57Z",
+      "name": "白堤",
+      "tags": {
+        "bicycle": "no",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "motor_vehicle": "no",
+        "name": "白堤",
+        "name:en": "Bai causeway",
+        "name:zh": "白堤",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey",
+        "surface": "asphalt"
+      },
+      "length_m": 417.9512996866374,
+      "cumulative_m": 951.3951671327816,
+      "start_node": 26315533,
+      "end_node": 313487816
+    },
+    {
+      "way": 28538285,
+      "version": 15,
+      "timestamp": "2026-01-24T13:28:57Z",
+      "name": "锦带桥",
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "motor_vehicle": "no",
+        "name": "锦带桥",
+        "name:en": "Jindai Bridge",
+        "name:zh": "锦带桥",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey"
+      },
+      "length_m": 242.77604102447137,
+      "cumulative_m": 1194.171208157253,
+      "start_node": 313487816,
+      "end_node": 313487816
+    },
+    {
+      "way": 28538286,
+      "version": 11,
+      "timestamp": "2026-01-24T13:28:57Z",
+      "name": "白堤",
+      "tags": {
+        "bicycle": "no",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "motor_vehicle": "no",
+        "name": "白堤",
+        "name:en": "Bai causeway",
+        "name:zh": "白堤",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey",
+        "surface": "asphalt"
+      },
+      "length_m": 417.9512996866374,
+      "cumulative_m": 1612.1225078438904,
+      "start_node": 313487816,
+      "end_node": 26315533
+    },
+    {
+      "way": 28538289,
+      "version": 14,
+      "timestamp": "2026-01-24T13:28:57Z",
+      "name": "断桥",
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "motor_vehicle": "no",
+        "name": "断桥",
+        "name:en": "Broken Bridge",
+        "name:zh": "断桥",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey"
+      },
+      "length_m": 122.79709975293581,
+      "cumulative_m": 1734.9196075968262,
+      "start_node": 26315533,
+      "end_node": 13454786643
+    },
+    {
+      "way": 28538290,
+      "version": 8,
+      "timestamp": "2026-01-25T00:43:29Z",
+      "name": "白堤",
+      "tags": {
+        "bicycle": "no",
+        "cycleway": "yes",
+        "highway": "pedestrian",
+        "lanes": "1",
+        "lit": "yes",
+        "motorcar": "no",
+        "name": "白堤",
+        "name:en": "Baidi",
+        "name:zh": "白堤",
+        "name:zh-Latn-pinyin": "Báidī",
+        "source": "survey",
+        "surface": "asphalt"
+      },
+      "length_m": 12.340676954818981,
+      "cumulative_m": 1747.260284551645,
+      "start_node": 13454786643,
+      "end_node": 27271890
+    },
+    {
+      "way": 32078513,
+      "version": 6,
+      "timestamp": "2026-01-14T02:46:23Z",
+      "name": "未命名人行道",
+      "tags": {
+        "highway": "footway"
+      },
+      "length_m": 393.0111370018272,
+      "cumulative_m": 2140.271421553472,
+      "start_node": 27271890,
+      "end_node": 6642989206
+    },
+    {
+      "way": 706908885,
+      "version": 2,
+      "timestamp": "2021-12-22T10:22:58Z",
+      "name": "未命名人行道",
+      "tags": {
+        "highway": "footway"
+      },
+      "length_m": 5.294953736562092,
+      "cumulative_m": 2145.566375290034,
+      "start_node": 6642989206,
+      "end_node": 2300358790
+    }
+  ],
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        120.143804,
+        30.2613681
+      ],
+      [
+        120.143842,
+        30.2613336
+      ],
+      [
+        120.1439565,
+        30.2614226
+      ],
+      [
+        120.1440724,
+        30.2614505
+      ],
+      [
+        120.1441914,
+        30.2614596
+      ],
+      [
+        120.1445137,
+        30.2614295
+      ],
+      [
+        120.1447598,
+        30.261422
+      ],
+      [
+        120.1448632,
+        30.2614485
+      ],
+      [
+        120.1449574,
+        30.2614734
+      ],
+      [
+        120.1450403,
+        30.2615168
+      ],
+      [
+        120.1453046,
+        30.2616273
+      ],
+      [
+        120.1454899,
+        30.2617349
+      ],
+      [
+        120.145581,
+        30.2617562
+      ],
+      [
+        120.1458477,
+        30.261805
+      ],
+      [
+        120.1463788,
+        30.261878
+      ],
+      [
+        120.1467165,
+        30.2619132
+      ],
+      [
+        120.1468747,
+        30.2619126
+      ],
+      [
+        120.147015,
+        30.2618729
+      ],
+      [
+        120.1471987,
+        30.2617726
+      ],
+      [
+        120.1473896,
+        30.2616704
+      ],
+      [
+        120.1474049,
+        30.2616341
+      ],
+      [
+        120.1474163,
+        30.2615847
+      ],
+      [
+        120.1474011,
+        30.2615154
+      ],
+      [
+        120.1474278,
+        30.2614693
+      ],
+      [
+        120.1474858,
+        30.2614347
+      ],
+      [
+        120.1474111,
+        30.2613444
+      ],
+      [
+        120.1466496,
+        30.2604573
+      ],
+      [
+        120.1464299,
+        30.2602185
+      ],
+      [
+        120.1458221,
+        30.2595579
+      ],
+      [
+        120.1440341,
+        30.257454
+      ],
+      [
+        120.1432862,
+        30.256574
+      ],
+      [
+        120.1440341,
+        30.257454
+      ],
+      [
+        120.1458221,
+        30.2595579
+      ],
+      [
+        120.1464299,
+        30.2602185
+      ],
+      [
+        120.1466496,
+        30.2604573
+      ],
+      [
+        120.1474111,
+        30.2613444
+      ],
+      [
+        120.1474858,
+        30.2614347
+      ],
+      [
+        120.1474278,
+        30.2614693
+      ],
+      [
+        120.1474011,
+        30.2615154
+      ],
+      [
+        120.1474163,
+        30.2615847
+      ],
+      [
+        120.1474049,
+        30.2616341
+      ],
+      [
+        120.1473896,
+        30.2616704
+      ],
+      [
+        120.1471987,
+        30.2617726
+      ],
+      [
+        120.147015,
+        30.2618729
+      ],
+      [
+        120.1468747,
+        30.2619126
+      ],
+      [
+        120.1467165,
+        30.2619132
+      ],
+      [
+        120.1463788,
+        30.261878
+      ],
+      [
+        120.1458477,
+        30.261805
+      ],
+      [
+        120.145581,
+        30.2617562
+      ],
+      [
+        120.1454899,
+        30.2617349
+      ],
+      [
+        120.1453046,
+        30.2616273
+      ],
+      [
+        120.1450403,
+        30.2615168
+      ],
+      [
+        120.1449574,
+        30.2614734
+      ],
+      [
+        120.1448632,
+        30.2614485
+      ],
+      [
+        120.1447598,
+        30.261422
+      ],
+      [
+        120.1445137,
+        30.2614295
+      ],
+      [
+        120.1441914,
+        30.2614596
+      ],
+      [
+        120.1440724,
+        30.2614505
+      ],
+      [
+        120.1439565,
+        30.2614226
+      ],
+      [
+        120.143842,
+        30.2613336
+      ],
+      [
+        120.143804,
+        30.2613681
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "051b47de604a6d5c59e77d0b906b73a46f99bf1e7c4baca2ec542106232d094f",
+    "attribution": "© OpenStreetMap contributors / ODbL",
+    "raw_file": "baoshi-access-merged.json",
+    "read_at": "2026-10-24T04:10:26.321Z"
+  },
+  "files": {
+    "svg": "maps/L01-LAKE.svg",
+    "png": "maps/L01-LAKE.png",
+    "gpx": "maps/L01-LAKE.gpx",
+    "json": "maps/L01-LAKE.json",
+    "roadbook": "roadbooks/L01-LAKE.html"
+  },
+  "issues": [],
+  "map_sha256": "1d316f3b1e363ddf0390eddf148fa37636fac83c145dcf117043050b06b3d7cc"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-local.pdf",
+    "title": "城市与近郊",
+    "pages": 48,
+    "bytes": 20865966,
+    "source_bytes": 46116100,
+    "sha256": "04dbe6b2336ef2b10168d28ae97c64ca5abd29cfb3a52d2302330f07ad846bbd",
+    "images_reencoded": 28,
+    "native_pixel_dimensions_retained": true,
+    "body_text_unchanged": true
+  },
+  {
+    "file": "02-nearby.pdf",
+    "title": "周边城市",
+    "pages": 60,
+    "bytes": 22525124,
+    "source_bytes": 56621648,
+    "sha256": "32ea8bb7d54f77e9adcb2acc4e477f7b88391890b6679f527d9dc5388e38cab2",
+    "images_reencoded": 34,
+    "native_pixel_dimensions_retained": true,
+    "body_text_unchanged": true
+  },
+  {
+    "file": "03-far.pdf",
+    "title": "远方旅行",
+    "pages": 61,
+    "bytes": 22659897,
+    "source_bytes": 47220149,
+    "sha256": "c323d96545f60286e73c19527db2427320b57be2032f9bdc523f69d2ad44d031",
+    "images_reencoded": 30,
+    "native_pixel_dimensions_retained": true,
+    "body_text_unchanged": true
+  },
+  {
+    "file": "complete-atlas.pdf",
+    "title": "三十条旅行特辑合订本",
+    "pages": 169,
+    "bytes": 64905785,
+    "sha256": "a015c99150c7d3570127fa67db786d6def21142ce40d28e9680b712c64b965e0"
+  }
+]

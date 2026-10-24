@@ -1,0 +1,173 @@
+{
+  "key": "L03-LOWER",
+  "route_id": "L03",
+  "title": "径山下口接驳 · 桐桥停车闸口至古道",
+  "scope": "径山下口接驳 · 桐桥停车闸口至古道",
+  "limits": [
+    "起点为OSM收费停车场 way/541677573 边界上的 lift_gate 节点，access=customers，不是停车场代表中心点。",
+    "沿service出入口到X215长径线，向南接径山古道。OSM全程239米；高德从停车场代表点计算276米，起点语义不同。",
+    "县道没有映射独立人行道，尽管高德提供同向步行接驳，仍须核现场人行区域；无安全通道即停止，不沿车道硬走。",
+    "停车场是否当日开放、是否有空位及收费均以现场为准。"
+  ],
+  "distance_m": 239.45844405349467,
+  "mode": "walk",
+  "stops": [
+    {
+      "label": "停车场映射闸口",
+      "coord": [
+        119.775755,
+        30.3860621
+      ],
+      "snap_m": 0,
+      "osm": "node/5237675195"
+    },
+    {
+      "label": "桐桥古道下口",
+      "coord": [
+        119.7755697,
+        30.3841662
+      ],
+      "snap_m": 0,
+      "osm": "node/5237690473"
+    }
+  ],
+  "legs": [
+    {
+      "from": "停车场映射闸口",
+      "to": "桐桥古道下口",
+      "distance_m": 239.45844405349467
+    }
+  ],
+  "junctions": [
+    {
+      "node": 1185560535,
+      "coord": [
+        119.7756242,
+        30.3860738
+      ],
+      "cumulative_m": 12.613732210518535,
+      "branch_count": 4,
+      "continue_to": 9734038364,
+      "route_way": 1418959586,
+      "choices": [
+        102652646,
+        541677572,
+        1060454438,
+        1418959586
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "way": 541677572,
+      "version": 2,
+      "timestamp": "2022-05-12T06:19:40Z",
+      "name": "未命名道路",
+      "tags": {
+        "highway": "service"
+      },
+      "length_m": 12.613732210518535,
+      "cumulative_m": 12.613732210518535,
+      "start_node": 5237675195,
+      "end_node": 1185560535
+    },
+    {
+      "way": 1418959586,
+      "version": 1,
+      "timestamp": "2025-07-31T16:00:48Z",
+      "name": "X215长径线",
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "X215长径线",
+        "source": "bing"
+      },
+      "length_m": 209.74262698917042,
+      "cumulative_m": 222.35635919968894,
+      "start_node": 1185560535,
+      "end_node": 1185560288
+    },
+    {
+      "way": 1418959585,
+      "version": 1,
+      "timestamp": "2025-07-31T16:00:48Z",
+      "name": "X215长径线",
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "X215长径线",
+        "source": "bing"
+      },
+      "length_m": 17.102084853805742,
+      "cumulative_m": 239.45844405349467,
+      "start_node": 1185560288,
+      "end_node": 5237690473
+    }
+  ],
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        119.775755,
+        30.3860621
+      ],
+      [
+        119.7756242,
+        30.3860738
+      ],
+      [
+        119.7755346,
+        30.386016
+      ],
+      [
+        119.7755036,
+        30.3858753
+      ],
+      [
+        119.7755129,
+        30.385778
+      ],
+      [
+        119.7756259,
+        30.3855858
+      ],
+      [
+        119.7756282,
+        30.385424
+      ],
+      [
+        119.7755767,
+        30.384938
+      ],
+      [
+        119.77539,
+        30.384584
+      ],
+      [
+        119.7754826,
+        30.3843004
+      ],
+      [
+        119.7755697,
+        30.3841662
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "fd579b25b5b0380346876b4681e8e9346e35e52044ed71f0cd4d5ebfc0c6fdf5",
+    "attribution": "© OpenStreetMap contributors / ODbL",
+    "raw_file": "jingshan-temple-raw.json",
+    "read_at": "2026-10-24T04:10:26.462Z"
+  },
+  "files": {
+    "svg": "maps/L03-LOWER.svg",
+    "png": "maps/L03-LOWER.png",
+    "gpx": "maps/L03-LOWER.gpx",
+    "json": "maps/L03-LOWER.json",
+    "roadbook": "roadbooks/L03-LOWER.html"
+  },
+  "issues": [],
+  "map_sha256": "84f398647f1c09720123aa5afd318b392594faecb3c7adc98fd1d9c57fdf12a6"
+}

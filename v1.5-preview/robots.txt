@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /hangzhou-explore-atlas/v1.5-preview/

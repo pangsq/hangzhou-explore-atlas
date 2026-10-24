@@ -1,0 +1,98 @@
+{
+  "key": "N10-stairs",
+  "route_id": "N10",
+  "title": "N10-stairs",
+  "scope": "仅碑亭北侧至祭堂前平台的中央台阶，上下行316m；南段连接缺OSM中心线，不与N10.gpx连接。",
+  "limits": [],
+  "distance_m": 316.314790221392,
+  "mode": "walk",
+  "stops": [
+    {
+      "label": "碑亭北侧台阶点",
+      "coord": [
+        118.8484127,
+        32.0627239
+      ],
+      "snap_m": 0,
+      "osm": "node/12353368666"
+    },
+    {
+      "label": "祭堂前平台",
+      "coord": [
+        118.8483144,
+        32.0641438
+      ],
+      "snap_m": 0,
+      "osm": "node/12353368664"
+    },
+    {
+      "label": "碑亭北侧台阶点",
+      "coord": [
+        118.8484127,
+        32.0627239
+      ],
+      "snap_m": 0,
+      "osm": "node/12353368666"
+    }
+  ],
+  "legs": [
+    {
+      "from": "碑亭北侧台阶点",
+      "to": "祭堂前平台",
+      "distance_m": 158.157395110696
+    },
+    {
+      "from": "祭堂前平台",
+      "to": "碑亭北侧台阶点",
+      "distance_m": 158.157395110696
+    }
+  ],
+  "junctions": [],
+  "runs": [
+    {
+      "way": 1335291477,
+      "version": 1,
+      "timestamp": "2024-11-19T05:22:41Z",
+      "name": "未命名石阶",
+      "tags": {
+        "highway": "steps"
+      },
+      "length_m": 316.314790221392,
+      "cumulative_m": 316.314790221392,
+      "start_node": 12353368666,
+      "end_node": 12353368666
+    }
+  ],
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        118.8484127,
+        32.0627239
+      ],
+      [
+        118.8483144,
+        32.0641438
+      ],
+      [
+        118.8484127,
+        32.0627239
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "ac785ff7773a3a11c0b7e178ad72d7d56b4dc9601f492aad455e17f080d759f8",
+    "attribution": "© OpenStreetMap contributors / ODbL",
+    "raw_file": "nanjing-raw.json",
+    "read_at": "2026-10-24T04:03:50.345Z"
+  },
+  "files": {
+    "svg": "maps/N10-stairs.svg",
+    "png": "maps/N10-stairs.png",
+    "gpx": "maps/N10-stairs.gpx",
+    "json": "maps/N10-stairs.json",
+    "roadbook": "roadbooks/N10-stairs.html"
+  },
+  "issues": [],
+  "map_sha256": "3ca6c72ae2f060472740a49c04133179ee77d2cad47fea70bc5dc35f574b3d48"
+}
