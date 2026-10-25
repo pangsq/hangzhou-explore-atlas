@@ -20,7 +20,7 @@ const hint=document.createElement('p');hint.className='map-scope';hint.textConte
 new MutationObserver(records=>{if(records.some(r=>[...r.addedNodes].some(n=>n.nodeType===1&&n.classList.contains('card'))))filter();}).observe($('#collection'),{childList:true});
 $('#people').addEventListener('change',filter);
 function enhanceRoute(){const detail=$('#detail');if(detail.hidden||!detail.querySelector('.route-head')||detail.querySelector('.route-toc'))return;
- const ids=[['导览','guide','.scenic-section'],['交通','transport-section',null],['日程','schedule',null],['详细地图','maps-section',null],['预算','budget-section',null],['出发检查','departure','.checks']];
+ const ids=[['全程安排','full-journey',null],['导览','guide','.scenic-section'],['交通','transport-section',null],['日程','schedule',null],['详细地图','maps-section',null],['预算','budget-section',null],['出发检查','departure','.checks']];
  const headings={'怎么出发，住在哪里':'transport-section','留出休息的日程':'schedule','地图不是装饰，是这一段怎么走':'maps-section','舒服出行的预算':'budget-section'};
  detail.querySelectorAll('section>h2').forEach(h=>{if(headings[h.textContent])h.parentElement.id=headings[h.textContent];});
  ids.forEach(([,id,selector])=>{if(selector&&detail.querySelector(selector))detail.querySelector(selector).id=id;});

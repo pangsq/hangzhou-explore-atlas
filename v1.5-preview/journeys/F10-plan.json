@@ -1,0 +1,728 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "6天4个完整日：三峡馆与大礼堂、山城巷—十八梯、龙门浩与下浩里、湖广会馆—朝天门；跨江不靠未核梯或索道。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "重庆酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 重庆北／重庆西（按实购车票选择）",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "重庆实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "重庆北／重庆西（按实购车票选择）",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "三峡博物馆、人民广场与大礼堂外观",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "重庆中国三峡博物馆",
+          "osm": "way/230584222",
+          "coord": [
+            106.54680720714286,
+            29.564783060714294
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 210,
+          "activity": "凭有效证件按当前公告入馆，深读三峡与重庆历史，不沿用旧的散客一律预约说法。",
+          "kind": "visit",
+          "match": "三峡博物馆",
+          "source_url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136009.html",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              106.54680720714286,
+              29.564783060714294
+            ],
+            "osm": "way/230584222",
+            "version": 10,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/230584222"
+          }
+        },
+        {
+          "name": "人民广场与人民大礼堂外观",
+          "osm": "way/302764526",
+          "coord": [
+            106.55003438571428,
+            29.564371649999995
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "午餐后从博物馆正式出口到广场，观礼堂建筑与城市轴线；内部售票参观不作为主计划必需。",
+          "kind": "walk",
+          "match": "重庆市人民大礼堂",
+          "source_url": "https://www.openstreetmap.org/way/302764526",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              106.55003438571428,
+              29.564371649999995
+            ],
+            "osm": "way/302764526",
+            "version": 9,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/302764526"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "三峡馆正式出口",
+          "to": "人民广场—大礼堂外观",
+          "mode": "walk",
+          "instructions": "经广场人行通道，不按建筑中心直线穿车道。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "山城巷—十八梯—解放碑",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "山城巷与第三步道",
+          "osm": "node/733200812",
+          "coord": [
+            106.5620592,
+            29.55531
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 100,
+          "activity": "从已有详图的上部路口进入沿台阶慢行，读仁爱堂旧址外观与临崖廊道，回到下部正式出入口。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/733200812",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              106.5620592,
+              29.55531
+            ],
+            "osm": "node/733200812",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/733200812"
+          }
+        },
+        {
+          "name": "十八梯传统风貌区",
+          "minutes": 120,
+          "activity": "通过官方指明的地通道到解放西路，再到十八梯下口；分层走公开阶梯，不穿楼。",
+          "kind": "walk",
+          "source_url": "https://www.cqyz.gov.cn/zwgk_229/jytabl/zxwytabl/202507/t20250723_14838847.html",
+          "osm": "way/312090249",
+          "coord": [
+            106.56924463846151,
+            29.55394863846154
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              106.56924463846151,
+              29.55394863846154
+            ],
+            "osm": "way/312090249",
+            "version": 17,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/312090249"
+          }
+        },
+        {
+          "name": "解放碑步行街",
+          "osm": "node/12076308918",
+          "coord": [
+            106.5733671,
+            29.5601078
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 75,
+          "activity": "午餐后由十八梯北口沿正式过街设施接公共步行街到解放碑，补核约705m；边走边看城市纪念地标，不再默认汽车短接驳。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/12076308918",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              106.5733671,
+              29.5601078
+            ],
+            "osm": "node/12076308918",
+            "version": 6,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/12076308918"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "山城巷下部出口",
+          "to": "十八梯下口",
+          "mode": "official_walk",
+          "instructions": "山城巷下口过街地通道 → 解放西路人行道 → 沿路约300m → 十八梯下口；300m为官方连接段描述，不是整日里程。",
+          "evidence_url": "https://www.cqyz.gov.cn/zwgk_229/jytabl/zxwytabl/202507/t20250723_14838847.html"
+        },
+        {
+          "from": "十八梯正式出口",
+          "to": "解放碑公共街区",
+          "mode": "official_walk",
+          "instructions": "从十八梯北口出发，经中兴路正式人行及过街设施接公共步行街向东北到解放碑；高德2026-10-25步行规划约705m。按现场人行道与导向，不穿楼，不画未返回的精确polyline。",
+          "evidence_url": "journeys/F10-shibati-jiefang-evidence.json"
+        }
+      ],
+      "detail_keys": [
+        "F10"
+      ],
+      "exit": "走到下口后若人行道施工封闭，汽车分别进入两个街区；不穿国浩18T地块。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "南岸：龙门浩老街与下浩里",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "上新街站外正式街口",
+          "minutes": 30,
+          "activity": "地铁/汽车到上新街，依路牌找到龙门浩正式入口；不因桥上与桥下相交就假设电梯可用。",
+          "kind": "transport",
+          "source_url": "https://news.cqnews.net/1/detail/1140713129901740032/web/content_1140713129901740032.html"
+        },
+        {
+          "name": "龙门浩老街",
+          "osm": "way/1488704546",
+          "coord": [
+            106.59109715,
+            29.558862471428572
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "沿开放坡街读开埠建筑与江景，观景平台以正式开放为限。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/way/1488704546",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              106.59109715,
+              29.558862471428572
+            ],
+            "osm": "way/1488704546",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1488704546"
+          }
+        },
+        {
+          "name": "下浩里",
+          "osm": "way/1478493350",
+          "coord": [
+            106.59182786153845,
+            29.560562076923077
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "午餐后到下浩里正式入口，沿开放主街读历史街坊与修复建筑；不同层接驳依现场导向。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/way/1478493350",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              106.59182786153845,
+              29.560562076923077
+            ],
+            "osm": "way/1478493350",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1478493350"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "上新街站",
+          "mode": "metro",
+          "instructions": "汽车或轨道跨江，环线/6号线选实际可用方案；索道不作为主交通必需。"
+        },
+        {
+          "from": "上新街街口",
+          "to": "龙门浩入口",
+          "mode": "walk",
+          "instructions": "按路牌和正式过街设施。"
+        },
+        {
+          "from": "龙门浩正式出口",
+          "to": "下浩里正式入口",
+          "mode": "walk",
+          "instructions": "沿新增F10-nanan图的691m共享节点人行线，依真实sidewalk、crossing和桥上人行连接；两端是外围路网，进入各街区仍按正式门口导览，不穿楼或假设桥下互通。",
+          "evidence_url": "journeys/F10-nanan.json"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "遇到691m人行接续封闭就分别从正式出口乘车；不把平面交点当楼层通道，不尝试未核电梯。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 5,
+      "title": "湖广会馆、东水门与朝天门两江",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "湖广会馆",
+          "osm": "way/866088553",
+          "coord": [
+            106.58254470000001,
+            29.56079058518519
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "正式票务入口参观会馆、移民文化与古戏台建筑，演出不默认包含。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/way/866088553",
+          "map_number": "08",
+          "location": {
+            "coord": [
+              106.58254470000001,
+              29.56079058518519
+            ],
+            "osm": "way/866088553",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/866088553"
+          }
+        },
+        {
+          "name": "东水门历史街区公共空间",
+          "minutes": 60,
+          "activity": "在会馆正式出口附近公共道路看城门与江岸，台阶与楼层依开放导向。",
+          "kind": "walk",
+          "source_url": "https://www.cq.gov.cn/ywdt/zwhd/bmdt/202512/t20251208_15218393.html",
+          "osm": "way/966988452",
+          "coord": [
+            106.58407105714286,
+            29.561604899999995
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "09",
+          "location": {
+            "coord": [
+              106.58407105714286,
+              29.561604899999995
+            ],
+            "osm": "way/966988452",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/966988452"
+          }
+        },
+        {
+          "name": "朝天门广场",
+          "osm": "way/230583762",
+          "coord": [
+            106.58419208235294,
+            29.569518438235296
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "午餐后汽车至广场正式入口，观两江交汇及码头城市空间，公共陆地观景，不下水不越围栏。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/way/230583762",
+          "map_number": "10",
+          "location": {
+            "coord": [
+              106.58419208235294,
+              29.569518438235296
+            ],
+            "osm": "way/230583762",
+            "version": 12,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/230583762"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "湖广会馆",
+          "to": "东水门公共街区",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "东水门",
+          "to": "朝天门广场",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "2025官方亲水步道报道可供另选，但现场水位、施工未复核前主方案汽车到朝天门，不将全2.4km画作已核完整线。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 6,
+      "title": "返杭州交通日",
+      "start": "重庆酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 重庆实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "重庆北／重庆西（按实购车票选择）",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "将0.53km山城巷局部恢复详图身份，补足四个完整日的实际文化活动。",
+    "山城巷—十八梯有官方地通道连接说明，未造空中连廊。",
+    "龙门浩、下浩里、湖广会馆具体落地；高差不明时分段汽车，不用咖啡/泛夜景填时长。"
+  ],
+  "limitations": [
+    "重庆阶梯实时施工与升降梯运营未逐处实测，不依靠未核电梯作为主线。",
+    "湖广—朝天门亲水步道最新水位/开放未核，先作为可选而非主线。"
+  ],
+  "points": [
+    {
+      "coord": [
+        106.54680720714286,
+        29.564783060714294
+      ],
+      "osm": "way/230584222",
+      "version": 10,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/230584222",
+      "day": 2,
+      "name": "重庆中国三峡博物馆",
+      "number": "01",
+      "anchor_id": "way/230584222"
+    },
+    {
+      "coord": [
+        106.55003438571428,
+        29.564371649999995
+      ],
+      "osm": "way/302764526",
+      "version": 9,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/302764526",
+      "day": 2,
+      "name": "人民广场与人民大礼堂外观",
+      "number": "02",
+      "anchor_id": "way/302764526"
+    },
+    {
+      "coord": [
+        106.5620592,
+        29.55531
+      ],
+      "osm": "node/733200812",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/733200812",
+      "day": 3,
+      "name": "山城巷与第三步道",
+      "number": "03",
+      "anchor_id": "node/733200812"
+    },
+    {
+      "coord": [
+        106.56924463846151,
+        29.55394863846154
+      ],
+      "osm": "way/312090249",
+      "version": 17,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/312090249",
+      "day": 3,
+      "name": "十八梯传统风貌区",
+      "number": "04",
+      "anchor_id": "way/312090249"
+    },
+    {
+      "coord": [
+        106.5733671,
+        29.5601078
+      ],
+      "osm": "node/12076308918",
+      "version": 6,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/12076308918",
+      "day": 3,
+      "name": "解放碑步行街",
+      "number": "05",
+      "anchor_id": "node/12076308918"
+    },
+    {
+      "coord": [
+        106.59109715,
+        29.558862471428572
+      ],
+      "osm": "way/1488704546",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1488704546",
+      "day": 4,
+      "name": "龙门浩老街",
+      "number": "06",
+      "anchor_id": "way/1488704546"
+    },
+    {
+      "coord": [
+        106.59182786153845,
+        29.560562076923077
+      ],
+      "osm": "way/1478493350",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1478493350",
+      "day": 4,
+      "name": "下浩里",
+      "number": "07",
+      "anchor_id": "way/1478493350"
+    },
+    {
+      "coord": [
+        106.58254470000001,
+        29.56079058518519
+      ],
+      "osm": "way/866088553",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/866088553",
+      "day": 5,
+      "name": "湖广会馆",
+      "number": "08",
+      "anchor_id": "way/866088553"
+    },
+    {
+      "coord": [
+        106.58407105714286,
+        29.561604899999995
+      ],
+      "osm": "way/966988452",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/966988452",
+      "day": 5,
+      "name": "东水门历史街区公共空间",
+      "number": "09",
+      "anchor_id": "way/966988452"
+    },
+    {
+      "coord": [
+        106.58419208235294,
+        29.569518438235296
+      ],
+      "osm": "way/230583762",
+      "version": 12,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/230583762",
+      "day": 5,
+      "name": "朝天门广场",
+      "number": "10",
+      "anchor_id": "way/230583762"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F10-museum-square",
+      "title": "三峡博物馆—人民广场—大礼堂外观",
+      "day": 2,
+      "distance_m": 261.48877475353066,
+      "files": {
+        "svg": "journeys/F10-museum-square.svg",
+        "gpx": "journeys/F10-museum-square.gpx",
+        "json": "journeys/F10-museum-square.json"
+      },
+      "issues": []
+    },
+    {
+      "key": "F10-shibati",
+      "title": "十八梯北入口—正式石阶局部详图",
+      "day": 3,
+      "distance_m": 182.56267682673388,
+      "files": {
+        "svg": "journeys/F10-shibati.svg",
+        "gpx": "journeys/F10-shibati.gpx",
+        "json": "journeys/F10-shibati.json"
+      },
+      "issues": []
+    },
+    {
+      "key": "F10-nanan",
+      "title": "龙门浩外围—下浩里共享节点人行线",
+      "day": 4,
+      "distance_m": 691.1419144919654,
+      "files": {
+        "svg": "journeys/F10-nanan.svg",
+        "gpx": "journeys/F10-nanan.gpx",
+        "json": "journeys/F10-nanan.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F10-full.svg",
+    "image": "journeys/F10-full.webp",
+    "width": 1400,
+    "height": 1636,
+    "bbox": [
+      106.54214794785715,
+      29.551078200000003,
+      106.59805905928572,
+      29.571518438235294
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.3069666061299168,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        371.1551230640589
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "三峡博物馆取消预约公告",
+      "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136009.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 官方检索正文已读，直接正文读取超时；当天开放仍查新公告。"
+    },
+    {
+      "title": "山城巷",
+      "url": "https://www.cqyz.gov.cn/zjyz/lyyz/rmdkd/202202/t20220215_10397629.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "去山城步道走一走",
+      "url": "https://cgj.cq.gov.cn/zwxx_173/bmdt/mtkd/202008/t20200803_7745212.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=106.551,29.548,106.564,29.557",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "山城巷至十八梯合法步行连接",
+      "url": "https://www.cqyz.gov.cn/zwgk_229/jytabl/zxwytabl/202507/t20250723_14838847.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 本次官方检索全文，地通道—解放西路约300m方案；不穿国浩18T施工地。"
+    },
+    {
+      "title": "渝中2.4km亲水步道开放",
+      "url": "https://www.cq.gov.cn/ywdt/zwhd/bmdt/202512/t20251208_15218393.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 本次官方检索全文。2025-12报道；洪崖洞当时施工需棉花街绕行，不宣称截至今天全线无阻。"
+    },
+    {
+      "title": "龙门浩与下浩里交通文化资料",
+      "url": "https://news.cqnews.net/1/detail/1140713129901740032/web/content_1140713129901740032.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 华龙网主流媒体正文：上新街2号出口、历史街区；未据平面交点假定升降梯可用。"
+    },
+    {
+      "title": "山城巷至十八梯合法步行连接",
+      "url": "https://www.cqyz.gov.cn/zwgk_229/jytabl/zxwytabl/202507/t20250723_14838847.html",
+      "checked_at": "2026-10-25",
+      "note": "本次官方检索全文，地通道—解放西路约300m方案；不穿国浩18T施工地。"
+    },
+    {
+      "title": "渝中2.4km亲水步道开放",
+      "url": "https://www.cq.gov.cn/ywdt/zwhd/bmdt/202512/t20251208_15218393.html",
+      "checked_at": "2026-10-25",
+      "note": "本次官方检索全文。2025-12报道；洪崖洞当时施工需棉花街绕行，不宣称截至今天全线无阻。"
+    },
+    {
+      "title": "龙门浩与下浩里交通文化资料",
+      "url": "https://news.cqnews.net/1/detail/1140713129901740032/web/content_1140713129901740032.html",
+      "checked_at": "2026-10-25",
+      "note": "华龙网主流媒体正文：上新街2号出口、历史街区；未据平面交点假定升降梯可用。"
+    }
+  ]
+}

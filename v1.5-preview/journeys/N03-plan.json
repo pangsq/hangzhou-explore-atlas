@@ -1,0 +1,353 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "余村精华可一日完成：石碑／会址展陈→村心午餐→汽车或条件合适的混合村道到矿区→返家。原两日保留为自愿住一晚的慢游扩展，每天只安排半日左右活动，并非两个满日；第二天不再安排无位置证据的茶园。",
+  "days": [
+    {
+      "day": 1,
+      "title": "两山文化与村落变迁",
+      "start": "杭与城北区",
+      "end": "余村周边住宿",
+      "visits": [
+        {
+          "name": "家→余村",
+          "minutes": 150,
+          "activity": "自驾抵达，停公共停车场并寄存行李",
+          "kind": "transport"
+        },
+        {
+          "name": "两山石碑",
+          "minutes": 30,
+          "activity": "读两山理念诞生地背景，观察村落与山地关系",
+          "kind": "visit",
+          "source_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+          "amap": {
+            "id": "B0KRVAJ398",
+            "name": "两山石碑",
+            "raw_coord": [
+              119.610136,
+              30.524376
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "01",
+          "location": {
+            "coord": [
+              119.60533729296634,
+              30.526969939551947
+            ],
+            "amap_id": "B0KRVAJ398",
+            "raw_gcj02": [
+              119.610136,
+              30.524376
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=119.610136,30.524376&name=%E4%B8%A4%E5%B1%B1%E7%9F%B3%E7%A2%91&coordinate=gaode"
+          }
+        },
+        {
+          "name": "余村展示馆／两山会址",
+          "minutes": 75,
+          "activity": "以展示馆或会址实际可开放展陈为准，看矿业转型和村史，不把两个称谓当成同一建筑入口",
+          "kind": "visit",
+          "source_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+          "amap": {
+            "id": "B0FFL9EED0",
+            "name": "余村两山景区-两山会址",
+            "raw_coord": [
+              119.609177,
+              30.524269
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "02",
+          "location": {
+            "coord": [
+              119.60437808079192,
+              30.52686327321547
+            ],
+            "amap_id": "B0FFL9EED0",
+            "raw_gcj02": [
+              119.609177,
+              30.524269
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=119.609177,30.524269&name=%E4%BD%99%E6%9D%91%E5%B1%95%E7%A4%BA%E9%A6%86%EF%BC%8F%E4%B8%A4%E5%B1%B1%E4%BC%9A%E5%9D%80&coordinate=gaode"
+          }
+        },
+        {
+          "name": "余村村心公共道路",
+          "minutes": 60,
+          "activity": "看村落、溪流、竹山背景与民居，既有N03详图只是其中一段",
+          "kind": "walk",
+          "osm": "node/9107228610",
+          "coord": [
+            119.60683,
+            30.5274639
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              119.60683,
+              30.5274639
+            ],
+            "osm": "node/9107228610",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/9107228610"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "家",
+          "to": "余村公共停车场",
+          "mode": "car",
+          "instructions": "避免把小村路当停车位置"
+        },
+        {
+          "from": "两山石碑",
+          "to": "展示馆／两山会址",
+          "mode": "official_walk",
+          "instructions": "依村内导览从公共街面分别到达；高德已核POI，馆内不输出路线",
+          "evidence_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml"
+        },
+        {
+          "from": "展示馆",
+          "to": "村心",
+          "mode": "official_walk",
+          "instructions": "按村道和现场绿道指示走，不沿村庄代表点直连",
+          "evidence_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml"
+        }
+      ],
+      "detail_keys": [
+        "N03"
+      ],
+      "exit": "石碑／村心公共道路可回到停车区；夜间不加竹山路",
+      "backup": "雨天把时间用于开放展陈；闭馆则改一日村落游，住宿可取消优先"
+    },
+    {
+      "day": 2,
+      "title": "矿区修复景观与绿道，午后返程",
+      "start": "余村周边住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "荷花山矿区遗址／矿山遗址公园",
+          "minutes": 75,
+          "activity": "看采矿遗迹与生态修复；只在开放观景范围，不爬采石断面",
+          "kind": "visit",
+          "osm": "node/11739053397",
+          "coord": [
+            119.58428,
+            30.5234198
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              119.58428,
+              30.5234198
+            ],
+            "osm": "node/11739053397",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/11739053397"
+          }
+        },
+        {
+          "name": "余村绿道",
+          "minutes": 75,
+          "activity": "可选步行：两山石碑至矿区高德补核约2284m，含天荒坪路约1763m、余村绿道约501m、两山绿道约20m；不是全程无车绿道。路肩、人车混行或管理不合适则基本方案汽车接驳，不强走。",
+          "kind": "walk",
+          "source_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "余村村心",
+          "minutes": 30,
+          "activity": "住一晚的慢游方案可对照昨日展陈再看村落，午餐后取行李返程；一日精华不重复村心路段",
+          "kind": "visit",
+          "osm": "node/9107228610",
+          "coord": [
+            119.60683,
+            30.5274639
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              119.60683,
+              30.5274639
+            ],
+            "osm": "node/9107228610",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/9107228610"
+          }
+        },
+        {
+          "name": "余村→家",
+          "minutes": 150,
+          "activity": "午后返程；若无安全绿道接入，用汽车到矿区开放入口后独立参观",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "村心",
+          "to": "矿山遗址开放入口",
+          "mode": "car",
+          "instructions": "采用汽车转场基本方案，不把OSM村道和缺失绿道强拼成徒步环线"
+        },
+        {
+          "from": "矿区",
+          "to": "余村绿道",
+          "mode": "official_walk",
+          "instructions": "主流程高德步行文字支持石碑—矿区约2284m混合村道与绿道；并非全程安全绿道。道路安全条件未确认时汽车接驳；无polyline不输出连续GPX。",
+          "evidence_url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml"
+        },
+        {
+          "from": "余村",
+          "to": "家",
+          "mode": "car",
+          "instructions": "取行李后返家"
+        }
+      ],
+      "detail_keys": [
+        "N03"
+      ],
+      "exit": "矿区公共道路可汽车撤出；无连续开放绿道则原路返回入口",
+      "backup": "矿区关闭或大雨取消矿区，提前返家，不用泛泛茶咖填第二天"
+    }
+  ],
+  "changes": [
+    "移除无具体位置的第二天白茶景观",
+    "矿区和文化地标纳入全程；原1.32km仍是村心局部",
+    "矿区以汽车分段可执行，待绿道实线核准再升级连续徒步"
+  ],
+  "limitations": [
+    "官方有绿道主题证据，缺精确通达几何；村心—矿区不虚构连续GPX",
+    "高德矿山遗址B0LBSDUBGP为GCJ-02，OSM矿山遗址公园node/11739053397为WGS84；转换前不能把原始坐标差称位置偏差，转换后仍需区分景点代表点与入口",
+    "新核walk-N03-stone-mine.json支持混合路段步行2284m，不证明路肩、人车分离或当日开放；汽车接驳是默认备选"
+  ],
+  "points": [
+    {
+      "coord": [
+        119.60533729296634,
+        30.526969939551947
+      ],
+      "amap_id": "B0KRVAJ398",
+      "raw_gcj02": [
+        119.610136,
+        30.524376
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=119.610136,30.524376&name=%E4%B8%A4%E5%B1%B1%E7%9F%B3%E7%A2%91&coordinate=gaode",
+      "day": 1,
+      "name": "两山石碑",
+      "number": "01",
+      "anchor_id": "B0KRVAJ398"
+    },
+    {
+      "coord": [
+        119.60437808079192,
+        30.52686327321547
+      ],
+      "amap_id": "B0FFL9EED0",
+      "raw_gcj02": [
+        119.609177,
+        30.524269
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=119.609177,30.524269&name=%E4%BD%99%E6%9D%91%E5%B1%95%E7%A4%BA%E9%A6%86%EF%BC%8F%E4%B8%A4%E5%B1%B1%E4%BC%9A%E5%9D%80&coordinate=gaode",
+      "day": 1,
+      "name": "余村展示馆／两山会址",
+      "number": "02",
+      "anchor_id": "B0FFL9EED0"
+    },
+    {
+      "coord": [
+        119.60683,
+        30.5274639
+      ],
+      "osm": "node/9107228610",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/9107228610",
+      "day": 1,
+      "name": "余村村心公共道路",
+      "number": "03",
+      "anchor_id": "node/9107228610"
+    },
+    {
+      "coord": [
+        119.58428,
+        30.5234198
+      ],
+      "osm": "node/11739053397",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/11739053397",
+      "day": 2,
+      "name": "荷花山矿区遗址／矿山遗址公园",
+      "number": "04",
+      "anchor_id": "node/11739053397"
+    },
+    {
+      "coord": [
+        119.60683,
+        30.5274639
+      ],
+      "osm": "node/9107228610",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/9107228610",
+      "day": 2,
+      "name": "余村村心",
+      "number": "05",
+      "anchor_id": "node/9107228610"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/N03-full.svg",
+    "image": "journeys/N03-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      119.58165600000001,
+      30.5214198,
+      119.61314399999999,
+      30.5294639
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.5503906102613583,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        69.99999999999989,
+        473.84778928780185
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "国家林草局：余村石碑、展示馆、绿道、荷花山矿区",
+      "url": "https://www.forestry.gov.cn/c/www/lcstly/617570.jhtml",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮打开正文，D3明确这些活动；不证明所有区段可全天通行"
+    }
+  ]
+}

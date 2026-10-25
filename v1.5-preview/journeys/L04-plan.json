@@ -1,0 +1,240 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "3.940km福堤与河渚街连续步行已经足够湿地文化慢游；主方案不再含未定高庄延伸或船游。",
+  "days": [
+    {
+      "day": 1,
+      "title": "福堤—河渚街—南段水乡原路返",
+      "start": "福堤北端公共入口",
+      "end": "福堤北端公共入口",
+      "visits": [
+        {
+          "name": "福堤北段湿地观察",
+          "minutes": 75,
+          "activity": "09:30–10:45 从北端沿已绘福堤南行，在桥头与开阔岸边停留观察水塘、芦苇、鸟类；只在公众道路活动。",
+          "kind": "visit",
+          "osm": "node/3085872650",
+          "coord": [
+            120.0647941,
+            30.2828182
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.0647941,
+              30.2828182
+            ],
+            "osm": "node/3085872650",
+            "version": 5,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/3085872650"
+          }
+        },
+        {
+          "name": "河渚街与河渚塔外观",
+          "minutes": 60,
+          "activity": "10:45–11:45 由东段到上河渚街，阅读水乡建筑与民俗展示；河渚塔只作外观，不默认登塔。",
+          "kind": "visit",
+          "osm": "node/7309303176",
+          "coord": [
+            120.0633298,
+            30.2746035
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.0633298,
+              30.2746035
+            ],
+            "osm": "node/7309303176",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/7309303176"
+          }
+        },
+        {
+          "name": "河渚街午餐",
+          "minutes": 60,
+          "activity": "11:45–12:45 街区正餐与补水。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "福堤南段水网观察",
+          "minutes": 65,
+          "activity": "12:45–13:50 依L04到南段折返点，辨认桥与塘岸相接方式，比较北段与南段植被；不越入未核验的收费支线。",
+          "kind": "visit",
+          "osm": "node/8640589200",
+          "coord": [
+            120.0694691,
+            30.2712972
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.0694691,
+              30.2712972
+            ],
+            "osm": "node/8640589200",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/8640589200"
+          }
+        },
+        {
+          "name": "回福堤北端",
+          "minutes": 70,
+          "activity": "13:50–15:00 沿L04原路返回同一入口；全天图上步行3.940km，不把停留时间换算成额外里程。",
+          "kind": "walk",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        }
+      ],
+      "connections": [
+        {
+          "from": "福堤北端",
+          "to": "河渚街东段",
+          "mode": "walk",
+          "instructions": "L04连续福堤路网南行。"
+        },
+        {
+          "from": "河渚街东段",
+          "to": "上河渚街折返",
+          "mode": "walk",
+          "instructions": "沿现有桥与街巷，不直线跨塘。"
+        },
+        {
+          "from": "上河渚街折返",
+          "to": "福堤南段折返",
+          "mode": "walk",
+          "instructions": "回福堤后再向南；不把高庄未经计算延伸塞入主线。"
+        },
+        {
+          "from": "福堤南段折返",
+          "to": "福堤北端",
+          "mode": "walk",
+          "instructions": "按L04回程。"
+        }
+      ],
+      "detail_keys": [
+        "L04"
+      ],
+      "exit": "15:00同一北门停车点取车，或从公示出口接公共交通。",
+      "backup": "强降雨取消临水线；普通小雨也可主动缩成河渚街短逛，明确半日而非硬凑一日。",
+      "planned_minutes": 330
+    }
+  ],
+  "changes": [
+    "明确一条4km级慢游主方案",
+    "删除4–6km目标数和未定高庄/茶饮填时"
+  ],
+  "limitations": [],
+  "points": [
+    {
+      "coord": [
+        120.0647941,
+        30.2828182
+      ],
+      "osm": "node/3085872650",
+      "version": 5,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/3085872650",
+      "day": 1,
+      "name": "福堤北段湿地观察",
+      "number": "01",
+      "anchor_id": "node/3085872650"
+    },
+    {
+      "coord": [
+        120.0633298,
+        30.2746035
+      ],
+      "osm": "node/7309303176",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/7309303176",
+      "day": 1,
+      "name": "河渚街与河渚塔外观",
+      "number": "02",
+      "anchor_id": "node/7309303176"
+    },
+    {
+      "coord": [
+        120.0694691,
+        30.2712972
+      ],
+      "osm": "node/8640589200",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/8640589200",
+      "day": 1,
+      "name": "福堤南段水网观察",
+      "number": "03",
+      "anchor_id": "node/8640589200"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L04-full.svg",
+    "image": "journeys/L04-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.06132980000001,
+      30.2692972,
+      120.0714691,
+      30.2848182
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.5794220814609105,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        617.921713519733,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "西溪国家湿地公园｜杭州城西科创",
+      "url": "https://cxkc.hangzhou.gov.cn/art/2019/11/8/art_1228936433_39935506.html",
+      "type": "primary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "人间芳菲 十里西溪天水色",
+      "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/mlhzt/202106/t20210624_32953.shtml",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州网：高庄至西溪天堂与福堤连接",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2018-11/29/content_7106121.htm",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州网：高庄至西溪天堂与福堤连接",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2018-11/29/content_7106121.htm",
+      "checked_at": "2026-10-25",
+      "note": "历史资料支持福堤与高庄的旅游分区；本主线只走现有3.940km连续图段，不由该报道凭空接长。"
+    }
+  ]
+}

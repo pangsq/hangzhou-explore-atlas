@@ -1,0 +1,297 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "宣城两日补齐城市文化半日：市博物馆＋宛陵湖，然后独立敬亭山步道；两个片区汽车接驳，不把敬亭山短图当全程。",
+  "days": [
+    {
+      "day": 1,
+      "title": "宣城文物与宛陵湖",
+      "start": "杭与城北区",
+      "end": "宣城市区住宿",
+      "visits": [
+        {
+          "name": "家→宣城站→酒店",
+          "minutes": 240,
+          "activity": "杭州西出发车次以购票为准，车站至酒店汽车接驳",
+          "kind": "transport"
+        },
+        {
+          "name": "宣城市博物馆",
+          "minutes": 120,
+          "activity": "看千年古郡、人文宣城常设展及文房四宝、地方窑器",
+          "kind": "visit",
+          "source_url": "https://wlj.xuancheng.gov.cn/Content/show/1147294.html",
+          "amap": {
+            "id": "B0FFHMWJGA",
+            "name": "宣城市博物馆",
+            "raw_coord": [
+              118.76169,
+              30.928569
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "01",
+          "location": {
+            "coord": [
+              118.75656702556533,
+              30.930794254810436
+            ],
+            "amap_id": "B0FFHMWJGA",
+            "raw_gcj02": [
+              118.76169,
+              30.928569
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=118.76169,30.928569&name=%E5%AE%A3%E5%9F%8E%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86&coordinate=gaode"
+          }
+        },
+        {
+          "name": "宛陵湖东湖公园",
+          "minutes": 60,
+          "activity": "从博物馆所在湖畔片区选择正式开放岸线散步，不强行环整个湖",
+          "kind": "walk",
+          "source_url": "https://wlj.xuancheng.gov.cn/Content/show/1147294.html",
+          "osm": "way/1286328988",
+          "coord": [
+            118.7679564789474,
+            30.9283225
+          ],
+          "coord_crs": "WGS84",
+          "position_semantics": "park polygon representative, not an entrance",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              118.7679564789474,
+              30.9283225
+            ],
+            "osm": "way/1286328988",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1286328988"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "宣城市博物馆",
+          "mode": "car",
+          "instructions": "到水阳江大道与响山路交叉口馆址，不能误定位敬亭山学校旁图书馆",
+          "evidence_url": "https://wlj.xuancheng.gov.cn/Content/show/1147294.html"
+        },
+        {
+          "from": "博物馆",
+          "to": "宛陵湖公共岸线",
+          "mode": "official_walk",
+          "instructions": "官方支持馆在湖畔，具体园门/过街点按现场导览，不越湖直线连接",
+          "evidence_url": "https://wlj.xuancheng.gov.cn/Content/show/1147294.html"
+        },
+        {
+          "from": "宛陵湖",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "湖岸退出后回市区晚餐住宿"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "博物馆正门或公园公共入口汽车撤出",
+      "backup": "周一博物馆常闭馆，调整出发日期或交换两天；大雨不安排湖边长走"
+    },
+    {
+      "day": 2,
+      "title": "敬亭山成熟步道与返程",
+      "start": "宣城市区住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "市区→敬亭山",
+          "minutes": 60,
+          "activity": "早餐后汽车到与已核步道相接的合法入口",
+          "kind": "transport"
+        },
+        {
+          "name": "一峰古道",
+          "minutes": 75,
+          "activity": "按N04已映射道路慢登，途中看竹林和林间石阶",
+          "kind": "visit",
+          "osm": "node/13266222153",
+          "coord": [
+            118.7115802,
+            30.978166
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              118.7115802,
+              30.978166
+            ],
+            "osm": "node/13266222153",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/13266222153"
+          }
+        },
+        {
+          "name": "敬亭山西部成熟步道",
+          "minutes": 105,
+          "activity": "沿原已核3.90km往返线继续至北侧折返点，原路回，非全山穿越",
+          "kind": "walk",
+          "osm": "node/13266138161",
+          "coord": [
+            118.7159831,
+            30.9872026
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              118.7159831,
+              30.9872026
+            ],
+            "osm": "node/13266138161",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/13266138161"
+          }
+        },
+        {
+          "name": "敬亭山→宣城站→家",
+          "minutes": 270,
+          "activity": "午餐、取行李、返站，登山结束不晚于返程需要的安全缓冲",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "敬亭山一峰古道入口附近",
+          "mode": "car",
+          "instructions": "不把东侧太白独坐楼强塞进现有西侧步道"
+        },
+        {
+          "from": "一峰古道东端",
+          "to": "北部折返点→原起点",
+          "mode": "walk",
+          "instructions": "使用N04往返详图；未确认入口和东侧景点连接不绘成闭环"
+        },
+        {
+          "from": "敬亭山",
+          "to": "宣城站",
+          "mode": "car",
+          "instructions": "回酒店取行李后到站"
+        }
+      ],
+      "detail_keys": [
+        "N04"
+      ],
+      "exit": "任一体力折返点原路回一峰古道东端",
+      "backup": "暴雨/封山取消登山，市博物馆与宛陵湖择室内优先"
+    }
+  ],
+  "changes": [
+    "第一天从“市区某馆”改为宣城市博物馆及宛陵湖",
+    "保留敬亭山可走成熟段，不编造全山景点大环线"
+  ],
+  "limitations": [
+    "敬亭山入口至现有一峰古道起点接入需现场导向；官方东侧太白独坐楼不可凭想象连入西山路线"
+  ],
+  "points": [
+    {
+      "coord": [
+        118.75656702556533,
+        30.930794254810436
+      ],
+      "amap_id": "B0FFHMWJGA",
+      "raw_gcj02": [
+        118.76169,
+        30.928569
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=118.76169,30.928569&name=%E5%AE%A3%E5%9F%8E%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86&coordinate=gaode",
+      "day": 1,
+      "name": "宣城市博物馆",
+      "number": "01",
+      "anchor_id": "B0FFHMWJGA"
+    },
+    {
+      "coord": [
+        118.7679564789474,
+        30.9283225
+      ],
+      "osm": "way/1286328988",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1286328988",
+      "day": 1,
+      "name": "宛陵湖东湖公园",
+      "number": "02",
+      "anchor_id": "way/1286328988"
+    },
+    {
+      "coord": [
+        118.7115802,
+        30.978166
+      ],
+      "osm": "node/13266222153",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/13266222153",
+      "day": 2,
+      "name": "一峰古道",
+      "number": "03",
+      "anchor_id": "node/13266222153"
+    },
+    {
+      "coord": [
+        118.7159831,
+        30.9872026
+      ],
+      "osm": "node/13266138161",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/13266138161",
+      "day": 2,
+      "name": "敬亭山西部成熟步道",
+      "number": "04",
+      "anchor_id": "node/13266138161"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/N04-full.svg",
+    "image": "journeys/N04-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      118.70095550210526,
+      30.921256888,
+      118.77404747684214,
+      30.994268212
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.12317555186855993,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        470.7529902462142,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "宣城市文旅局：宣城市博物馆",
+      "url": "https://wlj.xuancheng.gov.cn/Content/show/1147294.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮正文支持宛陵湖畔馆址及常设展；周一闭馆规则出发前复核"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "主方案固定为上午宝石山、下午白堤湖岸；两段共享北山街接点，共约4.105km已核室外步行。",
+  "days": [
+    {
+      "day": 1,
+      "title": "宝石山下山接白堤，不重复翻山",
+      "start": "黄龙洞地铁站开放出口",
+      "end": "北山街保俶塔前山路口",
+      "visits": [
+        {
+          "name": "黄龙洞站到山线起点",
+          "minutes": 20,
+          "activity": "09:00–09:20 出站按现场人行设施到C口附近已绘起点；约19m的OSM断点不补直线。",
+          "kind": "transport"
+        },
+        {
+          "name": "初阳台旁山林",
+          "minutes": 50,
+          "activity": "09:20–10:10 沿已绘石阶上山，观察林冠和湖城方向；在旁侧公共步道停留，不宣称到精确峰顶。",
+          "kind": "visit",
+          "osm": "node/5586466173",
+          "coord": [
+            120.137158,
+            30.2614618
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.137158,
+              30.2614618
+            ],
+            "osm": "node/5586466173",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/5586466173"
+          }
+        },
+        {
+          "name": "保俶塔旁步道",
+          "minutes": 55,
+          "activity": "10:10–11:05 按山线走至塔旁，比较砖塔与湖面视角；塔不安排登塔。",
+          "kind": "visit",
+          "osm": "node/5630850001",
+          "coord": [
+            120.1432409,
+            30.2632604
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.1432409,
+              30.2632604
+            ],
+            "osm": "node/5630850001",
+            "version": 2,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/5630850001"
+          }
+        },
+        {
+          "name": "下至北山街",
+          "minutes": 35,
+          "activity": "11:05–11:40 沿前山路下山，完成L01R共1.960km。",
+          "kind": "walk",
+          "osm": "node/2300358790",
+          "coord": [
+            120.143804,
+            30.2613681
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.143804,
+              30.2613681
+            ],
+            "osm": "node/2300358790",
+            "version": 3,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/2300358790"
+          }
+        },
+        {
+          "name": "北山街午餐",
+          "minutes": 60,
+          "activity": "11:40–12:40 北山街公共商业区域用餐、补水。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "断桥与白堤",
+          "minutes": 70,
+          "activity": "12:40–13:50 从共享前山路口接L01-LAKE，过断桥到锦带桥，观察堤桥分隔的内外湖。",
+          "kind": "visit",
+          "osm": "node/26315533",
+          "coord": [
+            120.1466496,
+            30.2604573
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              120.1466496,
+              30.2604573
+            ],
+            "osm": "node/26315533",
+            "version": 9,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/26315533"
+          }
+        },
+        {
+          "name": "锦带桥折返与北山街湖岸",
+          "minutes": 80,
+          "activity": "13:50–15:10 按同一湖岸路网折返，不另画跨水捷径；湖岸段合计2.146km。",
+          "kind": "visit",
+          "osm": "node/313487815",
+          "coord": [
+            120.1432862,
+            30.256574
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              120.1432862,
+              30.256574
+            ],
+            "osm": "node/313487815",
+            "version": 7,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/313487815"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "黄龙洞站开放出口",
+          "to": "C口附近人行道",
+          "mode": "official_walk",
+          "instructions": "站内外最后约19m断点按现场导向通行；不计算虚构连线。"
+        },
+        {
+          "from": "C口附近人行道",
+          "to": "北山街前山路口",
+          "mode": "walk",
+          "instructions": "依L01R：初阳台旁→保俶塔旁→前山路口。"
+        },
+        {
+          "from": "北山街前山路口",
+          "to": "锦带桥折返",
+          "mode": "walk",
+          "instructions": "L01-LAKE已核路网到锦带桥后原路返。"
+        }
+      ],
+      "detail_keys": [
+        "L01R",
+        "L01-LAKE"
+      ],
+      "exit": "15:10后北山街公共上落客点汽车接地铁返家，不翻山返黄龙洞。",
+      "backup": "雨天取消山线，白堤仅在无雷雨大风且现场开放时短走；恶劣天气改期。",
+      "planned_minutes": 370
+    }
+  ],
+  "changes": [
+    "白堤从可选变主方案；去掉末段咖啡填时",
+    "明确两图同节点接续及19m数据缺口"
+  ],
+  "limitations": [
+    "黄龙洞站出口最后19m无连续OSM几何；依现场人行设施，不输出穿墙GPX。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.137158,
+        30.2614618
+      ],
+      "osm": "node/5586466173",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/5586466173",
+      "day": 1,
+      "name": "初阳台旁山林",
+      "number": "01",
+      "anchor_id": "node/5586466173"
+    },
+    {
+      "coord": [
+        120.1432409,
+        30.2632604
+      ],
+      "osm": "node/5630850001",
+      "version": 2,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/5630850001",
+      "day": 1,
+      "name": "保俶塔旁步道",
+      "number": "02",
+      "anchor_id": "node/5630850001"
+    },
+    {
+      "coord": [
+        120.143804,
+        30.2613681
+      ],
+      "osm": "node/2300358790",
+      "version": 3,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/2300358790",
+      "day": 1,
+      "name": "下至北山街",
+      "number": "03",
+      "anchor_id": "node/2300358790"
+    },
+    {
+      "coord": [
+        120.1466496,
+        30.2604573
+      ],
+      "osm": "node/26315533",
+      "version": 9,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/26315533",
+      "day": 1,
+      "name": "断桥与白堤",
+      "number": "04",
+      "anchor_id": "node/26315533"
+    },
+    {
+      "coord": [
+        120.1432862,
+        30.256574
+      ],
+      "osm": "node/313487815",
+      "version": 7,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/313487815",
+      "day": 1,
+      "name": "锦带桥折返与北山街湖岸",
+      "number": "05",
+      "anchor_id": "node/313487815"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L01-full.svg",
+    "image": "journeys/L01-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.13172440000001,
+      30.254574,
+      120.1494858,
+      30.2690193
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.6225699796027478,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        368.9938815687585,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "保俶塔｜杭州文保导览",
+      "url": "https://wbdl.hzwbzx.cn/house?id=44",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "宝石流霞｜杭州市档案馆",
+      "url": "https://www.hzarchives.org.cn/info/6795",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    }
+  ]
+}

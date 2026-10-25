@@ -1,0 +1,636 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "6天4个完整日：古墓博物馆、龙门西山、隋唐宫城、白马寺与老城；移除无法稳定预约的考古研学中心主方案。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "洛阳酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 洛阳龙门",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "洛阳实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "洛阳龙门",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "洛阳古墓博物馆与丽景门老城",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "洛阳古墓博物馆",
+          "minutes": 210,
+          "activity": "机场路6号，实名预约看古墓建筑与壁画主题展，周一例行闭馆；不是闭馆改造中的洛阳博物馆。",
+          "kind": "visit",
+          "source_url": "https://www.gumumuseum.cn/guide/",
+          "osm": "way/978689464",
+          "coord": [
+            112.40812896,
+            34.734045720000005
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              112.40812896,
+              34.734045720000005
+            ],
+            "osm": "way/978689464",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/978689464"
+          }
+        },
+        {
+          "name": "丽景门外围—西大街公共街区",
+          "minutes": 120,
+          "activity": "午餐后汽车到老城，沿公共街巷读门楼外观与街区格局；登楼单核票务，不默认入内。",
+          "kind": "walk",
+          "source_url": "https://www.ly.gov.cn/mlly/rwly/",
+          "osm": "way/422670112",
+          "coord": [
+            112.46523425454544,
+            34.68209707272727
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              112.46523425454544,
+              34.68209707272727
+            ],
+            "osm": "way/422670112",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/422670112"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "洛阳古墓博物馆",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "古墓博物馆",
+          "to": "丽景门外围",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "龙门西山石窟：完整慢看文物日",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "龙门西山正式游客入口",
+          "osm": "node/8078464349",
+          "coord": [
+            112.471707,
+            34.5628305
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 45,
+          "activity": "汽车/公交到当日服务入口，经正规验票和导向进入西山北侧游路；停车场到入口不画直线。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/node/8078464349",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              112.471707,
+              34.5628305
+            ],
+            "osm": "node/8078464349",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/8078464349"
+          }
+        },
+        {
+          "name": "宾阳洞—万佛洞—奉先寺",
+          "osm": "node/2493668863",
+          "coord": [
+            112.4702838,
+            34.5527254
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 210,
+          "activity": "按西山开放游线看主要石窟与台阶，停留观察造像；洞窟临时关闭遵从现场。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/2493668863",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              112.4702838,
+              34.5527254
+            ],
+            "osm": "node/2493668863",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/2493668863"
+          }
+        },
+        {
+          "name": "西山正式出口及景区接驳",
+          "minutes": 45,
+          "activity": "按官方出口回到返程交通，不冒称旧详图已覆盖东山、香山寺或白园。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "西山入口游路",
+          "to": "宾阳洞—奉先寺",
+          "mode": "walk",
+          "instructions": "按既有详图的西山游路与台阶；不穿洞、不触摸文物。"
+        },
+        {
+          "from": "西山出口",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "遵从景区当天单向组织和接驳车安排，留出午餐与回酒店休息。"
+        }
+      ],
+      "detail_keys": [
+        "F09"
+      ],
+      "exit": "西山当日指定出口，不以伊河两岸二维近邻假设可走过河。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "隋唐洛阳城：应天门与明堂天堂",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "应天门遗址保护展示区",
+          "minutes": 120,
+          "activity": "按正式门票与开放展陈读宫城南门遗址、保护展示建筑；不把展示工程当原木构。",
+          "kind": "visit",
+          "source_url": "https://www.ly.gov.cn/public-jc/2024/06-13/6103.html",
+          "osm": "way/865951589",
+          "coord": [
+            112.45454728636363,
+            34.677025500000006
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              112.45454728636363,
+              34.677025500000006
+            ],
+            "osm": "way/865951589",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/865951589"
+          }
+        },
+        {
+          "name": "明堂—天堂遗址保护展示区",
+          "minutes": 180,
+          "activity": "午餐后到独立检票区，读遗址与武周宫城主题，展陈和登高按当日开放。",
+          "kind": "visit",
+          "source_url": "https://www.ndrc.gov.cn/xwdt/ztzl/dyhgjwhgy/202010/t20201021_1301702_ext.html",
+          "osm": "node/9151160335",
+          "coord": [
+            112.4534369,
+            34.6818335
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              112.4534369,
+              34.6818335
+            ],
+            "osm": "node/9151160335",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/9151160335"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "应天门正式入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "应天门正式出口",
+          "to": "明堂天堂正式入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "两片区分别从正式门离开；不穿遗址围挡或把票区中心连成可走路线。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 5,
+      "title": "白马寺与洛邑古城",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "白马寺",
+          "minutes": 180,
+          "activity": "汽车到正式入口，沿开放殿院参观佛教文化与建筑；国际佛殿区开放另核，不穿僧人生活区。",
+          "kind": "visit",
+          "source_url": "https://www.ly.gov.cn/mlly/rwly/",
+          "osm": "way/1028861022",
+          "coord": [
+            112.59778657000001,
+            34.72357215
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              112.59778657000001,
+              34.72357215
+            ],
+            "osm": "way/1028861022",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1028861022"
+          }
+        },
+        {
+          "name": "洛邑古城开放街区",
+          "minutes": 120,
+          "activity": "午餐后汽车返回老城，到公开步行街与水岸观察建筑空间；拍摄和夜间活动自愿，不要求租服装或追演出。",
+          "kind": "walk",
+          "source_url": "https://www.ly.gov.cn/public-jc/2024/06-13/6103.html",
+          "osm": "way/978377865",
+          "coord": [
+            112.47900898888889,
+            34.68216225555555
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "08",
+          "location": {
+            "coord": [
+              112.47900898888889,
+              34.68216225555555
+            ],
+            "osm": "way/978377865",
+            "version": 5,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/978377865"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "白马寺正式入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "白马寺",
+          "to": "洛邑古城正式入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "洛邑古城",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 6,
+      "title": "返杭州交通日",
+      "start": "洛阳酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 洛阳实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "洛阳龙门",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "撤下“洛阳考古博物馆可稳定散客深逛”主假设，高德核实是考古研学中心；主馆日改有官方预约导览的古墓馆。",
+    "增加宫城日与白马寺日的具体目的地、入口与汽车转场，旧龙门短线只作西山详图。"
+  ],
+  "limitations": [
+    "古墓馆官网冬季时间正文有不同表述，出行以最新公告为准。"
+  ],
+  "points": [
+    {
+      "coord": [
+        112.40812896,
+        34.734045720000005
+      ],
+      "osm": "way/978689464",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/978689464",
+      "day": 2,
+      "name": "洛阳古墓博物馆",
+      "number": "01",
+      "anchor_id": "way/978689464"
+    },
+    {
+      "coord": [
+        112.46523425454544,
+        34.68209707272727
+      ],
+      "osm": "way/422670112",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/422670112",
+      "day": 2,
+      "name": "丽景门外围—西大街公共街区",
+      "number": "02",
+      "anchor_id": "way/422670112"
+    },
+    {
+      "coord": [
+        112.471707,
+        34.5628305
+      ],
+      "osm": "node/8078464349",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/8078464349",
+      "day": 3,
+      "name": "龙门西山正式游客入口",
+      "number": "03",
+      "anchor_id": "node/8078464349"
+    },
+    {
+      "coord": [
+        112.4702838,
+        34.5527254
+      ],
+      "osm": "node/2493668863",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/2493668863",
+      "day": 3,
+      "name": "宾阳洞—万佛洞—奉先寺",
+      "number": "04",
+      "anchor_id": "node/2493668863"
+    },
+    {
+      "coord": [
+        112.45454728636363,
+        34.677025500000006
+      ],
+      "osm": "way/865951589",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/865951589",
+      "day": 4,
+      "name": "应天门遗址保护展示区",
+      "number": "05",
+      "anchor_id": "way/865951589"
+    },
+    {
+      "coord": [
+        112.4534369,
+        34.6818335
+      ],
+      "osm": "node/9151160335",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/9151160335",
+      "day": 4,
+      "name": "明堂—天堂遗址保护展示区",
+      "number": "06",
+      "anchor_id": "node/9151160335"
+    },
+    {
+      "coord": [
+        112.59778657000001,
+        34.72357215
+      ],
+      "osm": "way/1028861022",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1028861022",
+      "day": 5,
+      "name": "白马寺",
+      "number": "07",
+      "anchor_id": "way/1028861022"
+    },
+    {
+      "coord": [
+        112.47900898888889,
+        34.68216225555555
+      ],
+      "osm": "way/978377865",
+      "version": 5,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/978377865",
+      "day": 5,
+      "name": "洛邑古城开放街区",
+      "number": "08",
+      "anchor_id": "way/978377865"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F09-oldtown",
+      "title": "丽景门—鼓楼老城公共街巷",
+      "day": 2,
+      "distance_m": 1099.0996999639426,
+      "files": {
+        "svg": "journeys/F09-oldtown.svg",
+        "gpx": "journeys/F09-oldtown.gpx",
+        "json": "journeys/F09-oldtown.json"
+      },
+      "issues": []
+    },
+    {
+      "key": "F09-temple",
+      "title": "白马寺票务中心—正式游览片区",
+      "day": 5,
+      "distance_m": 575.8774782908267,
+      "files": {
+        "svg": "journeys/F09-temple.svg",
+        "gpx": "journeys/F09-temple.gpx",
+        "json": "journeys/F09-temple.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F09-full.svg",
+    "image": "journeys/F09-full.webp",
+    "width": 1400,
+    "height": 1636,
+    "bbox": [
+      112.389054006,
+      34.5309307856,
+      112.617953454,
+      34.755808034400005
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.03999164065882317,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        481.28930081017234,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "洛阳博物馆暂停开放公告",
+      "url": "https://www.lymuseum.cn/tzgg/13541.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 2026-10-13公告；本次已实读全文。"
+    },
+    {
+      "title": "洛阳考古博物馆开馆公告",
+      "url": "https://lykgyjy.cn/news/1511.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 2024-12公告列周二至周日9:00–17:00、16:30停入和当时个人免预约；新旧预约入口信息存在差异，出发核当前规则。"
+    },
+    {
+      "title": "龙门石窟",
+      "url": "https://www.dpm.org.cn/lemmas/243334.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=112.467,34.548,112.486,34.568",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "洛阳古墓博物馆官方导览及预约",
+      "url": "https://www.gumumuseum.cn/guide/",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 本次实读：机场路6号、实名预约、周一例行闭馆；冬夏页面细则有矛盾，出行按新公告确认。"
+    },
+    {
+      "title": "洛阳老城区官方文旅资源",
+      "url": "https://www.ly.gov.cn/public-jc/2024/06-13/6103.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 本次检索正文，宫城应天门、明堂天堂与洛邑古城的主题身份，不混当古代原构。"
+    },
+    {
+      "title": "洛阳考古机构数字馆",
+      "url": "https://lykgyjy.museumcloud.com.cn/shuzibowuguan/",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 主流程核实机构身份；考古研学中心不是本方案默认随到大馆。"
+    },
+    {
+      "title": "洛阳古墓博物馆官方导览及预约",
+      "url": "https://www.gumumuseum.cn/guide/",
+      "checked_at": "2026-10-25",
+      "note": "本次实读：机场路6号、实名预约、周一例行闭馆；冬夏页面细则有矛盾，出行按新公告确认。"
+    },
+    {
+      "title": "洛阳老城区官方文旅资源",
+      "url": "https://www.ly.gov.cn/public-jc/2024/06-13/6103.html",
+      "checked_at": "2026-10-25",
+      "note": "本次检索正文，宫城应天门、明堂天堂与洛邑古城的主题身份，不混当古代原构。"
+    },
+    {
+      "title": "洛阳考古机构数字馆",
+      "url": "https://lykgyjy.museumcloud.com.cn/shuzibowuguan/",
+      "checked_at": "2026-10-25",
+      "note": "主流程核实机构身份；考古研学中心不是本方案默认随到大馆。"
+    }
+  ]
+}

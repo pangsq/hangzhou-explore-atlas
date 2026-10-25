@@ -1,0 +1,243 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "北岸6.911km往返已经是完整湖岸活动；水上森林票区不混入主线，另列加选。",
+  "days": [
+    {
+      "day": 1,
+      "title": "青山湖北岸：绿道、湾岸与林相",
+      "start": "L08北岸映射出入口",
+      "end": "同一北岸映射出入口",
+      "visits": [
+        {
+          "name": "北岸入口与水岸林相",
+          "minutes": 40,
+          "activity": "09:00–09:40 核绿道开放并读入口导览，辨认开阔水岸与沿湖乔木；不把收费水上森林入口当本线起点。",
+          "kind": "visit",
+          "osm": "node/7232611728",
+          "coord": [
+            119.7672489,
+            30.2551509
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              119.7672489,
+              30.2551509
+            ],
+            "osm": "node/7232611728",
+            "version": 3,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/7232611728"
+          }
+        },
+        {
+          "name": "沿北岸绿道至中段",
+          "minutes": 70,
+          "activity": "09:40–10:50 按L08沿湖行进，桥与栈道以实际公示为准。",
+          "kind": "walk",
+          "osm": "node/7232590284",
+          "coord": [
+            119.7756314,
+            30.2517985
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              119.7756314,
+              30.2517985
+            ],
+            "osm": "node/7232590284",
+            "version": 3,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/7232590284"
+          }
+        },
+        {
+          "name": "湖湾观察与轻餐",
+          "minutes": 55,
+          "activity": "10:50–11:45 在开放休憩设施吃自备轻餐，观察水库岸线、湾汊和对岸山体，垃圾带走。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "东侧绿道折返点",
+          "minutes": 65,
+          "activity": "11:45–12:50 到L08折返节点，完成约半程，不将对岸直线当步道。",
+          "kind": "walk",
+          "osm": "node/10732420680",
+          "coord": [
+            119.7838411,
+            30.244663
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              119.7838411,
+              30.244663
+            ],
+            "osm": "node/10732420680",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/10732420680"
+          }
+        },
+        {
+          "name": "折返点湖山观察",
+          "minutes": 30,
+          "activity": "12:50–13:20 在公众安全区域休息，对照上午湖湾视角；不另进山体野径。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "完整原路返回",
+          "minutes": 120,
+          "activity": "13:20–15:20 返回同一入口，总步行6.911km；水上森林若另买票，需另加60–90分钟，不能压缩返程。",
+          "kind": "walk",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        }
+      ],
+      "connections": [
+        {
+          "from": "北岸映射出入口",
+          "to": "东侧绿道折返点",
+          "mode": "walk",
+          "instructions": "L08现有连续湖岸路网，中段停留，不环湖。"
+        },
+        {
+          "from": "东侧绿道折返点",
+          "to": "北岸映射出入口",
+          "mode": "walk",
+          "instructions": "同路返；不从收费栈道或湖面跨接。"
+        }
+      ],
+      "detail_keys": [
+        "L08"
+      ],
+      "exit": "15:20原入口取车返家；全线只按日间开放规划。",
+      "backup": "台风后封闭/电力维护时改期；水上森林关闭不影响主方案成立，但绿道本身关闭即不走。",
+      "planned_minutes": 380
+    }
+  ],
+  "changes": [
+    "固定6.911km作为全天核心",
+    "取消强制水上森林票区及咖啡填时"
+  ],
+  "limitations": [
+    "检索到2026-09-01官方杭州发布称绿道阶段性8:30–18:30开放、恢复另行通知；本轮未核到解除公告，出发前须查最新临安发布/青山湖旅游。"
+  ],
+  "points": [
+    {
+      "coord": [
+        119.7672489,
+        30.2551509
+      ],
+      "osm": "node/7232611728",
+      "version": 3,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/7232611728",
+      "day": 1,
+      "name": "北岸入口与水岸林相",
+      "number": "01",
+      "anchor_id": "node/7232611728"
+    },
+    {
+      "coord": [
+        119.7756314,
+        30.2517985
+      ],
+      "osm": "node/7232590284",
+      "version": 3,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/7232590284",
+      "day": 1,
+      "name": "沿北岸绿道至中段",
+      "number": "02",
+      "anchor_id": "node/7232590284"
+    },
+    {
+      "coord": [
+        119.7838411,
+        30.244663
+      ],
+      "osm": "node/10732420680",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/10732420680",
+      "day": 1,
+      "name": "东侧绿道折返点",
+      "number": "03",
+      "anchor_id": "node/10732420680"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L08-full.svg",
+    "image": "journeys/L08-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      119.76507240000001,
+      30.242663,
+      119.7858411,
+      30.2578972
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.5903303177295559,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        311.1706125720451,
+        219.99999999999994
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "青山湖森林公园风景资源资料｜浙江政府公开文件",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2242/site/picture/old/P020161220703517152465.pdf",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州文旅：青山湖国家森林公园与绿道",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/11/4/art_1229495371_58942163.html",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州发布官方微博：青山湖绿道分时开放（2026-09-01）",
+      "url": "https://www.sina.cn/news/detail/5338254884997555.html",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州文旅：青山湖国家森林公园与绿道",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/11/4/art_1229495371_58942163.html",
+      "checked_at": "2026-10-25",
+      "note": "全绿道42.195km是背景，不冒充本线里程；本线仅为北岸6.911km往返。"
+    },
+    {
+      "title": "杭州发布官方微博：青山湖绿道分时开放（2026-09-01）",
+      "url": "https://www.sina.cn/news/detail/5338254884997555.html",
+      "checked_at": "2026-10-25",
+      "note": "官方账号转发的管理信息；未核到解除公告，不保证当前仍完全相同。"
+    }
+  ]
+}

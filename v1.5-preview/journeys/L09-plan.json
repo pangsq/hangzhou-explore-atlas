@@ -1,0 +1,231 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "跨湖桥遗址与北部湖岸3.841km两段构成一日；馆到步道接点采用明确汽车转场，不能把建筑中心直接吸附湖岸。",
+  "days": [
+    {
+      "day": 1,
+      "title": "跨湖桥遗址—湘湖北部湖岸",
+      "start": "跨湖桥遗址博物馆游客入口（湘湖路978号）",
+      "end": "L09北岸步道接点",
+      "visits": [
+        {
+          "name": "跨湖桥文化常设展",
+          "minutes": 70,
+          "activity": "09:15–10:25 在公共展厅了解新石器时代遗存、生产与生活证据。",
+          "kind": "visit",
+          "osm": "way/154508907",
+          "coord": [
+            120.2169377,
+            30.1447682
+          ],
+          "coord_system": "WGS84",
+          "point_role": "博物馆建筑足迹代表点，不是门",
+          "source_url": "https://www.khqyz.cn/",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.21693772105266,
+              30.14476821578947
+            ],
+            "osm": "way/154508907",
+            "version": 2,
+            "point_role": "博物馆建筑足迹代表点，不是门",
+            "source_url": "https://www.openstreetmap.org/way/154508907"
+          }
+        },
+        {
+          "name": "遗址与独木舟保护展示",
+          "minutes": 55,
+          "activity": "10:25–11:20 按馆方开放组织观看遗址展示，关注出土环境与保护方式；不进入保护作业区。",
+          "kind": "visit",
+          "source_url": "https://www.khqyz.cn/",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "馆外午餐",
+          "minutes": 60,
+          "activity": "11:20–12:20 在湘湖公共服务片区正餐。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "到北岸步道接点",
+          "minutes": 25,
+          "activity": "12:20–12:45 汽车导航L09步道接近的公共落客点，再按人行指引到既有节点；不在图上补穿过公路或私院的短线。",
+          "kind": "transport"
+        },
+        {
+          "name": "北部湖岸湾汊与荷塘",
+          "minutes": 80,
+          "activity": "12:45–14:05 按L09到北部湖岸折返点，停看湖湾与季节性湿地植被；荷花并非全年景观。",
+          "kind": "visit",
+          "osm": "node/1669925165",
+          "coord": [
+            120.2351798,
+            30.1557173
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.2351798,
+              30.1557173
+            ],
+            "osm": "node/1669925165",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/1669925165"
+          }
+        },
+        {
+          "name": "北岸原路回接点",
+          "minutes": 70,
+          "activity": "14:05–15:15 同路回L09起点，湖岸段往返3.841km；不追求环整个湘湖。",
+          "kind": "walk",
+          "osm": "node/1669812468",
+          "coord": [
+            120.2201752,
+            30.150202
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.2201752,
+              30.150202
+            ],
+            "osm": "node/1669812468",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/1669812468"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "跨湖桥遗址博物馆入口",
+          "to": "常设展及遗址展示",
+          "mode": "official_walk",
+          "instructions": "依馆内公众导览，不编造地下遗址轨迹。",
+          "evidence_url": "https://www.khqyz.cn/"
+        },
+        {
+          "from": "跨湖桥遗址博物馆",
+          "to": "北岸步道接点",
+          "mode": "car",
+          "instructions": "馆至L09起点并无本次核准的连续接近线，汽车转场公开道路，最后到步道按现场导向。"
+        },
+        {
+          "from": "北岸步道接点",
+          "to": "北部湖岸折返",
+          "mode": "walk",
+          "instructions": "L09往返，桥与岸边依已绘路网。"
+        }
+      ],
+      "detail_keys": [
+        "L09"
+      ],
+      "exit": "15:15后公共落客点汽车返家；司机或停车人同车转场，不能车停馆内却默认在另一个入口取车。",
+      "backup": "博物馆闭馆则改期；户外雨天可缩为馆内半日，明确不执行湖岸段。",
+      "planned_minutes": 360
+    }
+  ],
+  "changes": [
+    "完整博物馆两主题，不只列馆名",
+    "明确馆与湖岸转场、同车停车逻辑"
+  ],
+  "limitations": [
+    "公共落客点到北岸步道精确接近路径未完成；不把车开进步道节点。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.21693772105266,
+        30.14476821578947
+      ],
+      "osm": "way/154508907",
+      "version": 2,
+      "point_role": "博物馆建筑足迹代表点，不是门",
+      "source_url": "https://www.openstreetmap.org/way/154508907",
+      "day": 1,
+      "name": "跨湖桥文化常设展",
+      "number": "01",
+      "anchor_id": "way/154508907"
+    },
+    {
+      "coord": [
+        120.2351798,
+        30.1557173
+      ],
+      "osm": "node/1669925165",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/1669925165",
+      "day": 1,
+      "name": "北部湖岸湾汊与荷塘",
+      "number": "02",
+      "anchor_id": "node/1669925165"
+    },
+    {
+      "coord": [
+        120.2201752,
+        30.150202
+      ],
+      "osm": "node/1669812468",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/1669812468",
+      "day": 1,
+      "name": "北岸原路回接点",
+      "number": "03",
+      "anchor_id": "node/1669812468"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L09-full.svg",
+    "image": "journeys/L09-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.21493772105266,
+      30.14276821578947,
+      120.23717979999999,
+      30.157717299999998
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.6015893682651864,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        256.7172073108096,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "跨湖桥遗址博物馆官网",
+      "url": "https://www.khqyz.cn/",
+      "type": "primary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "跨湖桥遗址博物馆官网",
+      "url": "https://www.khqyz.cn/",
+      "checked_at": "2026-10-25",
+      "note": "本次打开官网，核馆址湘湖路978号、常设展与预约入口。"
+    }
+  ]
+}

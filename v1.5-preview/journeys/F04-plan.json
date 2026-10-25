@@ -1,0 +1,670 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "5天3个完整日：三坊七巷人物古建、烟台山坡街、福建博物院与福州西湖。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "福州酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 福州／福州南（按实购车票选择）",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "福州实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "福州／福州南（按实购车票选择）",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "三坊七巷：两处人物古建与街巷",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "林觉民·冰心故居",
+          "minutes": 75,
+          "activity": "从三坊七巷北口入街，参观当日开放展室；不能把OSM北口误名严复故居的点直接当核实结果。",
+          "kind": "visit",
+          "source_url": "https://zx.fuzhou.gov.cn/zz/csfz/fzdt/202507/t20250708_5044660.htm",
+          "osm": "relation/11015502",
+          "coord": [
+            119.29106292857145,
+            26.088451900000003
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              119.29105190769232,
+              26.088447961538463
+            ],
+            "osm": "relation/11015502",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/relation/11015502"
+          }
+        },
+        {
+          "name": "南后街—郎官巷—安民巷",
+          "osm": "node/3076257117",
+          "coord": [
+            119.2921458,
+            26.0851873
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 105,
+          "activity": "沿公共坊巷观察里坊街巷与民居，不逐户进入私人院落。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/3076257117",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              119.2921458,
+              26.0851873
+            ],
+            "osm": "node/3076257117",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/3076257117"
+          }
+        },
+        {
+          "name": "二梅书屋（福建民俗博物馆）",
+          "minutes": 90,
+          "activity": "午餐后看古建园林和民俗展；按当日开放院落和票种。",
+          "kind": "visit",
+          "source_url": "https://zx.fuzhou.gov.cn/zz/csfz/fzdt/202507/t20250708_5044660.htm",
+          "amap_id": "B0FFFFXE5H",
+          "coord_gcj02": [
+            119.296966,
+            26.084761
+          ],
+          "coord_source_file": "full-route-review/far/F04-ermei-amap-detail.json",
+          "coord_original_crs": "GCJ-02",
+          "official_address": "郎官巷25号",
+          "anchor_role": "auxiliary_map_POI_not_assumed_entrance",
+          "osm_gap": "本次OSM街区下载无正确命名对象，不伪造OSM ID；高德坐标需转换后入WGS84总图。",
+          "amap": {
+            "id": "B0FFFFXE5H",
+            "raw_coord": [
+              119.296966,
+              26.084761
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "03",
+          "location": {
+            "coord": [
+              119.29217173956715,
+              26.08787832027474
+            ],
+            "amap_id": "B0FFFFXE5H",
+            "raw_gcj02": [
+              119.296966,
+              26.084761
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=119.296966,26.084761&name=%E4%BA%8C%E6%A2%85%E4%B9%A6%E5%B1%8B%EF%BC%88%E7%A6%8F%E5%BB%BA%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A6%86%EF%BC%89&coordinate=gaode"
+          }
+        },
+        {
+          "name": "林则徐纪念馆",
+          "minutes": 75,
+          "activity": "到澳门路16号林文忠公祠和史绩展，区别文北路旧居。",
+          "kind": "visit",
+          "source_url": "https://www.gl.gov.cn/xjwz/rw/mdgl/gjms/202309/t20230924_4684368.htm",
+          "amap_id": "B024F03N1D",
+          "coord_gcj02": [
+            119.297274,
+            26.078369
+          ],
+          "coord_source_file": "full-route-review/far/F04-lin-amap-detail.json",
+          "coord_original_crs": "GCJ-02",
+          "official_address": "澳门路16号",
+          "anchor_role": "auxiliary_map_POI_not_assumed_entrance",
+          "osm_gap": "本次OSM街区下载无正确命名对象，不伪造OSM ID；高德坐标需转换后入WGS84总图。",
+          "amap": {
+            "id": "B024F03N1D",
+            "raw_coord": [
+              119.297274,
+              26.078369
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "04",
+          "location": {
+            "coord": [
+              119.29247977101622,
+              26.08148164428527
+            ],
+            "amap_id": "B024F03N1D",
+            "raw_gcj02": [
+              119.297274,
+              26.078369
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=119.297274,26.078369&name=%E6%9E%97%E5%88%99%E5%BE%90%E7%BA%AA%E5%BF%B5%E9%A6%86&coordinate=gaode"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "北口",
+          "to": "南后街坊巷",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "坊巷",
+          "to": "二梅书屋",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "二梅书屋",
+          "to": "林则徐纪念馆",
+          "mode": "official_walk",
+          "instructions": "沿景区正式街巷走到澳门路16号；不按西北“林则徐故居”OSM点误导。",
+          "evidence_url": "https://www.gl.gov.cn/xjwz/rw/mdgl/gjms/202309/t20230924_4684368.htm"
+        }
+      ],
+      "detail_keys": [
+        "F04"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "烟台山：坡地建筑与闽江岸",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "烟台山历史博物馆及公共街口",
+          "osm": "node/8582273317",
+          "coord": [
+            119.3042591,
+            26.0460067
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 75,
+          "activity": "爱国路起步，若馆开放参观地方史；否则只读馆外建筑，不把闭馆算进去。",
+          "kind": "visit",
+          "match": "烟台山历史博物馆",
+          "source_url": "https://www.openstreetmap.org/node/8582273317",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              119.3042591,
+              26.0460067
+            ],
+            "osm": "node/8582273317",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/8582273317"
+          }
+        },
+        {
+          "name": "爱国路—乐群路—麦园路",
+          "osm": "node/3138571215",
+          "coord": [
+            119.3041664,
+            26.0457792
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 150,
+          "activity": "沿正式坡街看近代建筑外观和公共空间，不穿学校院落。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/3138571215",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              119.3041664,
+              26.0457792
+            ],
+            "osm": "node/3138571215",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/3138571215"
+          }
+        },
+        {
+          "name": "烟台山商业漫步街区",
+          "osm": "way/1180695468",
+          "coord": [
+            119.30785460258062,
+            26.047508860645163
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 75,
+          "activity": "午餐后沿已开放公共街区观察街巷更新与河景，正式出口结束。",
+          "kind": "walk",
+          "match": "福州烟台山商业漫步街区",
+          "source_url": "https://www.openstreetmap.org/way/1180695468",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              119.30785460258062,
+              26.047508860645163
+            ],
+            "osm": "way/1180695468",
+            "version": 18,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1180695468"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "爱国路",
+          "to": "乐群路—麦园路",
+          "mode": "walk",
+          "instructions": "坡道与阶梯以现有详图和现场指示为准，学校/旧领馆内部不默认开放。"
+        },
+        {
+          "from": "麦园路",
+          "to": "漫步街区",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F04-yantai"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "福建博物院与福州西湖：文物到园林",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "福建博物院",
+          "osm": "way/311521711",
+          "coord": [
+            119.28211964782611,
+            26.097036834782607
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 180,
+          "activity": "湖头街96号，参观福建历史文化与工艺主题常设展，临展单核。",
+          "kind": "visit",
+          "source_url": "https://wlt.fujian.gov.cn/hdjl/wdxd/202502/t20250221_6766731.htm",
+          "map_number": "08",
+          "location": {
+            "coord": [
+              119.28211964782611,
+              26.097036834782607
+            ],
+            "osm": "way/311521711",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/311521711"
+          }
+        },
+        {
+          "name": "福州西湖公园",
+          "osm": "way/267914263",
+          "coord": [
+            119.28167291770835,
+            26.09824832083334
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "午餐后从公园正式入口入园沿开放环湖游路慢行，桥岛与岸线按OSM；非杭州西湖。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/way/267914263",
+          "map_number": "09",
+          "location": {
+            "coord": [
+              119.28167291770835,
+              26.09824832083334
+            ],
+            "osm": "way/267914263",
+            "version": 15,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/267914263"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "博物院正式出口",
+          "to": "西湖公园",
+          "mode": "walk",
+          "instructions": "两者相邻，走公开人行道及公园正式入口；馆址代表点不当作出口。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 5,
+      "title": "返杭州交通日",
+      "start": "福州酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 福州实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "福州／福州南（按实购车票选择）",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "第三完整日用省博+西湖取代重复老街。",
+    "去掉含糊的历史人物馆，明确二梅书屋与林则徐纪念馆；记录OSM北口误名风险。"
+  ],
+  "limitations": [
+    "林觉民故居和二梅书屋院门需要按运营导览确认；不把北口OSM“严复故居”直接当正确标注。"
+  ],
+  "points": [
+    {
+      "coord": [
+        119.29105190769232,
+        26.088447961538463
+      ],
+      "osm": "relation/11015502",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/relation/11015502",
+      "day": 2,
+      "name": "林觉民·冰心故居",
+      "number": "01",
+      "anchor_id": "relation/11015502"
+    },
+    {
+      "coord": [
+        119.2921458,
+        26.0851873
+      ],
+      "osm": "node/3076257117",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/3076257117",
+      "day": 2,
+      "name": "南后街—郎官巷—安民巷",
+      "number": "02",
+      "anchor_id": "node/3076257117"
+    },
+    {
+      "coord": [
+        119.29217173956715,
+        26.08787832027474
+      ],
+      "amap_id": "B0FFFFXE5H",
+      "raw_gcj02": [
+        119.296966,
+        26.084761
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=119.296966,26.084761&name=%E4%BA%8C%E6%A2%85%E4%B9%A6%E5%B1%8B%EF%BC%88%E7%A6%8F%E5%BB%BA%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A6%86%EF%BC%89&coordinate=gaode",
+      "day": 2,
+      "name": "二梅书屋（福建民俗博物馆）",
+      "number": "03",
+      "anchor_id": "B0FFFFXE5H"
+    },
+    {
+      "coord": [
+        119.29247977101622,
+        26.08148164428527
+      ],
+      "amap_id": "B024F03N1D",
+      "raw_gcj02": [
+        119.297274,
+        26.078369
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=119.297274,26.078369&name=%E6%9E%97%E5%88%99%E5%BE%90%E7%BA%AA%E5%BF%B5%E9%A6%86&coordinate=gaode",
+      "day": 2,
+      "name": "林则徐纪念馆",
+      "number": "04",
+      "anchor_id": "B024F03N1D"
+    },
+    {
+      "coord": [
+        119.3042591,
+        26.0460067
+      ],
+      "osm": "node/8582273317",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/8582273317",
+      "day": 3,
+      "name": "烟台山历史博物馆及公共街口",
+      "number": "05",
+      "anchor_id": "node/8582273317"
+    },
+    {
+      "coord": [
+        119.3041664,
+        26.0457792
+      ],
+      "osm": "node/3138571215",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/3138571215",
+      "day": 3,
+      "name": "爱国路—乐群路—麦园路",
+      "number": "06",
+      "anchor_id": "node/3138571215"
+    },
+    {
+      "coord": [
+        119.30785460258062,
+        26.047508860645163
+      ],
+      "osm": "way/1180695468",
+      "version": 18,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1180695468",
+      "day": 3,
+      "name": "烟台山商业漫步街区",
+      "number": "07",
+      "anchor_id": "way/1180695468"
+    },
+    {
+      "coord": [
+        119.28211964782611,
+        26.097036834782607
+      ],
+      "osm": "way/311521711",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/311521711",
+      "day": 4,
+      "name": "福建博物院",
+      "number": "08",
+      "anchor_id": "way/311521711"
+    },
+    {
+      "coord": [
+        119.28167291770835,
+        26.09824832083334
+      ],
+      "osm": "way/267914263",
+      "version": 15,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/267914263",
+      "day": 4,
+      "name": "福州西湖公园",
+      "number": "09",
+      "anchor_id": "way/267914263"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F04-museum-lake",
+      "title": "福建博物院外路网—福州西湖园路",
+      "day": 4,
+      "distance_m": 1147.439721940732,
+      "files": {
+        "svg": "journeys/F04-museum-lake.svg",
+        "gpx": "journeys/F04-museum-lake.gpx",
+        "json": "journeys/F04-museum-lake.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F04-full.svg",
+    "image": "journeys/F04-full.webp",
+    "width": 1400,
+    "height": 1500,
+    "bbox": [
+      119.27869598000001,
+      26.038970319999997,
+      119.31372422000001,
+      26.10494018
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.13632301366645666,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        661.5284873383271,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "福建博物院错时延时开放说明",
+      "url": "https://wlt.fujian.gov.cn/hdjl/wdxd/202502/t20250221_6766731.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 正文标注2024-12-02，不能把URL年份当发布时间。"
+    },
+    {
+      "title": "三坊七巷",
+      "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/lswh/200903/t20090320_129333.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "烟火气文化味松弛感——千年闽都的别样记忆",
+      "url": "https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/ltyfzc/cssy/202603/t20260331_7117473.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=119.287,26.081,119.297,26.091",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=119.299,26.034,119.312,26.047",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "三坊七巷名人及古建游线",
+      "url": "https://zx.fuzhou.gov.cn/zz/csfz/fzdt/202507/t20250708_5044660.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 官方检索全文，林觉民、二梅书屋、小黄楼等文化点；2025活动票不引用为现价。"
+    },
+    {
+      "title": "林则徐纪念馆",
+      "url": "https://www.gl.gov.cn/xjwz/rw/mdgl/gjms/202309/t20230924_4684368.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 林文忠公祠和史绩展，区别于OSM西北侧林则徐故居。"
+    },
+    {
+      "title": "二梅书屋官方馆址",
+      "url": "https://www.gl.gov.cn/xjwz/rw/mdgl/gjms/201609/t20160918_1840823.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 本次官方检索正文：郎官巷西段南侧新25号，可通塔巷；只据此认地址，不假定院门贯通每天开放。"
+    },
+    {
+      "title": "三坊七巷名人及古建游线",
+      "url": "https://zx.fuzhou.gov.cn/zz/csfz/fzdt/202507/t20250708_5044660.htm",
+      "checked_at": "2026-10-25",
+      "note": "官方检索全文，林觉民、二梅书屋、小黄楼等文化点；2025活动票不引用为现价。"
+    },
+    {
+      "title": "林则徐纪念馆",
+      "url": "https://www.gl.gov.cn/xjwz/rw/mdgl/gjms/202309/t20230924_4684368.htm",
+      "checked_at": "2026-10-25",
+      "note": "林文忠公祠和史绩展，区别于OSM西北侧林则徐故居。"
+    },
+    {
+      "title": "二梅书屋官方馆址",
+      "url": "https://www.gl.gov.cn/xjwz/rw/mdgl/gjms/201609/t20160918_1840823.htm",
+      "checked_at": "2026-10-25",
+      "note": "本次官方检索正文：郎官巷西段南侧新25号，可通塔巷；只据此认地址，不假定院门贯通每天开放。"
+    }
+  ]
+}

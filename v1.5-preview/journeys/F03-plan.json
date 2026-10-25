@@ -1,0 +1,504 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "4天=天游峰正式登山日+大红袍—慧苑寺—水帘洞茶谷穿行日；两端由景交接驳，不把茶乡写成泛泛品茶。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "武夷山酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 南平市／武夷山北（按实购车票选择）",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "武夷山实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "南平市／武夷山北（按实购车票选择）",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "天游峰：正式登山与九曲溪视野",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "天游峰景区入口",
+          "osm": "node/1864141439",
+          "coord": [
+            117.9430773,
+            27.6508265
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 40,
+          "activity": "景区车到天游站后按正式入口入园，确认上下山组织与返程景交。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/node/1864141439",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              117.9430773,
+              27.6508265
+            ],
+            "osm": "node/1864141439",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1864141439"
+          }
+        },
+        {
+          "name": "天游峰正式台阶与山顶观景",
+          "osm": "node/1864141524",
+          "coord": [
+            117.9483216,
+            27.6555135
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 200,
+          "activity": "按既有OSM环线登山，分段休息，观丹霞与九曲溪；不走岩壁捷径。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1864141524",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              117.9483216,
+              27.6555135
+            ],
+            "osm": "node/1864141524",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1864141524"
+          }
+        },
+        {
+          "name": "老君岩附近正式下山步道",
+          "osm": "node/1864141578",
+          "coord": [
+            117.9441189,
+            27.6582903
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 75,
+          "activity": "按景区开放导向下山回入口；若当天单向组织改变则依现场原路/指定下山线，不硬套环线。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1864141578",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              117.9441189,
+              27.6582903
+            ],
+            "osm": "node/1864141578",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1864141578"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "天游入口",
+          "to": "天游峰",
+          "mode": "walk",
+          "instructions": "成熟石阶，天气湿滑时不登顶。"
+        },
+        {
+          "from": "天游峰",
+          "to": "入口",
+          "mode": "walk",
+          "instructions": "以景区当日开放方向为准，老君岩段保留作详图。"
+        }
+      ],
+      "detail_keys": [
+        "F03"
+      ],
+      "exit": "回天游正式入口乘景区车，不从山脊直接切下到公路。",
+      "backup": "大雨/雷暴取消登高，改与第3天室内茶文化活动交换；不承诺台阶全天开放。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "大红袍—慧苑寺—水帘洞：岩骨花香茶谷",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "大红袍景区入口",
+          "osm": "node/3677248237",
+          "coord": [
+            117.9616028,
+            27.6705582
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 30,
+          "activity": "按门票及景交规定到正式入口，确认水帘洞端当日出口和末班景交；未确认两端组织则采用入口往返。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/node/3677248237",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              117.9616028,
+              27.6705582
+            ],
+            "osm": "node/3677248237",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/3677248237"
+          }
+        },
+        {
+          "name": "大红袍母树观景区",
+          "osm": "node/13255279501",
+          "coord": [
+            117.9552617,
+            27.6713739
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 45,
+          "activity": "沿正式步道到九龙窠母树观景区，观察茶园、岩壁与栽培空间，不踩茶垄。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/node/13255279501",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              117.9552617,
+              27.6713739
+            ],
+            "osm": "node/13255279501",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/13255279501"
+          }
+        },
+        {
+          "name": "慧苑寺附近岩骨花香步道",
+          "osm": "way/346052860",
+          "coord": [
+            117.95456377999999,
+            27.678003340000004
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 100,
+          "activity": "沿OSM岩骨花香成熟步道穿行茶谷，寺院是否入内另看开放，不在殿内计入徒步轨迹。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/way/346052860",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              117.95456377999999,
+              27.678003340000004
+            ],
+            "osm": "way/346052860",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/346052860"
+          }
+        },
+        {
+          "name": "水帘洞正式游路与出口",
+          "osm": "node/1864142193",
+          "coord": [
+            117.9659734,
+            27.6821541
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "依开放导向到水帘洞观景区，瀑布随水情；水帘洞端按景交组织出园，不沿溪床走。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1864142193",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              117.9659734,
+              27.6821541
+            ],
+            "osm": "node/1864142193",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1864142193"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "大红袍入口",
+          "mode": "car",
+          "instructions": "先到景区服务入口，按票种乘官方景交到大红袍站。"
+        },
+        {
+          "from": "大红袍入口",
+          "to": "母树观景区",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "母树观景区",
+          "to": "慧苑寺—水帘洞",
+          "mode": "official_walk",
+          "instructions": "主干依据OSM way/363556868及共享节点，不按攻略里程强连；具体路段通过本轮图算后展示。",
+          "evidence_url": "https://zhuanti.mct.gov.cn/xcss2024_shjlzzxc/fujian/detail/6822.html"
+        },
+        {
+          "from": "水帘洞出口",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "按景区指定水帘洞站乘官方景交出园，再汽车返回。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "如一端步道临时关闭，回到已走入口原路折返；不要绕溪床、茶田或未核山径穿越。",
+      "backup": "雨大、落石预警或未确认贯通开放：仅大红袍母树正式步道往返，茶谷完整穿行取消，不以购物补行程。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "返杭州交通日",
+      "start": "武夷山酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 武夷山实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "南平市／武夷山北（按实购车票选择）",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "第三天明确大红袍—慧苑寺—水帘洞茶谷线路，不再泛写任一茶乡。",
+    "新增OSM茶区底图，路线由路网图算；不把攻略4.5km直接当实测GPX。"
+  ],
+  "limitations": [
+    "两端景交、单向/封闭组织和水帘洞水情须出发查景区新公告；完整穿行以本轮OSM拓扑验证及现场开放共同为条件。"
+  ],
+  "points": [
+    {
+      "coord": [
+        117.9430773,
+        27.6508265
+      ],
+      "osm": "node/1864141439",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1864141439",
+      "day": 2,
+      "name": "天游峰景区入口",
+      "number": "01",
+      "anchor_id": "node/1864141439"
+    },
+    {
+      "coord": [
+        117.9483216,
+        27.6555135
+      ],
+      "osm": "node/1864141524",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1864141524",
+      "day": 2,
+      "name": "天游峰正式台阶与山顶观景",
+      "number": "02",
+      "anchor_id": "node/1864141524"
+    },
+    {
+      "coord": [
+        117.9441189,
+        27.6582903
+      ],
+      "osm": "node/1864141578",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1864141578",
+      "day": 2,
+      "name": "老君岩附近正式下山步道",
+      "number": "03",
+      "anchor_id": "node/1864141578"
+    },
+    {
+      "coord": [
+        117.9616028,
+        27.6705582
+      ],
+      "osm": "node/3677248237",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/3677248237",
+      "day": 3,
+      "name": "大红袍景区入口",
+      "number": "04",
+      "anchor_id": "node/3677248237"
+    },
+    {
+      "coord": [
+        117.9552617,
+        27.6713739
+      ],
+      "osm": "node/13255279501",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/13255279501",
+      "day": 3,
+      "name": "大红袍母树观景区",
+      "number": "05",
+      "anchor_id": "node/13255279501"
+    },
+    {
+      "coord": [
+        117.95456377999999,
+        27.678003340000004
+      ],
+      "osm": "way/346052860",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/346052860",
+      "day": 3,
+      "name": "慧苑寺附近岩骨花香步道",
+      "number": "06",
+      "anchor_id": "way/346052860"
+    },
+    {
+      "coord": [
+        117.9659734,
+        27.6821541
+      ],
+      "osm": "node/1864142193",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1864142193",
+      "day": 3,
+      "name": "水帘洞正式游路与出口",
+      "number": "07",
+      "anchor_id": "node/1864142193"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F03-tea-full",
+      "title": "大红袍—慧苑寺—水帘洞茶谷",
+      "day": 3,
+      "distance_m": 3586.5525711758014,
+      "files": {
+        "svg": "journeys/F03-tea-full.svg",
+        "gpx": "journeys/F03-tea-full.gpx",
+        "json": "journeys/F03-tea-full.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F03-full.svg",
+    "image": "journeys/F03-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      117.93985576,
+      27.647067188,
+      117.96907024,
+      27.685913412
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.2315079614006896,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        566.9656703025817,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "武夷山景区官网",
+      "url": "https://www.wyschina.com/cn/",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 官方公告与票务查询入口；不使用旧攻略开放时间作为当天保证。"
+    },
+    {
+      "title": "天游峰",
+      "url": "https://wysgjgy.fujian.gov.cn/gygk/gydh/201803/t20180322_5511947.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "福建·武夷山春季喊山采茶民俗体验之旅",
+      "url": "https://zhuanti.mct.gov.cn/xcss2024_shjlzzxc/fujian/detail/6822.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=117.942,27.647,117.958,27.663",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "文旅部：武夷山茶主题游线",
+      "url": "https://zhuanti.mct.gov.cn/xcss2024_shjlzzxc/fujian/detail/6822.html",
+      "checked_at": "2026-10-25",
+      "note": "本次实读，大红袍—岩骨花香以及香江茗苑是官方推荐主题点；不把春季采茶常态化。"
+    }
+  ]
+}

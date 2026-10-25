@@ -1,0 +1,63 @@
+{
+  "provider": "高德地图步行规划",
+  "retrieved_at": "2026-10-25T07:04:46.923Z",
+  "crs": "GCJ-02",
+  "endpoints": {
+    "origin": "106.5736583,29.5527865",
+    "destination": "106.5770574,29.5572244"
+  },
+  "endpoint_source": [
+    "OSM way/312090246 north entrance",
+    "OSM node/12076308918 monument"
+  ],
+  "result": {
+    "route": {
+      "origin": "106.5736583,29.5527865",
+      "destination": "106.5770574,29.5572244",
+      "paths": [
+        {
+          "distance": 705,
+          "duration": 564,
+          "steps": [
+            {
+              "instruction": "沿中兴路向东步行14米向右前方行走",
+              "road": "中兴路",
+              "distance": 14,
+              "orientation": "东",
+              "duration": 11
+            },
+            {
+              "instruction": "向东南步行77米左转",
+              "road": "",
+              "distance": 77,
+              "orientation": "东南",
+              "duration": 62
+            },
+            {
+              "instruction": "向北步行120米右转",
+              "road": "",
+              "distance": 120,
+              "orientation": "北",
+              "duration": 96
+            },
+            {
+              "instruction": "沿步行街向东北步行493米右转",
+              "road": "步行街",
+              "distance": 493,
+              "orientation": "东北",
+              "duration": 394
+            },
+            {
+              "instruction": "向南步行1米到达目的地",
+              "road": "",
+              "distance": 1,
+              "orientation": "南",
+              "duration": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "limitation": "通勤方案而非现场调查；本响应不含几何polyline，不凭直线输出GPX。"
+}

@@ -1,0 +1,281 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "一日紧凑水乡线：四座古桥与两处文化展馆；0.84km核心桥街是局部，院落参观和抵达返程单列，不凑3–5km。",
+  "days": [
+    {
+      "day": 1,
+      "title": "新市：水街古桥与木雕、镇史",
+      "start": "杭与城北区",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "家→新市",
+          "minutes": 120,
+          "activity": "自驾到镇外公共停车，步行进入核心街区",
+          "kind": "transport"
+        },
+        {
+          "name": "望仙桥—驾仙桥—通仙桥",
+          "minutes": 70,
+          "activity": "以望仙桥为起点沿公开桥街看驾仙桥、通仙桥与西河口水街，桥上停留避让居民",
+          "kind": "walk",
+          "osm": "way/255994538",
+          "coord": [
+            120.2844228,
+            30.616008450000002
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.zjzx.gov.cn/zxyw/content_98104",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.2844228,
+              30.616008450000002
+            ],
+            "osm": "way/255994538",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/255994538"
+          }
+        },
+        {
+          "name": "明清木雕馆",
+          "minutes": 40,
+          "activity": "重点看木雕构件和地方工艺；未开放则只看沿街建筑",
+          "kind": "visit",
+          "osm": "node/5873563660",
+          "coord": [
+            120.2844751,
+            30.6160862
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://zjrb.zjol.com.cn/html/2007-04/10/content_96074.htm",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.2844751,
+              30.6160862
+            ],
+            "osm": "node/5873563660",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5873563660"
+          }
+        },
+        {
+          "name": "镇史馆／德源当",
+          "minutes": 40,
+          "activity": "按开放选择镇史展线，理解古镇水运和当铺历史",
+          "kind": "visit",
+          "osm": "node/5873599374",
+          "coord": [
+            120.28497,
+            30.6160896
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://zjrb.zjol.com.cn/html/2007-04/10/content_96074.htm",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.28497,
+              30.6160896
+            ],
+            "osm": "node/5873599374",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5873599374"
+          }
+        },
+        {
+          "name": "太平桥与北部水街",
+          "minutes": 45,
+          "activity": "午后从北部水街走回，观察不同桥形与沿河民居",
+          "kind": "walk",
+          "osm": "way/620771991",
+          "coord": [
+            120.28395474999999,
+            30.61838165
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.zjzx.gov.cn/zxyw/content_98104",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              120.28395474999999,
+              30.61838165
+            ],
+            "osm": "way/620771991",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/620771991"
+          }
+        },
+        {
+          "name": "新市→家",
+          "minutes": 120,
+          "activity": "午餐和茶糕后取车返程",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "停车场",
+          "to": "望仙桥",
+          "mode": "walk",
+          "instructions": "实际停车场至水街用地图导航，不把古镇代表点当门"
+        },
+        {
+          "from": "望仙桥",
+          "to": "驾仙桥—通仙桥—太平桥",
+          "mode": "walk",
+          "instructions": "沿N02核心桥街详图；文化馆分别从公共街面进出"
+        },
+        {
+          "from": "古镇",
+          "to": "家",
+          "mode": "car",
+          "instructions": "15:30前后取车，抵达时间随路况"
+        }
+      ],
+      "detail_keys": [
+        "N02"
+      ],
+      "exit": "太平桥/镇外公路可提前取车返家",
+      "backup": "馆未开放时改桥街建筑观察，将游玩压缩为半天，不靠喝茶补满全天"
+    }
+  ],
+  "changes": [
+    "把含糊的“选一个馆”改成OSM可定位木雕馆、镇史馆",
+    "承认这是古镇轻量一日，非长距离徒步"
+  ],
+  "limitations": [
+    "2021及2007官方/报刊资料不证明文化馆2026当日开放；出发前核实"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.2844228,
+        30.616008450000002
+      ],
+      "osm": "way/255994538",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/255994538",
+      "day": 1,
+      "name": "望仙桥—驾仙桥—通仙桥",
+      "number": "01",
+      "anchor_id": "way/255994538"
+    },
+    {
+      "coord": [
+        120.2844751,
+        30.6160862
+      ],
+      "osm": "node/5873563660",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5873563660",
+      "day": 1,
+      "name": "明清木雕馆",
+      "number": "02",
+      "anchor_id": "node/5873563660"
+    },
+    {
+      "coord": [
+        120.28497,
+        30.6160896
+      ],
+      "osm": "node/5873599374",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5873599374",
+      "day": 1,
+      "name": "镇史馆／德源当",
+      "number": "03",
+      "anchor_id": "node/5873599374"
+    },
+    {
+      "coord": [
+        120.28395474999999,
+        30.61838165
+      ],
+      "osm": "way/620771991",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/620771991",
+      "day": 1,
+      "name": "太平桥与北部水街",
+      "number": "04",
+      "anchor_id": "way/620771991"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "N02-cultureloop",
+      "title": "新市 · 古桥与镇史、木雕、丝行慢游",
+      "day": 1,
+      "distance_m": 625.8393622451975,
+      "files": {
+        "svg": "journeys/N02-cultureloop.svg",
+        "gpx": "journeys/N02-cultureloop.gpx",
+        "json": "journeys/N02-cultureloop.json"
+      },
+      "issues": []
+    },
+    {
+      "key": "N02-culture",
+      "title": "新市水街与文化馆外公共街巷",
+      "day": 1,
+      "distance_m": 429.02664837477084,
+      "files": {
+        "svg": "journeys/N02-culture.svg",
+        "gpx": "journeys/N02-culture.gpx",
+        "json": "journeys/N02-culture.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/N02-full.svg",
+    "image": "journeys/N02-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.28186290000001,
+      30.6133519,
+      120.28718649999999,
+      30.6203923
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 1.2773720422643302,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        574.6315513089435,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "浙江省政协：新市历史街区与太平桥",
+      "url": "https://www.zjzx.gov.cn/zxyw/content_98104",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮打开正文；支持古镇街区与古桥"
+    },
+    {
+      "title": "浙江日报：新市文史馆、木雕馆",
+      "url": "https://zjrb.zjol.com.cn/html/2007-04/10/content_96074.htm",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮搜索可读正文；老资料，仅支持设施历史存在"
+    }
+  ]
+}

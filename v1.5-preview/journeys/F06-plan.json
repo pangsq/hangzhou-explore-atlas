@@ -1,0 +1,475 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "4天2个完整日：省博新馆与省文化中心；滕王阁—万寿宫—珠宝街老城另一天。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "南昌酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 南昌／南昌西（按实购车票选择）",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "南昌实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "南昌／南昌西（按实购车票选择）",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "省博新馆与省文化中心",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "江西省博物馆新馆",
+          "osm": "way/971091001",
+          "coord": [
+            115.87672230000001,
+            28.709202300000005
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 210,
+          "activity": "赣江北大道698号，重点看江西古代文明与陶瓷工艺主题；不去旧馆代表点。",
+          "kind": "visit",
+          "match": "江西省博物馆",
+          "file": "nanchang-raw",
+          "source_url": "https://www.openstreetmap.org/way/971091001",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              115.87672230000001,
+              28.709202300000005
+            ],
+            "osm": "way/971091001",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/971091001"
+          }
+        },
+        {
+          "name": "江西省图书馆新馆",
+          "osm": "way/971091005",
+          "coord": [
+            115.87597054285713,
+            28.707547085714285
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "午餐后参观对公众开放的阅读/地方文献展示空间，具体展览不预先保证。",
+          "kind": "visit",
+          "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/9e729ce594e948b08a810ecec13530cb.shtml",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              115.87597054285713,
+              28.707547085714285
+            ],
+            "osm": "way/971091005",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/971091005"
+          }
+        },
+        {
+          "name": "江西省文化中心公共空间",
+          "osm": "way/1355322072",
+          "coord": [
+            115.8764703875,
+            28.7079594375
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 45,
+          "activity": "从正式出口走文化中心广场，观察三馆建筑，不绕到机动车道为凑里程。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/way/1355322072",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              115.8764703875,
+              28.7079594375
+            ],
+            "osm": "way/1355322072",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1355322072"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "省博新馆",
+          "to": "省图新馆",
+          "mode": "walk",
+          "instructions": "沿文化中心合法公共步道；博物馆与图书馆内部不绘伪造楼层轨迹。"
+        },
+        {
+          "from": "省图",
+          "to": "文化中心公共空间",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F06"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "滕王阁—万寿宫老城",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "滕王阁景区",
+          "minutes": 150,
+          "activity": "从正式游客入口按票务参观阁体与开放展陈；不以外部道路代表登阁动线。",
+          "kind": "visit",
+          "source_url": "https://www.nc.gov.cn/ncszf/jrnca/202605/ff9863237980460eae13f459c1e85736.shtml",
+          "osm": "way/225385755",
+          "coord": [
+            115.87561276,
+            28.68402342
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              115.87561276,
+              28.68402342
+            ],
+            "osm": "way/225385755",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/225385755"
+          }
+        },
+        {
+          "name": "万寿宫历史文化街区",
+          "osm": "way/563801477",
+          "coord": [
+            115.8820585166667,
+            28.677458283333333
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "午餐后汽车接驳到老城，先读街区和会馆主题公共展陈，园内具体展厅按开放。",
+          "kind": "visit",
+          "match": "万寿宫历史文化街区",
+          "source_url": "https://www.openstreetmap.org/way/563801477",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              115.8820585166667,
+              28.677458283333333
+            ],
+            "osm": "way/563801477",
+            "version": 7,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/563801477"
+          }
+        },
+        {
+          "name": "翘步街—万寿宫巷—珠宝街—中山路",
+          "osm": "node/2320462758",
+          "coord": [
+            115.8876756,
+            28.6791015
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "沿既有OSM老城详图串看街巷和骑楼商业，末端正常街口结束。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/2320462758",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              115.8876756,
+              28.6791015
+            ],
+            "osm": "node/2320462758",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/2320462758"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "滕王阁正式出口",
+          "to": "万寿宫街区",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "万寿宫",
+          "to": "珠宝街—中山路",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F06-old"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "返杭州交通日",
+      "start": "南昌酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 南昌实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "南昌／南昌西（按实购车票选择）",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "用省图与省文化中心明确省博下午，不把外围道路折返算旅游目标。",
+    "滕王阁与万寿宫两处具体主活动，跨段交通单列。"
+  ],
+  "limitations": [
+    "滕王阁主楼与景区范围已补OSM，但入口、园内登阁楼层及实际开放游线仍依官方导览；不编造室内GPX。"
+  ],
+  "points": [
+    {
+      "coord": [
+        115.87672230000001,
+        28.709202300000005
+      ],
+      "osm": "way/971091001",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/971091001",
+      "day": 2,
+      "name": "江西省博物馆新馆",
+      "number": "01",
+      "anchor_id": "way/971091001"
+    },
+    {
+      "coord": [
+        115.87597054285713,
+        28.707547085714285
+      ],
+      "osm": "way/971091005",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/971091005",
+      "day": 2,
+      "name": "江西省图书馆新馆",
+      "number": "02",
+      "anchor_id": "way/971091005"
+    },
+    {
+      "coord": [
+        115.8764703875,
+        28.7079594375
+      ],
+      "osm": "way/1355322072",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1355322072",
+      "day": 2,
+      "name": "江西省文化中心公共空间",
+      "number": "03",
+      "anchor_id": "way/1355322072"
+    },
+    {
+      "coord": [
+        115.87561276,
+        28.68402342
+      ],
+      "osm": "way/225385755",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/225385755",
+      "day": 3,
+      "name": "滕王阁景区",
+      "number": "04",
+      "anchor_id": "way/225385755"
+    },
+    {
+      "coord": [
+        115.8820585166667,
+        28.677458283333333
+      ],
+      "osm": "way/563801477",
+      "version": 7,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/563801477",
+      "day": 3,
+      "name": "万寿宫历史文化街区",
+      "number": "05",
+      "anchor_id": "way/563801477"
+    },
+    {
+      "coord": [
+        115.8876756,
+        28.6791015
+      ],
+      "osm": "node/2320462758",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/2320462758",
+      "day": 3,
+      "name": "翘步街—万寿宫巷—珠宝街—中山路",
+      "number": "06",
+      "anchor_id": "node/2320462758"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F06-cultural",
+      "title": "江西省博新馆—省图新馆公共片区",
+      "day": 2,
+      "distance_m": 222.60940008909648,
+      "files": {
+        "svg": "journeys/F06-cultural.svg",
+        "gpx": "journeys/F06-cultural.gpx",
+        "json": "journeys/F06-cultural.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F06-full.svg",
+    "image": "journeys/F06-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      115.87209940000001,
+      28.671391908,
+      115.88967559999999,
+      28.718644092
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.19032369226265505,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        736.8580141660124,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "江西省博物馆9月1日起恢复常规开放及免预约",
+      "url": "https://jx.ifeng.com/c/8vsa5C9p9i5",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 近期转载，官网本次403；不声称已读官方页面。"
+    },
+    {
+      "title": "南昌历史建筑与历史文化街区管理办法解读",
+      "url": "https://www.nc.gov.cn/ncszf/xwfbhjd/202509/42ee511ce3844f3e9b6e9fdb6cceae81.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "西湖区A级旅游景区基本情况",
+      "url": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "今日南昌：博物馆与老城文化采风",
+      "url": "https://www.nc.gov.cn/ncszf/jrnca/202605/ff9863237980460eae13f459c1e85736.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=115.863,28.698,115.893,28.723",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=115.881,28.669,115.892,28.68",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "江西省文化中心：省图、省博新馆",
+      "url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/9e729ce594e948b08a810ecec13530cb.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 南昌文旅局历史开馆资料；证明三馆片区关系，不作为当前开放时刻保证。"
+    },
+    {
+      "title": "江西省文化中心：省图、省博新馆",
+      "url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/9e729ce594e948b08a810ecec13530cb.shtml",
+      "checked_at": "2026-10-25",
+      "note": "南昌文旅局历史开馆资料；证明三馆片区关系，不作为当前开放时刻保证。"
+    }
+  ]
+}

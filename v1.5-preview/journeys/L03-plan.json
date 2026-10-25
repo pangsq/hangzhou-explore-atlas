@@ -1,0 +1,244 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "桐桥古道往返3.095km，加上下口和寺前接驳，主方案含径山寺参观；不去花海。",
+  "days": [
+    {
+      "day": 1,
+      "title": "桐桥古道—径山寺—原路下山",
+      "start": "桐桥停车场映射闸口",
+      "end": "同一停车场映射闸口",
+      "visits": [
+        {
+          "name": "停车场到古道下口",
+          "minutes": 20,
+          "activity": "08:40–09:00 按L03-LOWER 239m接古道。",
+          "kind": "walk",
+          "osm": "node/5237675195",
+          "coord": [
+            119.775755,
+            30.3860621
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              119.775755,
+              30.3860621
+            ],
+            "osm": "node/5237675195",
+            "version": 2,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/5237675195"
+          }
+        },
+        {
+          "name": "径山古道林间上行",
+          "minutes": 90,
+          "activity": "09:00–10:30 桐桥下口→古道中段→古道上口；石阶缓行，辨认茶园与竹林。",
+          "kind": "visit",
+          "osm": "node/8568946472",
+          "coord": [
+            119.7639885,
+            30.3821449
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              119.7639885,
+              30.3821449
+            ],
+            "osm": "node/8568946472",
+            "version": 3,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/8568946472"
+          }
+        },
+        {
+          "name": "寺前接驳",
+          "minutes": 20,
+          "activity": "10:30–10:50 按L03-UPPER 332m至寺前步道终点，再按现场游客检票指示入寺。",
+          "kind": "walk",
+          "osm": "node/9831250162",
+          "coord": [
+            119.7610336,
+            30.3821511
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              119.7610336,
+              30.3821511
+            ],
+            "osm": "node/9831250162",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/9831250162"
+          }
+        },
+        {
+          "name": "径山寺禅茶文化参观",
+          "minutes": 90,
+          "activity": "10:50–12:20 在已取得当日所需票务/预约且开放前提下，按公众导览走主要殿堂与寺院庭院；不安排未预约茶宴、登楼或宗教活动。",
+          "kind": "visit",
+          "source_url": "https://z.hangzhou.com.cn/2022/syjy/content/content_8420770.html",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "沿古道返回桐桥",
+          "minutes": 105,
+          "activity": "12:20–14:05 由公众出口回寺前路，按L03-UPPER反走及古道原路下山，不走车行盘山路。",
+          "kind": "walk",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "桐桥山下正餐",
+          "minutes": 60,
+          "activity": "14:05–15:05 山下正餐、补水后取车；全日不另拼第二景区。",
+          "kind": "visit"
+        }
+      ],
+      "connections": [
+        {
+          "from": "停车场映射闸口",
+          "to": "桐桥古道下口",
+          "mode": "walk",
+          "instructions": "L03-LOWER去程239m，返程同路。"
+        },
+        {
+          "from": "桐桥古道下口",
+          "to": "古道上口",
+          "mode": "walk",
+          "instructions": "JINGSHAN-detail主图含上下山往返3.095km。"
+        },
+        {
+          "from": "古道上口",
+          "to": "寺前步道终点",
+          "mode": "walk",
+          "instructions": "L03-UPPER单程332m；终点不是认证验票口。"
+        },
+        {
+          "from": "寺前步道终点",
+          "to": "径山寺公众入口",
+          "mode": "official_walk",
+          "instructions": "按寺前游客指示和当日门票组织，不以建筑中心直线接入。"
+        }
+      ],
+      "detail_keys": [
+        "JINGSHAN-detail",
+        "L03-LOWER",
+        "L03-UPPER"
+      ],
+      "exit": "15:05后按原停车点汽车返家，日间完成山路。",
+      "backup": "寺院未获预约或临时关闭：明确降为古道往返半日，不称寺院一日游；山路停开则整条改期。",
+      "planned_minutes": 385
+    }
+  ],
+  "changes": [
+    "明确主图3.095km与两个局部接驳分工",
+    "主方案寺院参观90分钟，不能用茶宴填空"
+  ],
+  "limitations": [
+    "寺前步道至当日检票口按现场组织，未取得精确验票门几何。"
+  ],
+  "points": [
+    {
+      "coord": [
+        119.775755,
+        30.3860621
+      ],
+      "osm": "node/5237675195",
+      "version": 2,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/5237675195",
+      "day": 1,
+      "name": "停车场到古道下口",
+      "number": "01",
+      "anchor_id": "node/5237675195"
+    },
+    {
+      "coord": [
+        119.7639885,
+        30.3821449
+      ],
+      "osm": "node/8568946472",
+      "version": 3,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/8568946472",
+      "day": 1,
+      "name": "径山古道林间上行",
+      "number": "02",
+      "anchor_id": "node/8568946472"
+    },
+    {
+      "coord": [
+        119.7610336,
+        30.3821511
+      ],
+      "osm": "node/9831250162",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/9831250162",
+      "day": 1,
+      "name": "寺前接驳",
+      "number": "03",
+      "anchor_id": "node/9831250162"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L03-full.svg",
+    "image": "journeys/L03-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      119.75903360000001,
+      30.3796816,
+      119.777755,
+      30.388073799999997
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.924372135985605,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        288.7015131070295
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "径山村｜杭州文旅",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/5/10/art_1229505585_58940515.html",
+      "type": "primary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州宋韵迹忆：径山古道",
+      "url": "https://z.hangzhou.com.cn/2022/syjy/content/content_8420770.html",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州宋韵迹忆：径山古道",
+      "url": "https://z.hangzhou.com.cn/2022/syjy/content/content_8420770.html",
+      "checked_at": "2026-10-25",
+      "note": "支持桐桥至寺前的古道脉络；报道长度与OSM所选段范围不同，不混算。"
+    }
+  ]
+}

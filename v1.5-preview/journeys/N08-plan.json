@@ -1,0 +1,300 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "绍兴两日文化全程：鲁迅故里→仓桥直街；次日汽车到兰亭，鹅池、碑亭、书法馆按官方导览慢看，不把两张短图拼成跨城徒步。",
+  "days": [
+    {
+      "day": 1,
+      "title": "鲁迅故里展线与仓桥水巷",
+      "start": "杭与城北区",
+      "end": "绍兴老城区住宿",
+      "visits": [
+        {
+          "name": "家→绍兴老城",
+          "minutes": 180,
+          "activity": "自驾到停车区并寄存行李，午餐后按预约入故里",
+          "kind": "transport"
+        },
+        {
+          "name": "鲁迅故里与三味书屋",
+          "minutes": 150,
+          "activity": "按预约参观故居、祖居、纪念展线中的可开放重点，不把地铁站房当入口",
+          "kind": "visit",
+          "osm": "node/10561425889",
+          "coord": [
+            120.5816703,
+            29.9940238
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://ct.zj.gov.cn/art/2024/3/20/art_1652992_59019865.html",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.5816703,
+              29.9940238
+            ],
+            "osm": "node/10561425889",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/10561425889"
+          }
+        },
+        {
+          "name": "仓桥直街",
+          "minutes": 75,
+          "activity": "沿水巷看台门、石桥与临河民居，再正式晚餐",
+          "kind": "walk",
+          "osm": "way/242007447",
+          "coord": [
+            120.57345724999999,
+            29.99994151111111
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://ct.zj.gov.cn/art/2024/3/20/art_1652992_59019865.html",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.57345724999999,
+              29.99994151111111
+            ],
+            "osm": "way/242007447",
+            "version": 6,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/242007447"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "鲁迅故里游客中心",
+          "mode": "walk",
+          "instructions": "实际酒店位置导航"
+        },
+        {
+          "from": "鲁迅故里",
+          "to": "仓桥直街",
+          "mode": "walk",
+          "instructions": "使用N08约1.92km公共街巷段，馆内展线另计"
+        }
+      ],
+      "detail_keys": [
+        "N08"
+      ],
+      "exit": "仓桥直街公共路口汽车回酒店",
+      "backup": "故里未约上先调时间；暴雨取消水巷久走"
+    },
+    {
+      "day": 2,
+      "title": "兰亭书法园林与返程",
+      "start": "绍兴住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "老城→兰亭",
+          "minutes": 60,
+          "activity": "汽车转场，兰亭在老城西南，不步行公路凑里程",
+          "kind": "transport",
+          "source_url": "https://www.sxlanting.com/scenic.html"
+        },
+        {
+          "name": "鹅池与兰亭碑亭",
+          "minutes": 45,
+          "activity": "读碑和看园林水景",
+          "kind": "visit",
+          "osm": "node/12020425222",
+          "coord": [
+            120.4963544,
+            29.9295704
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.sxlanting.com/scenic.html",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.4963544,
+              29.9295704
+            ],
+            "osm": "node/12020425222",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/12020425222"
+          }
+        },
+        {
+          "name": "曲水流觞—右军祠—碑林",
+          "minutes": 60,
+          "activity": "依官方园内导览体会兰亭集序与书法空间；未有精确几何只列参观次序",
+          "kind": "visit",
+          "source_url": "https://www.sxlanting.com/scenic.html",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "兰亭书法博物馆",
+          "minutes": 60,
+          "activity": "看兰亭序专题与书法展陈，馆内不绘虚假GPS线",
+          "kind": "visit",
+          "osm": "way/1297379283",
+          "coord": [
+            120.49477075555556,
+            29.92684986666667
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.sxlanting.com/scenic.html",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              120.49477075555556,
+              29.92684986666667
+            ],
+            "osm": "way/1297379283",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1297379283"
+          }
+        },
+        {
+          "name": "兰亭→家",
+          "minutes": 210,
+          "activity": "午餐并取行李，自驾返家",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "绍兴老城",
+          "to": "兰亭",
+          "mode": "car",
+          "instructions": "到正式游客中心与停车场"
+        },
+        {
+          "from": "鹅池",
+          "to": "碑亭—曲水—右军祠—碑林—书法博物馆",
+          "mode": "official_walk",
+          "instructions": "官方明确参观空间次序；N08-lanting是可核园路骨架，未映射内线按现场导览",
+          "evidence_url": "https://www.sxlanting.com/scenic.html"
+        },
+        {
+          "from": "兰亭",
+          "to": "酒店取行李→家",
+          "mode": "car",
+          "instructions": "如已提前退房可直接返家"
+        }
+      ],
+      "detail_keys": [
+        "N08-lanting"
+      ],
+      "exit": "从官方园路至景区出口，不穿山路",
+      "backup": "暴雨取消竹林久走，优先书法馆；闭馆当天缩短参观"
+    }
+  ],
+  "changes": [
+    "补充兰亭具体游览内容与停留，不把0.97km园路等同30分钟走完",
+    "明确老城与兰亭汽车转场"
+  ],
+  "limitations": [
+    "部分园内文化点无OSM独立锚点，按官方次序不伪造坐标",
+    "鲁迅官方页本轮超时，沿用项目旧官方存证，预约实时核"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.5816703,
+        29.9940238
+      ],
+      "osm": "node/10561425889",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/10561425889",
+      "day": 1,
+      "name": "鲁迅故里与三味书屋",
+      "number": "01",
+      "anchor_id": "node/10561425889"
+    },
+    {
+      "coord": [
+        120.57345724999999,
+        29.99994151111111
+      ],
+      "osm": "way/242007447",
+      "version": 6,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/242007447",
+      "day": 1,
+      "name": "仓桥直街",
+      "number": "02",
+      "anchor_id": "way/242007447"
+    },
+    {
+      "coord": [
+        120.4963544,
+        29.9295704
+      ],
+      "osm": "node/12020425222",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/12020425222",
+      "day": 2,
+      "name": "鹅池与兰亭碑亭",
+      "number": "03",
+      "anchor_id": "node/12020425222"
+    },
+    {
+      "coord": [
+        120.49477075555556,
+        29.92684986666667
+      ],
+      "osm": "way/1297379283",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1297379283",
+      "day": 2,
+      "name": "兰亭书法博物馆",
+      "number": "04",
+      "anchor_id": "way/1297379283"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/N08-full.svg",
+    "image": "journeys/N08-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      120.48595653111111,
+      29.91805850666667,
+      120.59172722444445,
+      30.00890256
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.09899613454450838,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        395.6532995034583,
+        219.99999999999994
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "兰亭景区官方概况",
+      "url": "https://www.sxlanting.com/scenic.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮打开正文，支持鹅池、曲水、右军祠、碑林、书法馆游览次序"
+    },
+    {
+      "title": "浙江文旅：鲁迅故里与仓桥直街",
+      "url": "https://ct.zj.gov.cn/art/2024/3/20/art_1652992_59019865.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "项目旧官方存证；本轮超时"
+    }
+  ]
+}

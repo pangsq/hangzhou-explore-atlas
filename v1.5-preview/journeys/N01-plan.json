@@ -1,0 +1,335 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "两天按南部宅园—河街—百间楼分片游览，重点是两座宅园和水乡建筑，不将2.22km已核街巷冒充两天步行总长。",
+  "days": [
+    {
+      "day": 1,
+      "title": "抵达南浔：园林、藏书楼与南部河街",
+      "start": "杭与城北区",
+      "end": "南浔古镇外围住宿",
+      "visits": [
+        {
+          "name": "杭与城北区→南浔",
+          "minutes": 180,
+          "activity": "自驾抵达、停车、寄存行李；车程含进出城缓冲",
+          "kind": "transport"
+        },
+        {
+          "name": "小莲庄",
+          "minutes": 90,
+          "activity": "看荷池、回廊、碑廊和内外园层次；园内按开放导览",
+          "kind": "visit",
+          "osm": "node/2971565687",
+          "coord": [
+            120.4251431,
+            30.8725014
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://daj.huzhou.gov.cn/dawh/rwls/msp/20081119/i3926542.html",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.4251431,
+              30.8725014
+            ],
+            "osm": "node/2971565687",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/2971565687"
+          }
+        },
+        {
+          "name": "嘉业藏书楼",
+          "minutes": 60,
+          "activity": "看藏书楼建筑与庭院；与小莲庄隔溪相望，独立核票务",
+          "kind": "visit",
+          "osm": "node/2971565703",
+          "coord": [
+            120.4242339,
+            30.8721138
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://daj.huzhou.gov.cn/dawh/rwls/msp/20081119/i3926542.html",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.4242339,
+              30.8721138
+            ],
+            "osm": "node/2971565703",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/2971565703"
+          }
+        },
+        {
+          "name": "广惠桥—南部河街",
+          "minutes": 60,
+          "activity": "沿公共河街看古桥、水埠与骑楼，晚餐后可在同片区再短走",
+          "kind": "walk",
+          "osm": "way/472490174",
+          "coord": [
+            120.42621495,
+            30.87668195
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://daj.huzhou.gov.cn/dawh/rwls/msp/20081119/i3926542.html",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.42621495,
+              30.87668195
+            ],
+            "osm": "way/472490174",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/472490174"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "家",
+          "to": "南浔古镇外围停车场",
+          "mode": "car",
+          "instructions": "沿导航到可用停车场；停车位不是景区门"
+        },
+        {
+          "from": "小莲庄",
+          "to": "嘉业藏书楼",
+          "mode": "official_walk",
+          "instructions": "相邻宅园分别进出，桥和检票入口按现场导览；不直穿收费建筑",
+          "evidence_url": "https://daj.huzhou.gov.cn/dawh/rwls/msp/20081119/i3926542.html"
+        },
+        {
+          "from": "宅园区",
+          "to": "广惠桥",
+          "mode": "walk",
+          "instructions": "使用N01公共街巷详图，代表点至园门单列"
+        }
+      ],
+      "detail_keys": [
+        "N01"
+      ],
+      "exit": "广惠桥附近公共街道返回外围停车/酒店",
+      "backup": "大雨改宅园室内展陈；两处均不可入则不以沿河久站替代，缩短行程"
+    },
+    {
+      "day": 2,
+      "title": "百间楼与颖园，午后返家",
+      "start": "南浔住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "百间楼公共河街",
+          "minutes": 90,
+          "activity": "看临河廊檐、街屋和水埠，不进入居民私人院落",
+          "kind": "visit",
+          "osm": "node/12163310473",
+          "coord": [
+            120.4255938,
+            30.8841068
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              120.4255938,
+              30.8841068
+            ],
+            "osm": "node/12163310473",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/12163310473"
+          }
+        },
+        {
+          "name": "颖园",
+          "minutes": 45,
+          "activity": "看公共可开放部分的园林与历史建筑；无法入园则沿外街观建筑",
+          "kind": "visit",
+          "osm": "node/2971565713",
+          "coord": [
+            120.4266567,
+            30.8790806
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              120.4266567,
+              30.8790806
+            ],
+            "osm": "node/2971565713",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/2971565713"
+          }
+        },
+        {
+          "name": "南浔→家",
+          "minutes": 180,
+          "activity": "午餐后取行李、取车返程",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "百间楼",
+          "mode": "car",
+          "instructions": "住宿位置未指定，不画虚构酒店接驳；可步行的酒店由实际住址导航"
+        },
+        {
+          "from": "百间楼",
+          "to": "颖园",
+          "mode": "walk",
+          "instructions": "按N01-north反向公共街巷走，不把同一段往返重复计成新景点"
+        },
+        {
+          "from": "南浔",
+          "to": "家",
+          "mode": "car",
+          "instructions": "午后返程，停车场退出路按导航"
+        }
+      ],
+      "detail_keys": [
+        "N01-north"
+      ],
+      "exit": "颖园周边公共街道可退出；午后不追加远郊景点",
+      "backup": "降雨取消北栅临水久站，改白天宅园补看后返程"
+    }
+  ],
+  "changes": [
+    "删除“随便补个馆或咖啡”占时；两天具体景点、宅园停留和回程分开",
+    "旧短线保留局部，不承诺每天3–6km"
+  ],
+  "limitations": [
+    "收费宅园当日开放、门票及园门由出发前确认；馆内不造GPX"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.4251431,
+        30.8725014
+      ],
+      "osm": "node/2971565687",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/2971565687",
+      "day": 1,
+      "name": "小莲庄",
+      "number": "01",
+      "anchor_id": "node/2971565687"
+    },
+    {
+      "coord": [
+        120.4242339,
+        30.8721138
+      ],
+      "osm": "node/2971565703",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/2971565703",
+      "day": 1,
+      "name": "嘉业藏书楼",
+      "number": "02",
+      "anchor_id": "node/2971565703"
+    },
+    {
+      "coord": [
+        120.42621495,
+        30.87668195
+      ],
+      "osm": "way/472490174",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/472490174",
+      "day": 1,
+      "name": "广惠桥—南部河街",
+      "number": "03",
+      "anchor_id": "way/472490174"
+    },
+    {
+      "coord": [
+        120.4255938,
+        30.8841068
+      ],
+      "osm": "node/12163310473",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/12163310473",
+      "day": 2,
+      "name": "百间楼公共河街",
+      "number": "04",
+      "anchor_id": "node/12163310473"
+    },
+    {
+      "coord": [
+        120.4266567,
+        30.8790806
+      ],
+      "osm": "node/2971565713",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/2971565713",
+      "day": 2,
+      "name": "颖园",
+      "number": "05",
+      "anchor_id": "node/2971565713"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "N01-public-spine",
+      "title": "南浔公共水街连续骨架（不穿宅园）",
+      "day": 2,
+      "distance_m": 1215.6866041029898,
+      "files": {
+        "svg": "journeys/N01-public-spine.svg",
+        "gpx": "journeys/N01-public-spine.gpx",
+        "json": "journeys/N01-public-spine.json"
+      },
+      "issues": [
+        "部分POI是代表点，点到路网接驳未核实；虚线不视为可走路径。"
+      ]
+    }
+  ],
+  "map": {
+    "svg": "journeys/N01-full.svg",
+    "image": "journeys/N01-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      120.4218515,
+      30.870113800000002,
+      120.4289859,
+      30.8861287
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.5615526869574939,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        708.828751188056,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "湖州档案馆：小莲庄与嘉业堂空间关系",
+      "url": "https://daj.huzhou.gov.cn/dawh/rwls/msp/20081119/i3926542.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮打开正文，支持园林内容与隔溪相望；非实时售票"
+    }
+  ]
+}

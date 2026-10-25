@@ -1,0 +1,368 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "南京两日全程：南京博物院→秦淮片区；次日中山陵牌坊—墓道—陵门—碑亭—祭堂，官方参观路线与两张OSM局部详图区分，广场缺线不拼GPX。",
+  "days": [
+    {
+      "day": 1,
+      "title": "南京博物院与秦淮河街",
+      "start": "杭与城北区",
+      "end": "南京市区住宿",
+      "visits": [
+        {
+          "name": "家→杭州西→南京南→酒店",
+          "minutes": 240,
+          "activity": "以实际杭州西往返车次安排，寄存行李午餐后再入馆",
+          "kind": "transport"
+        },
+        {
+          "name": "南京博物院",
+          "minutes": 180,
+          "activity": "完整看一座大馆的重点展厅，不与其他大馆连赶",
+          "kind": "visit",
+          "source_url": "https://www.njmuseum.org.cn/es/visitIndex",
+          "amap": {
+            "id": "B001907TGR",
+            "name": "南京博物院",
+            "raw_coord": [
+              118.825064,
+              32.040802
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "01",
+          "location": {
+            "coord": [
+              118.81992687266585,
+              32.04291340712553
+            ],
+            "amap_id": "B001907TGR",
+            "raw_gcj02": [
+              118.825064,
+              32.040802
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=118.825064,32.040802&name=%E5%8D%97%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%99%A2&coordinate=gaode"
+          }
+        },
+        {
+          "name": "秦淮夫子庙公共河街",
+          "minutes": 60,
+          "activity": "晚餐后看秦淮河街与建筑夜景，地铁/汽车到片区，收费园馆不默认夜开",
+          "kind": "walk",
+          "source_url": "https://www.njqh.gov.cn/dmqh/yzqh/fzmzlg/",
+          "amap": {
+            "id": "B00191437W",
+            "name": "夫子庙秦淮风光带",
+            "raw_coord": [
+              118.788972,
+              32.020699
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "02",
+          "location": {
+            "coord": [
+              118.78377185808749,
+              32.0227484950668
+            ],
+            "amap_id": "B00191437W",
+            "raw_gcj02": [
+              118.788972,
+              32.020699
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=118.788972,32.020699&name=%E7%A7%A6%E6%B7%AE%E5%A4%AB%E5%AD%90%E5%BA%99%E5%85%AC%E5%85%B1%E6%B2%B3%E8%A1%97&coordinate=gaode"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "南京南",
+          "to": "酒店／南京博物院",
+          "mode": "metro",
+          "instructions": "市区公共交通按实时换乘，不把高铁站当景区门"
+        },
+        {
+          "from": "南京博物院",
+          "to": "秦淮夫子庙片区",
+          "mode": "metro",
+          "instructions": "独立市内交通转场；住宿取行李与用餐位置按实际安排"
+        },
+        {
+          "from": "秦淮片区",
+          "to": "酒店",
+          "mode": "metro",
+          "instructions": "当晚结束不晚于可用末班前的安全缓冲"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "秦淮公共街口可打车回酒店，馆内按官方出口退出",
+      "backup": "南京博物院未约到先调行程或日期，不默认自由入馆；暴雨取消河边夜走"
+    },
+    {
+      "day": 2,
+      "title": "中山陵完整正式参观轴线与返程",
+      "start": "南京市区住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店→中山陵正式入口片区",
+          "minutes": 90,
+          "activity": "地铁＋景交或汽车，按当天现场交通管理接入",
+          "kind": "transport",
+          "source_url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/"
+        },
+        {
+          "name": "博爱坊与墓道",
+          "minutes": 45,
+          "activity": "沿正式开放墓道缓行，看林荫与中轴建筑",
+          "kind": "walk",
+          "osm": "node/12345226894",
+          "coord": [
+            118.8486466,
+            32.0587677
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              118.8486466,
+              32.0587677
+            ],
+            "osm": "node/12345226894",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/12345226894"
+          }
+        },
+        {
+          "name": "陵门—碑亭",
+          "minutes": 35,
+          "activity": "从陵门广场按景区正式导览走到碑亭；此连接官方证据存在但OSM缺中心线",
+          "kind": "walk",
+          "osm": "way/1334432181",
+          "coord": [
+            118.8483997,
+            32.06223148
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              118.8483997,
+              32.06223148
+            ],
+            "osm": "way/1334432181",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1334432181"
+          }
+        },
+        {
+          "name": "中央台阶—祭堂前平台",
+          "minutes": 60,
+          "activity": "根据体力登台阶，看平台与祭堂建筑；入内按当日政策",
+          "kind": "visit",
+          "osm": "way/483693967",
+          "coord": [
+            118.84826112,
+            32.06436138
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              118.84826112,
+              32.06436138
+            ],
+            "osm": "way/483693967",
+            "version": 5,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/483693967"
+          }
+        },
+        {
+          "name": "中山陵→南京南→家",
+          "minutes": 330,
+          "activity": "沿开放轴线回入口，午餐取行李，按返程票留足车站缓冲",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "市区",
+          "to": "博爱坊片区",
+          "mode": "metro",
+          "instructions": "地铁后必要景交另计；不承诺具体站口无需走路"
+        },
+        {
+          "from": "博爱坊",
+          "to": "陵门→碑亭→祭堂",
+          "mode": "official_walk",
+          "instructions": "官方支持连续正式参观次序，约700m为轴线平距不是现成精确GPS步长；按现场指示通过广场，不沿建筑/广场边界伪造GPX",
+          "evidence_url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/"
+        },
+        {
+          "from": "祭堂前平台",
+          "to": "原入口",
+          "mode": "official_walk",
+          "instructions": "遵守现场上下行分流，按开放路线返回；雨天台阶随时折返",
+          "evidence_url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/"
+        },
+        {
+          "from": "入口片区",
+          "to": "酒店取行李→南京南",
+          "mode": "car",
+          "instructions": "倒推到站时间，体力不足提前停止登阶"
+        }
+      ],
+      "detail_keys": [
+        "N10",
+        "N10-stairs"
+      ],
+      "exit": "博爱坊、陵门平台可折返，不做紫金山野路穿越",
+      "backup": "雨天取消长台阶，可看博爱坊与墓道允许部分后提前返站；不强加另一座未预约大馆"
+    }
+  ],
+  "changes": [
+    "南博、秦淮、中山陵和往返交通全程分段，不再只展示两张短台阶图",
+    "官方中轴线补全游览逻辑，已有0.79km/0.32km严格保留局部详图",
+    "官方轴线说明非精确GPX，未补几何不导出组合线"
+  ],
+  "limitations": [
+    "陵门广场至碑亭中心线仍缺OSM，不冒称连续实测轨迹",
+    "南京博物院、秦淮片区本轮高德详情已留存，需GCJ-02转WGS84；不是已核入口",
+    "主流程高德文字补核陵门侧至台阶起点77m向北，无polyline，仍不导出组合GPX"
+  ],
+  "points": [
+    {
+      "coord": [
+        118.81992687266585,
+        32.04291340712553
+      ],
+      "amap_id": "B001907TGR",
+      "raw_gcj02": [
+        118.825064,
+        32.040802
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=118.825064,32.040802&name=%E5%8D%97%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%99%A2&coordinate=gaode",
+      "day": 1,
+      "name": "南京博物院",
+      "number": "01",
+      "anchor_id": "B001907TGR"
+    },
+    {
+      "coord": [
+        118.78377185808749,
+        32.0227484950668
+      ],
+      "amap_id": "B00191437W",
+      "raw_gcj02": [
+        118.788972,
+        32.020699
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=118.788972,32.020699&name=%E7%A7%A6%E6%B7%AE%E5%A4%AB%E5%AD%90%E5%BA%99%E5%85%AC%E5%85%B1%E6%B2%B3%E8%A1%97&coordinate=gaode",
+      "day": 1,
+      "name": "秦淮夫子庙公共河街",
+      "number": "02",
+      "anchor_id": "B00191437W"
+    },
+    {
+      "coord": [
+        118.8486466,
+        32.0587677
+      ],
+      "osm": "node/12345226894",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/12345226894",
+      "day": 2,
+      "name": "博爱坊与墓道",
+      "number": "03",
+      "anchor_id": "node/12345226894"
+    },
+    {
+      "coord": [
+        118.8483997,
+        32.06223148
+      ],
+      "osm": "way/1334432181",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1334432181",
+      "day": 2,
+      "name": "陵门—碑亭",
+      "number": "04",
+      "anchor_id": "way/1334432181"
+    },
+    {
+      "coord": [
+        118.84826112,
+        32.06436138
+      ],
+      "osm": "way/483693967",
+      "version": 5,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/483693967",
+      "day": 2,
+      "name": "中央台阶—祭堂前平台",
+      "number": "05",
+      "anchor_id": "way/483693967"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/N10-full.svg",
+    "image": "journeys/N10-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      118.77728438389624,
+      32.01775494887482,
+      118.85513407419124,
+      32.069354926191984
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.17428709456743485,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        260.57237215646137,
+        219.99999999999994
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "中山陵园管理局：景区与轴线",
+      "url": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮打开正文，确认牌坊、墓道、陵门、碑亭、祭堂等次序及700m平距"
+    },
+    {
+      "title": "南京博物院参观须知",
+      "url": "https://www.njmuseum.org.cn/es/visitIndex",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "沿用项目官方存证，实际预约另核"
+    },
+    {
+      "title": "秦淮区政府：夫子庙景观与建筑",
+      "url": "https://www.njqh.gov.cn/dmqh/yzqh/fzmzlg/",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮官方搜索正文，支持夫子庙与公共河街景观；不引用旧票价"
+    }
+  ]
+}

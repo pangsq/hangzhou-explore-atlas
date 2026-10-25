@@ -1,0 +1,310 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "绩溪县城文化半日＋龙川古村半日：博物馆与石镜路、胡氏宗祠与溪街分别成活动片区，汽车连接县城和龙川，不伪装长徒步。",
+  "days": [
+    {
+      "day": 1,
+      "title": "绩溪博物馆与古城街巷",
+      "start": "杭与城北区",
+      "end": "绩溪县城住宿",
+      "visits": [
+        {
+          "name": "家→绩溪北→县城",
+          "minutes": 240,
+          "activity": "实际车次确认后安排，寄存行李再午餐",
+          "kind": "transport"
+        },
+        {
+          "name": "绩溪县博物馆",
+          "minutes": 120,
+          "activity": "看地方历史与徽州文化主题，馆内展线按现场导览",
+          "kind": "visit",
+          "source_url": "https://www.cnjx.gov.cn/OpennessTarget/716/160065/page_1.html",
+          "amap": {
+            "id": "B0FFG0R2M8",
+            "name": "绩溪博物馆",
+            "raw_coord": [
+              118.595564,
+              30.071397
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "01",
+          "location": {
+            "coord": [
+              118.59072446748736,
+              30.074065562877323
+            ],
+            "amap_id": "B0FFG0R2M8",
+            "raw_gcj02": [
+              118.595564,
+              30.071397
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=118.595564,30.071397&name=%E7%BB%A9%E6%BA%AA%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86&coordinate=gaode"
+          }
+        },
+        {
+          "name": "石镜路与县城古巷",
+          "minutes": 60,
+          "activity": "按N05短圈看街巷尺度、民居和旧城生活；不只把0.92km走过就算一天",
+          "kind": "walk",
+          "osm": "node/4341023849",
+          "coord": [
+            118.5928507,
+            30.0689881
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              118.5928507,
+              30.0689881
+            ],
+            "osm": "node/4341023849",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/4341023849"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "绩溪北",
+          "to": "县城酒店／博物馆",
+          "mode": "car",
+          "instructions": "车站不在博物馆门口，独立安排转场"
+        },
+        {
+          "from": "博物馆",
+          "to": "石镜路街巷",
+          "mode": "official_walk",
+          "instructions": "按馆外公共街巷及实际馆门导航，馆内不绘虚构路线",
+          "evidence_url": "https://www.cnjx.gov.cn/OpennessTarget/716/160065/page_1.html"
+        }
+      ],
+      "detail_keys": [
+        "N05"
+      ],
+      "exit": "石镜路公共路口可回酒店或取车",
+      "backup": "闭馆日交换行程或取消该馆，雨天不靠街巷淋雨补时"
+    },
+    {
+      "day": 2,
+      "title": "龙川：胡氏宗祠与水街",
+      "start": "绩溪县城住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "县城→龙川",
+          "minutes": 60,
+          "activity": "汽车到景区开放入口，售票和游客中心分别确认",
+          "kind": "transport",
+          "source_url": "https://www.cnjx.gov.cn/OpennessContent/show/2726792.html"
+        },
+        {
+          "name": "龙川胡氏宗祠",
+          "minutes": 75,
+          "activity": "细看木雕、梁架与祠堂建筑，按当日票务进出",
+          "kind": "visit",
+          "source_url": "https://www.cnjx.gov.cn/OpennessContent/show/2726792.html",
+          "amap": {
+            "id": "B0233002EE",
+            "name": "胡氏宗祠",
+            "raw_coord": [
+              118.670606,
+              30.076381
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "03",
+          "location": {
+            "coord": [
+              118.66568022335555,
+              30.078970487578797
+            ],
+            "amap_id": "B0233002EE",
+            "raw_gcj02": [
+              118.670606,
+              30.076381
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=118.670606,30.076381&name=%E9%BE%99%E5%B7%9D%E8%83%A1%E6%B0%8F%E5%AE%97%E7%A5%A0&coordinate=gaode"
+          }
+        },
+        {
+          "name": "龙川溪街与村落桥巷",
+          "minutes": 75,
+          "activity": "从祠堂外围沿已核N05-longchuan铺装路与村巷慢行，不进居民院子",
+          "kind": "walk",
+          "osm": "node/5612951782",
+          "coord": [
+            118.6642475,
+            30.0794452
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.cnjx.gov.cn/OpennessContent/show/2726792.html",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              118.6642475,
+              30.0794452
+            ],
+            "osm": "node/5612951782",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5612951782"
+          }
+        },
+        {
+          "name": "龙川→绩溪北→家",
+          "minutes": 270,
+          "activity": "午餐后回县城取行李，返站留缓冲，不追加徽杭古道",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "县城",
+          "to": "龙川",
+          "mode": "car",
+          "instructions": "两片区汽车转场，不把村道画成徒步全程"
+        },
+        {
+          "from": "胡氏宗祠",
+          "to": "龙川溪街／村巷",
+          "mode": "official_walk",
+          "instructions": "祠内独立按导览，外部详图使用N05-longchuan",
+          "evidence_url": "https://www.cnjx.gov.cn/OpennessContent/show/2726792.html"
+        },
+        {
+          "from": "龙川",
+          "to": "绩溪北",
+          "mode": "car",
+          "instructions": "需取行李时先回县城，实际车次倒推"
+        }
+      ],
+      "detail_keys": [
+        "N05-longchuan"
+      ],
+      "exit": "村内成熟道路原路退出景区入口",
+      "backup": "祠堂闭馆时只看村落建筑并提前返程；暴雨取消临溪慢走"
+    }
+  ],
+  "changes": [
+    "县城和龙川分别明确文化活动及汽车接驳",
+    "原两张短图都是局部，不再冒充全两日轨迹"
+  ],
+  "limitations": [
+    "旧博物馆/About/1120594网址404，本轮更新为2026文博目录；具体馆门未有OSM锚点",
+    "胡氏宗祠内部参观不导出GPX"
+  ],
+  "points": [
+    {
+      "coord": [
+        118.59072446748736,
+        30.074065562877323
+      ],
+      "amap_id": "B0FFG0R2M8",
+      "raw_gcj02": [
+        118.595564,
+        30.071397
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=118.595564,30.071397&name=%E7%BB%A9%E6%BA%AA%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86&coordinate=gaode",
+      "day": 1,
+      "name": "绩溪县博物馆",
+      "number": "01",
+      "anchor_id": "B0FFG0R2M8"
+    },
+    {
+      "coord": [
+        118.5928507,
+        30.0689881
+      ],
+      "osm": "node/4341023849",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/4341023849",
+      "day": 1,
+      "name": "石镜路与县城古巷",
+      "number": "02",
+      "anchor_id": "node/4341023849"
+    },
+    {
+      "coord": [
+        118.66568022335555,
+        30.078970487578797
+      ],
+      "amap_id": "B0233002EE",
+      "raw_gcj02": [
+        118.670606,
+        30.076381
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=118.670606,30.076381&name=%E9%BE%99%E5%B7%9D%E8%83%A1%E6%B0%8F%E5%AE%97%E7%A5%A0&coordinate=gaode",
+      "day": 2,
+      "name": "龙川胡氏宗祠",
+      "number": "03",
+      "anchor_id": "B0233002EE"
+    },
+    {
+      "coord": [
+        118.6642475,
+        30.0794452
+      ],
+      "osm": "node/5612951782",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5612951782",
+      "day": 2,
+      "name": "龙川溪街与村落桥巷",
+      "number": "04",
+      "anchor_id": "node/5612951782"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/N05-full.svg",
+    "image": "journeys/N05-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      118.5832011842361,
+      30.065195600000003,
+      118.67348058325126,
+      30.082799299999998
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.19108555212822637,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        532.9804215215058
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "绩溪县政府文博单位目录",
+      "url": "https://www.cnjx.gov.cn/OpennessTarget/716/160065/page_1.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮打开目录，2026-09-14名录可追溯；具体馆页另核"
+    },
+    {
+      "title": "绩溪县文旅局：龙川胡氏宗祠",
+      "url": "https://www.cnjx.gov.cn/OpennessContent/show/2726792.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮官方搜索正文支持祠堂与木雕主题"
+    }
+  ]
+}

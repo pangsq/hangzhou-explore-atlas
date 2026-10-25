@@ -1,0 +1,451 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "4天=2个完整文化日：御窑—陶阳里，以及中国陶瓷博物馆—陶溪川；两地之间汽车接驳。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "景德镇酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 景德镇北",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "景德镇实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "景德镇北",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "御窑与陶阳里：看一座窑场如何成为城市",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "景德镇御窑博物馆",
+          "osm": "node/13711527662",
+          "coord": [
+            117.2018446,
+            29.2992333
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 180,
+          "activity": "09:00起参观窑址主题陈列与建筑；结合明清御窑和出土残片阅读，不只在外墙拍照。",
+          "kind": "visit",
+          "match": "景德镇御窑博物馆",
+          "source_url": "https://www.openstreetmap.org/node/13711527662",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              117.2018446,
+              29.2992333
+            ],
+            "osm": "node/13711527662",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/13711527662"
+          }
+        },
+        {
+          "name": "陶阳里历史文化旅游区",
+          "osm": "way/1497054130",
+          "coord": [
+            117.20137161833334,
+            29.29897467166667
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 150,
+          "activity": "午餐后按园区开放范围参观街巷、窑业遗迹与宅院，逐个核院落票务。",
+          "kind": "visit",
+          "match": "陶阳里历史文化旅游区",
+          "source_url": "https://www.openstreetmap.org/way/1497054130",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              117.20137161833334,
+              29.29897467166667
+            ],
+            "osm": "way/1497054130",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1497054130"
+          }
+        },
+        {
+          "name": "中山北路老城公共街巷",
+          "osm": "node/5348804954",
+          "coord": [
+            117.1991045,
+            29.3021786
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 60,
+          "activity": "回到公共街巷观察瓷业商贸街面，不进入生产院落。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/5348804954",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              117.1991045,
+              29.3021786
+            ],
+            "osm": "node/5348804954",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5348804954"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "御窑博物馆",
+          "to": "陶阳里",
+          "mode": "walk",
+          "instructions": "从当日开放园门进入，两者相邻但票务/开放边界不能混同。"
+        },
+        {
+          "from": "陶阳里",
+          "to": "中山北路",
+          "mode": "walk",
+          "instructions": "使用园区公布出口后沿公共街巷。"
+        }
+      ],
+      "detail_keys": [
+        "F01"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "中国陶瓷博物馆与陶溪川：器物史到工业遗产",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "景德镇中国陶瓷博物馆",
+          "osm": "node/11738347368",
+          "coord": [
+            117.1701087,
+            29.295779
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 180,
+          "activity": "按预约参观历代陶瓷、近现代制瓷主题；馆址为紫晶北路1号，不是御窑馆。",
+          "kind": "visit",
+          "source_url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              117.1701087,
+              29.295779
+            ],
+            "osm": "node/11738347368",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/11738347368"
+          }
+        },
+        {
+          "name": "陶溪川陶瓷工业遗产博物馆",
+          "osm": "way/1497054094",
+          "coord": [
+            117.23092214,
+            29.29867662
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "汽车到宇宙瓷厂片区，重点看厂史与工艺展；如馆临时不开放则不虚构参观。",
+          "kind": "visit",
+          "match": "景德镇陶瓷工业遗产博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1497054094",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              117.23092214,
+              29.29867662
+            ],
+            "osm": "way/1497054094",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1497054094"
+          }
+        },
+        {
+          "name": "陶溪川文创街区宇宙瓷厂",
+          "osm": "way/1051474303",
+          "coord": [
+            117.23088401666668,
+            29.298382524999997
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "走厂房公共步道，比较保留工业建筑与当代空间；有明确预约才以体验替换其中90分钟。",
+          "kind": "walk",
+          "match": "陶溪川文创街区宇宙瓷厂",
+          "source_url": "https://www.openstreetmap.org/way/1051474303",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              117.23088401666668,
+              29.298382524999997
+            ],
+            "osm": "way/1051474303",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1051474303"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "中国陶瓷博物馆",
+          "to": "陶溪川宇宙瓷厂",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "工业遗产博物馆",
+          "to": "宇宙瓷厂公共街区",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F01-taoxichuan"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "返杭州交通日",
+      "start": "景德镇酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 景德镇实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "景德镇北",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "去掉抵返日硬塞老城活动。",
+    "中国陶瓷馆、御窑馆、陶溪川三处明确分开，馆内时间不伪造为街巷里程。"
+  ],
+  "limitations": [
+    "御窑收费园门及各展馆临时开放须出发核；OSM代表点不等于检票口。"
+  ],
+  "points": [
+    {
+      "coord": [
+        117.2018446,
+        29.2992333
+      ],
+      "osm": "node/13711527662",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/13711527662",
+      "day": 2,
+      "name": "景德镇御窑博物馆",
+      "number": "01",
+      "anchor_id": "node/13711527662"
+    },
+    {
+      "coord": [
+        117.20137161833334,
+        29.29897467166667
+      ],
+      "osm": "way/1497054130",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1497054130",
+      "day": 2,
+      "name": "陶阳里历史文化旅游区",
+      "number": "02",
+      "anchor_id": "way/1497054130"
+    },
+    {
+      "coord": [
+        117.1991045,
+        29.3021786
+      ],
+      "osm": "node/5348804954",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5348804954",
+      "day": 2,
+      "name": "中山北路老城公共街巷",
+      "number": "03",
+      "anchor_id": "node/5348804954"
+    },
+    {
+      "coord": [
+        117.1701087,
+        29.295779
+      ],
+      "osm": "node/11738347368",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/11738347368",
+      "day": 3,
+      "name": "景德镇中国陶瓷博物馆",
+      "number": "04",
+      "anchor_id": "node/11738347368"
+    },
+    {
+      "coord": [
+        117.23092214,
+        29.29867662
+      ],
+      "osm": "way/1497054094",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1497054094",
+      "day": 3,
+      "name": "陶溪川陶瓷工业遗产博物馆",
+      "number": "05",
+      "anchor_id": "way/1497054094"
+    },
+    {
+      "coord": [
+        117.23088401666668,
+        29.298382524999997
+      ],
+      "osm": "way/1051474303",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1051474303",
+      "day": 3,
+      "name": "陶溪川文创街区宇宙瓷厂",
+      "number": "06",
+      "anchor_id": "way/1051474303"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/F01-full.svg",
+    "image": "journeys/F01-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      117.16390888,
+      29.2935138,
+      117.23830672000001,
+      29.3041786
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.23009469724283443,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        583.5685204349699
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "景德镇中国陶瓷博物馆参观预约须知",
+      "url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 政府发布，检索正文已读；详情直接读取超时。"
+    },
+    {
+      "title": "御窑厂",
+      "url": "https://www.jdz.gov.cn/zjcd/mljdz/tscd/t995407.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "陶阳里御窑景区",
+      "url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t932856.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "陶瓷文化生态保护区总体规划",
+      "url": "https://www.jdz.gov.cn/zwgk/zfgb/2024n/d3q/szfwj/t958190.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=117.197,29.295,117.208,29.305",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=117.224,29.294,117.24,29.304",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    }
+  ]
+}

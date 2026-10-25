@@ -1,0 +1,236 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "4.217km五云山往返已能支撑一次完整登山；把竹径与古树观察编入沿途，不再拼梅家坞赶场。",
+  "days": [
+    {
+      "day": 1,
+      "title": "云栖竹径—五云山原路返",
+      "start": "云栖竹径公共游客入口",
+      "end": "同一云栖竹径游客入口",
+      "visits": [
+        {
+          "name": "云栖竹径竹林与古树",
+          "minutes": 65,
+          "activity": "09:00–10:05 入园查导览，沿主径观察竹林与古树标牌、石阶和溪涧，不另闯未标支径。",
+          "kind": "visit",
+          "osm": "node/5033299218",
+          "coord": [
+            120.0851883,
+            30.192583
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM旅游观景点（tourism=viewpoint），沿线观察代表点，非验票口",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.0851883,
+              30.192583
+            ],
+            "osm": "node/5033299218",
+            "version": 2,
+            "point_role": "OSM旅游观景点（tourism=viewpoint），沿线观察代表点，非验票口",
+            "source_url": "https://www.openstreetmap.org/node/5033299218"
+          }
+        },
+        {
+          "name": "五云山上行",
+          "minutes": 95,
+          "activity": "10:05–11:40 按WUYUN-detail经五云山岭分岔至山顶步道路口；全线往返4.217km。",
+          "kind": "walk",
+          "osm": "node/27556302",
+          "coord": [
+            120.0949471,
+            30.1982253
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.0949471,
+              30.1982253
+            ],
+            "osm": "node/27556302",
+            "version": 2,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/27556302"
+          }
+        },
+        {
+          "name": "五云山山顶公共步道",
+          "minutes": 35,
+          "activity": "11:40–12:15 在开放步道休息、辨认林相；古寺或树木围栏外观看，不把峰点当建筑入口。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "原路下山",
+          "minutes": 85,
+          "activity": "12:15–13:40 完整原路返回云栖竹径石阶起点，不取无名横切。",
+          "kind": "walk",
+          "osm": "node/27556063",
+          "coord": [
+            120.082343,
+            30.1912764
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.082343,
+              30.1912764
+            ],
+            "osm": "node/27556063",
+            "version": 2,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/27556063"
+          }
+        },
+        {
+          "name": "山下正餐",
+          "minutes": 60,
+          "activity": "13:40–14:40 游客入口外正规餐饮用餐，随后返家。",
+          "kind": "visit"
+        }
+      ],
+      "connections": [
+        {
+          "from": "云栖竹径游客入口",
+          "to": "石阶起点",
+          "mode": "official_walk",
+          "instructions": "按园内公示主径与票界通行，入口至石阶不冒称本图已测。"
+        },
+        {
+          "from": "石阶起点",
+          "to": "山顶步道路口",
+          "mode": "walk",
+          "instructions": "按WUYUN-detail的石阶、山岭分岔连续上行。"
+        },
+        {
+          "from": "山顶步道路口",
+          "to": "石阶起点",
+          "mode": "walk",
+          "instructions": "同路往返，预计石阶下行慢于平地。"
+        }
+      ],
+      "detail_keys": [
+        "WUYUN-detail"
+      ],
+      "exit": "14:40后原停车点汽车返家；不将停车场与石阶凭空画成同一点。",
+      "backup": "雨天/防火封山改期；不以湿滑石阶或更长山线代替。",
+      "planned_minutes": 340
+    }
+  ],
+  "changes": [
+    "保留完整4.217km主线",
+    "删下午梅家坞或喝茶的不确定拼接"
+  ],
+  "limitations": [
+    "云栖园内验票入口至绘图石阶起点仍按景区导览；主线不含新绘馆内/园内曲线。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.0851883,
+        30.192583
+      ],
+      "osm": "node/5033299218",
+      "version": 2,
+      "point_role": "OSM旅游观景点（tourism=viewpoint），沿线观察代表点，非验票口",
+      "source_url": "https://www.openstreetmap.org/node/5033299218",
+      "day": 1,
+      "name": "云栖竹径竹林与古树",
+      "number": "01",
+      "anchor_id": "node/5033299218"
+    },
+    {
+      "coord": [
+        120.0949471,
+        30.1982253
+      ],
+      "osm": "node/27556302",
+      "version": 2,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/27556302",
+      "day": 1,
+      "name": "五云山上行",
+      "number": "02",
+      "anchor_id": "node/27556302"
+    },
+    {
+      "coord": [
+        120.082343,
+        30.1912764
+      ],
+      "osm": "node/27556063",
+      "version": 2,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/27556063",
+      "day": 1,
+      "name": "原路下山",
+      "number": "03",
+      "anchor_id": "node/27556063"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L02-full.svg",
+    "image": "journeys/L02-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.080343,
+      30.1892764,
+      120.0971857,
+      30.2002253
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.8213802415179134,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        235.20731181920064,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "云栖竹径游玩攻略（2026-03-24更新）",
+      "url": "https://hz.bendibao.com/tour/2023426/145261.shtm",
+      "type": "secondary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "浙江：嘉木叠翠越千年",
+      "url": "https://www.forestry.gov.cn/c/www/sl/586855.jhtml",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "“古”韵浙里 “树”写风景",
+      "url": "https://www.forestry.gov.cn/c/www/dfdt/360619.jhtml",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "避暑胜地云栖竹径，一座天然的古树名木博物馆",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2023-07/05/content_8572376.htm",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    }
+  ]
+}

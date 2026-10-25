@@ -1,0 +1,268 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "千岛湖精华可一日完成：秀水广场观景→午餐→汽车到西侧绿道短骑或步行→返家。原两日保留为自愿住一晚的湖畔放慢方案，不代表两天满日；两片区汽车连接，短骑不是长环湖。",
+  "days": [
+    {
+      "day": 1,
+      "title": "秀水广场与城区湖岸",
+      "start": "杭与城北区",
+      "end": "千岛湖城区住宿",
+      "visits": [
+        {
+          "name": "家→千岛湖城区",
+          "minutes": 180,
+          "activity": "自驾进城、停车、寄存行李；午餐后开始岸边活动",
+          "kind": "transport"
+        },
+        {
+          "name": "千岛湖秀水广场",
+          "minutes": 60,
+          "activity": "看湖岸、岛湾与广场景观；高德已核阳光路17号，不用骑行图代替该点",
+          "kind": "visit",
+          "source_url": "https://www.qdh.gov.cn/art/2020/5/11/art_1229227804_55569693.html",
+          "amap": {
+            "id": "B023B14BWS",
+            "name": "千岛湖秀水广场",
+            "raw_coord": [
+              119.042279,
+              29.61409
+            ],
+            "crs": "GCJ-02"
+          },
+          "map_number": "01",
+          "location": {
+            "coord": [
+              119.03711968138639,
+              29.616509556050374
+            ],
+            "amap_id": "B023B14BWS",
+            "raw_gcj02": [
+              119.042279,
+              29.61409
+            ],
+            "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+            "source_url": "https://uri.amap.com/marker?position=119.042279,29.61409&name=%E5%8D%83%E5%B2%9B%E6%B9%96%E7%A7%80%E6%B0%B4%E5%B9%BF%E5%9C%BA&coordinate=gaode"
+          }
+        },
+        {
+          "name": "秀水广场附近公共湖岸",
+          "minutes": 75,
+          "activity": "选择连续开放的岸线往返，正式道路不跨越码头管理区；缺口汽车接驳",
+          "kind": "walk",
+          "source_url": "https://www.qdh.gov.cn/art/2020/5/11/art_1229227804_55569693.html",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "秀水广场",
+          "mode": "car",
+          "instructions": "实际停车后按公共入口进入，不能把高德代表点当步道入口"
+        },
+        {
+          "from": "秀水广场",
+          "to": "岸线折返点→广场",
+          "mode": "official_walk",
+          "instructions": "按公园现场湖岸指示选择折返点；没有岸线连续证据不量化成完整GPX",
+          "evidence_url": "https://www.qdh.gov.cn/art/2020/5/11/art_1229227804_55569693.html"
+        },
+        {
+          "from": "广场",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "回酒店晚餐，不拼夜船"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "原路回秀水广场公共道路停车区",
+      "backup": "大雨停止岸边慢走；酒店必须有取消规则，不以茶咖强撑全天"
+    },
+    {
+      "day": 2,
+      "title": "西岸短骑或步行，午后返家",
+      "start": "千岛湖城区住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "西侧绿道东端",
+          "minutes": 30,
+          "activity": "汽车到合法接入点，查租车、头盔与当日通行；骑车不合适可同段步行",
+          "kind": "visit",
+          "osm": "node/14308497961",
+          "coord": [
+            119.0334072,
+            29.6082181
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              119.0334072,
+              29.6082181
+            ],
+            "osm": "node/14308497961",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/14308497961"
+          }
+        },
+        {
+          "name": "湖畔自行车道往返",
+          "minutes": 65,
+          "activity": "仅沿N07已核3.54km自行车道往返：净骑行约20–40分钟，另预留约25分钟安全停车、观湖与拍照；65分钟是带停留的策划时段，不是骑行实测或最低要求。无车可同段步行约60–90分钟；不上机动车环湖公路凑长线",
+          "kind": "walk",
+          "osm": "node/7659048712",
+          "coord": [
+            119.0174829,
+            29.6017332
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              119.0174829,
+              29.6017332
+            ],
+            "osm": "node/7659048712",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/7659048712"
+          }
+        },
+        {
+          "name": "城区湖岸观景与返程",
+          "minutes": 30,
+          "activity": "还车后从正式观景处再看近岸岛湾，午餐取行李",
+          "kind": "visit",
+          "source_url": "https://www.qdh.gov.cn/art/2020/5/11/art_1229227804_55569693.html",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "千岛湖→家",
+          "minutes": 210,
+          "activity": "午后自驾返程；两天轻休闲，不声明每天8–15km骑行",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "自行车道东端接入点",
+          "mode": "car",
+          "instructions": "接入和租车点现场确认"
+        },
+        {
+          "from": "绿道东端",
+          "to": "西端折返→东端",
+          "mode": "walk",
+          "instructions": "路线见N07，骑行需确认允许及车况；无车同段步行，不放大成全环湖"
+        },
+        {
+          "from": "千岛湖",
+          "to": "家",
+          "mode": "car",
+          "instructions": "还车、退房后返程"
+        }
+      ],
+      "detail_keys": [
+        "N07"
+      ],
+      "exit": "沿已核绿道原路回东端，不从断岸抄近",
+      "backup": "雨天取消骑车；退房后提前回家"
+    }
+  ],
+  "changes": [
+    "补上第一天秀水广场，不以现有西侧骑行小图冒充两天",
+    "明确基本轻休闲方案，保留3.54km短骑，不凑环湖里程"
+  ],
+  "limitations": [
+    "官方秀水页面本轮两次超时，引用主流程已有官方存证，非本agent新读正文",
+    "秀水广场连续岸线待OSM新核；不输出代表点直连水岸"
+  ],
+  "points": [
+    {
+      "coord": [
+        119.03711968138639,
+        29.616509556050374
+      ],
+      "amap_id": "B023B14BWS",
+      "raw_gcj02": [
+        119.042279,
+        29.61409
+      ],
+      "point_role": "高德POI近似转换后的代表位置；不是边界或入口测量",
+      "source_url": "https://uri.amap.com/marker?position=119.042279,29.61409&name=%E5%8D%83%E5%B2%9B%E6%B9%96%E7%A7%80%E6%B0%B4%E5%B9%BF%E5%9C%BA&coordinate=gaode",
+      "day": 1,
+      "name": "千岛湖秀水广场",
+      "number": "01",
+      "anchor_id": "B023B14BWS"
+    },
+    {
+      "coord": [
+        119.0334072,
+        29.6082181
+      ],
+      "osm": "node/14308497961",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/14308497961",
+      "day": 2,
+      "name": "西侧绿道东端",
+      "number": "02",
+      "anchor_id": "node/14308497961"
+    },
+    {
+      "coord": [
+        119.0174829,
+        29.6017332
+      ],
+      "osm": "node/7659048712",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/7659048712",
+      "day": 2,
+      "name": "湖畔自行车道往返",
+      "number": "03",
+      "anchor_id": "node/7659048712"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/N07-full.svg",
+    "image": "journeys/N07-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      119.01548290000001,
+      29.599725900000003,
+      119.03911968138638,
+      29.618509556050373
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.47877847114737976,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        352.97647792983275,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "淳安县政府：秀水广场",
+      "url": "https://www.qdh.gov.cn/art/2020/5/11/art_1229227804_55569693.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "主流程已有官方存证；本agent重开超时，高德B023B14BWS辅助核位置"
+    }
+  ]
+}

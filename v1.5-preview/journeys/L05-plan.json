@@ -1,0 +1,274 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "一天两馆的完整性由约5小时展览与馆际汽车接驳构成；800m与238m是园路局部，不是全日线路长度。",
+  "days": [
+    {
+      "day": 1,
+      "title": "良渚博物院三展厅—版本馆文献之邦",
+      "start": "良渚博物院游客入口（美丽洲路1号）",
+      "end": "杭州国家版本馆游客西门（文润路1号）",
+      "visits": [
+        {
+          "name": "良渚博物院：水乡泽国",
+          "minutes": 45,
+          "activity": "09:00–09:45 按馆方常设展顺序，看环境、稻作与生产生活证据。",
+          "kind": "visit",
+          "osm": "node/13459343253",
+          "coord": [
+            120.0230309,
+            30.3792309
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM映射建筑入口，具体入场按馆方",
+          "source_url": "https://www.lzmuseum.cn/BoWuYuanJianJie/",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.0230309,
+              30.3792309
+            ],
+            "osm": "node/13459343253",
+            "version": 1,
+            "point_role": "OSM映射建筑入口，具体入场按馆方",
+            "source_url": "https://www.openstreetmap.org/node/13459343253"
+          }
+        },
+        {
+          "name": "良渚博物院：文明圣地",
+          "minutes": 50,
+          "activity": "09:45–10:35 看聚落、城址及社会组织叙事，把水利工程与城市形成相联系。",
+          "kind": "visit",
+          "source_url": "https://www.lzmuseum.cn/BoWuYuanJianJie/",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "良渚博物院：玉魂国魄",
+          "minutes": 45,
+          "activity": "10:35–11:20 重点比较玉器纹样与礼制组合；具体文物有轮换，不保证指定藏品必在。",
+          "kind": "visit",
+          "source_url": "https://www.lzmuseum.cn/BoWuYuanJianJie/",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "美丽洲园路与建筑外观",
+          "minutes": 35,
+          "activity": "11:20–11:55 按L05A 0.801km园路往返观察建筑；不把公交站“良渚博物院正门”当游客入口。",
+          "kind": "walk",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "午餐",
+          "minutes": 55,
+          "activity": "11:55–12:50 选择两馆之间正常营业餐饮正餐。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "汽车转场版本馆游客西门",
+          "minutes": 30,
+          "activity": "12:50–13:20 汽车导航文润路1号游客西门；两馆不是一条连续馆内步道，30分钟为接送/停车缓冲非实时车程。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州国家版本馆：文献之邦",
+          "minutes": 75,
+          "activity": "13:20–14:35 入馆后按公众导览看江南版本文化、文献载体与印刷传播；不进入山体书库或保藏区。",
+          "kind": "visit",
+          "osm": "node/10001031412",
+          "coord": [
+            120.0110491,
+            30.3844725
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM西门游客入口gate，非展厅中心",
+          "source_url": "https://sxtz.sx.gov.cn/col/col1485726/art/2026/art_b3a5f898bf0c4dedb87a0579ce720acf.html",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.0110491,
+              30.3844725
+            ],
+            "osm": "node/10001031412",
+            "version": 1,
+            "point_role": "OSM西门游客入口gate，非展厅中心",
+            "source_url": "https://www.openstreetmap.org/node/10001031412"
+          }
+        },
+        {
+          "name": "版本馆公开庭院与版本主题展陈",
+          "minutes": 65,
+          "activity": "14:35–15:40 在开放的庭院、廊道与当日公共版本展陈中比较建筑与文献表达；以馆方导览选定开放展厅，非自由穿越库房。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "西门离馆",
+          "minutes": 15,
+          "activity": "15:40–15:55 回游客西门离馆；238m西岸小图只是可独立看的局部，不要求绕它才能离馆。",
+          "kind": "walk",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        }
+      ],
+      "connections": [
+        {
+          "from": "良渚博物院游客入口",
+          "to": "三大常设展厅",
+          "mode": "official_walk",
+          "instructions": "按大厅→水乡泽国→文明圣地→玉魂国魄顺序参观；展厅间不输出伪造室内轨迹。",
+          "evidence_url": "https://www.lzmuseum.cn/BoWuYuanJianJie/"
+        },
+        {
+          "from": "良渚博物院",
+          "to": "版本馆游客西门",
+          "mode": "car",
+          "instructions": "主方案汽车转场文润路1号，不把OSM公交站或园区建筑中心当门。",
+          "evidence_url": "https://www.hzzx.gov.cn/cshz/content/2023-07/18/content_8581419.htm"
+        },
+        {
+          "from": "版本馆游客西门",
+          "to": "文献之邦及公众庭院",
+          "mode": "official_walk",
+          "instructions": "入馆后使用馆内导览；西岸238m只保留为局部，不与保藏区直线拼接。",
+          "evidence_url": "https://sxtz.sx.gov.cn/col/col1485726/art/2026/art_b3a5f898bf0c4dedb87a0579ce720acf.html"
+        }
+      ],
+      "detail_keys": [
+        "L05A",
+        "L05B"
+      ],
+      "exit": "15:55前从西门离馆，版本馆停检时间按当日官方公告核实；不继续赶古城遗址公园。",
+      "backup": "两馆均需出行前核开放/预约；其中一馆未能入馆则明确降为单馆半日，不以大堂外观冒充全天。",
+      "planned_minutes": 415
+    }
+  ],
+  "changes": [
+    "固定两馆具体参观顺序与分钟预算",
+    "标出已存在OSM游客西门；两张短图降为局部",
+    "采用保守16点前离馆主方案；不复制旧预约规则"
+  ],
+  "limitations": [
+    "本次良渚2024参观须知网页超时，版本馆2026预约须知未在可访问官方网页完整核到；出行前通过馆方正式渠道确认。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.0230309,
+        30.3792309
+      ],
+      "osm": "node/13459343253",
+      "version": 1,
+      "point_role": "OSM映射建筑入口，具体入场按馆方",
+      "source_url": "https://www.openstreetmap.org/node/13459343253",
+      "day": 1,
+      "name": "良渚博物院：水乡泽国",
+      "number": "01",
+      "anchor_id": "node/13459343253"
+    },
+    {
+      "coord": [
+        120.0110491,
+        30.3844725
+      ],
+      "osm": "node/10001031412",
+      "version": 1,
+      "point_role": "OSM西门游客入口gate，非展厅中心",
+      "source_url": "https://www.openstreetmap.org/node/10001031412",
+      "day": 1,
+      "name": "杭州国家版本馆：文献之邦",
+      "number": "02",
+      "anchor_id": "node/10001031412"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L05-full.svg",
+    "image": "journeys/L05-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.0089531,
+      30.374348100000002,
+      120.02569749999999,
+      30.3864725
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.7417447565534284,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        304.2934051672204,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "良渚博物院参观须知",
+      "url": "https://www.lzmuseum.cn/ZuiXinGongGao/2024934396935.html",
+      "type": "primary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州国家版本馆参观参考",
+      "url": "https://hz.bendibao.com/xiuxian/20251024/167162.shtm",
+      "type": "secondary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "良渚古城遗址｜UNESCO",
+      "url": "https://whc.unesco.org/en/list/1592/",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "良渚博物院：博物院简介与三大常设展",
+      "url": "https://www.lzmuseum.cn/BoWuYuanJianJie/",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州发布：杭州国家版本馆预约须知（2023）",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2023-07/18/content_8581419.htm",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "绍兴统战：2026年10月13日参观杭州国家版本馆",
+      "url": "https://sxtz.sx.gov.cn/col/col1485726/art/2026/art_b3a5f898bf0c4dedb87a0579ce720acf.html",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "良渚博物院：博物院简介与三大常设展",
+      "url": "https://www.lzmuseum.cn/BoWuYuanJianJie/",
+      "checked_at": "2026-10-25",
+      "note": "馆方介绍三大展厅；用于展线主题，不将旧公告时间当实时开馆保证。"
+    },
+    {
+      "title": "杭州发布：杭州国家版本馆预约须知（2023）",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2023-07/18/content_8581419.htm",
+      "checked_at": "2026-10-25",
+      "note": "历史官方转载明确西门文润路1号，旧时段不是2026全日承诺；本次高德POI仍指向该地址。"
+    },
+    {
+      "title": "绍兴统战：2026年10月13日参观杭州国家版本馆",
+      "url": "https://sxtz.sx.gov.cn/col/col1485726/art/2026/art_b3a5f898bf0c4dedb87a0579ce720acf.html",
+      "checked_at": "2026-10-25",
+      "note": "2026报道支持文献之邦仍有参观活动，不保证每件展品持续在展。"
+    }
+  ]
+}

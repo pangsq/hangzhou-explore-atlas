@@ -1,0 +1,421 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "4天=2个完整村落日：思溪和延村逐村看；江湾宗祠与开放村巷另一天，不把东西线连成徒步。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "婺源酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 婺源",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "婺源实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "婺源",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "思溪—延村：两座村落分开读",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "思溪村",
+          "osm": "node/5138929553",
+          "coord": [
+            117.7856151,
+            29.3396175
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 150,
+          "activity": "汽车到景区正式入口，沿南侧村巷进入，读徽派商宅、门楼与公共巷道；选已开放院落入内。",
+          "kind": "visit",
+          "match": "思溪村",
+          "file": "F02-sixi-osm",
+          "source_url": "https://www.openstreetmap.org/node/5138929553",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              117.7856151,
+              29.3396175
+            ],
+            "osm": "node/5138929553",
+            "version": 5,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5138929553"
+          }
+        },
+        {
+          "name": "延村",
+          "osm": "node/5138929552",
+          "coord": [
+            117.7987547,
+            29.3418857
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 150,
+          "activity": "午餐后短程汽车到延村入口，读村落布局、商宅外墙与门楼，再沿已核村巷回到上车处。",
+          "kind": "visit",
+          "match": "延村",
+          "source_url": "https://www.openstreetmap.org/node/5138929552",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              117.7987547,
+              29.3418857
+            ],
+            "osm": "node/5138929552",
+            "version": 6,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5138929552"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "婺源县城酒店",
+          "to": "思溪景区入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "思溪村",
+          "to": "延村",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "延村",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        }
+      ],
+      "detail_keys": [
+        "F02-sixi-village",
+        "F02-yancun-village"
+      ],
+      "exit": "两个村均回到正式村口；两村间主方案汽车接驳，未经核实不穿田埂抄近路。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "江湾：宗祠、徽派民居和老街",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "江湾村（村落代表点，入场口按景区导览）",
+          "osm": "node/5251505171",
+          "coord": [
+            118.0475826,
+            29.3705565
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "village_representative_not_entrance",
+          "minutes": 45,
+          "activity": "在景区公布的正式入场口到达并取得导览，确认可进院落及返回集合点；本标记只是OSM村落代表点，不能作检票口。",
+          "kind": "visit",
+          "match": "江湾",
+          "file": "F02-osm",
+          "source_url": "https://www.openstreetmap.org/node/5251505171",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              118.0475826,
+              29.3705565
+            ],
+            "osm": "node/5251505171",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5251505171"
+          }
+        },
+        {
+          "name": "萧江宗祠",
+          "osm": "node/6146641868",
+          "coord": [
+            118.0463383,
+            29.3709405
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "阅读宗祠轴线、木构与家族文化，是否入内按当日开放与门票。",
+          "kind": "visit",
+          "match": "萧江宗祠",
+          "source_url": "https://www.openstreetmap.org/node/6146641868",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              118.0463383,
+              29.3709405
+            ],
+            "osm": "node/6146641868",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/6146641868"
+          }
+        },
+        {
+          "name": "江湾村中—北侧公共村巷（沿局部详图）",
+          "osm": "node/5150836394",
+          "coord": [
+            118.0491908,
+            29.3732885
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "existing_verified_map_network_stop_not_gate",
+          "minutes": 150,
+          "activity": "午餐后沿已有江湾详图的村中—北侧公共路网慢游，比较天井、马头墙与街巷；标记为已核路网节点，不是镇区中心或私人宅门。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/5150836394",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              118.0491908,
+              29.3732885
+            ],
+            "osm": "node/5150836394",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/5150836394"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "江湾景区正式入场口（依当日导览）",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "当日正式入场口",
+          "to": "萧江宗祠",
+          "mode": "walk",
+          "instructions": "跟随景区正式导览，不沿村落代表点与宗祠之间画直线。"
+        },
+        {
+          "from": "宗祠",
+          "to": "江湾村中—北侧公共村巷",
+          "mode": "walk",
+          "instructions": "从正式出口回到已有局部详图覆盖路网；不以town点作为巷口。"
+        },
+        {
+          "from": "江湾正式出场口",
+          "to": "酒店",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        }
+      ],
+      "detail_keys": [
+        "F02"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "返杭州交通日",
+      "start": "婺源酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 婺源实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "婺源",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "思溪+延村取代“另找邻近村/茶空间”。",
+    "江湾具体化为导览、宗祠、村巷三个活动，取消用茶馆填全天。"
+  ],
+  "limitations": [
+    "门票可进入的具体宅院清单按当日运营导览；不写死演出。"
+  ],
+  "points": [
+    {
+      "coord": [
+        117.7856151,
+        29.3396175
+      ],
+      "osm": "node/5138929553",
+      "version": 5,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5138929553",
+      "day": 2,
+      "name": "思溪村",
+      "number": "01",
+      "anchor_id": "node/5138929553"
+    },
+    {
+      "coord": [
+        117.7987547,
+        29.3418857
+      ],
+      "osm": "node/5138929552",
+      "version": 6,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5138929552",
+      "day": 2,
+      "name": "延村",
+      "number": "02",
+      "anchor_id": "node/5138929552"
+    },
+    {
+      "coord": [
+        118.0475826,
+        29.3705565
+      ],
+      "osm": "node/5251505171",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5251505171",
+      "day": 3,
+      "name": "江湾村（村落代表点，入场口按景区导览）",
+      "number": "03",
+      "anchor_id": "node/5251505171"
+    },
+    {
+      "coord": [
+        118.0463383,
+        29.3709405
+      ],
+      "osm": "node/6146641868",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/6146641868",
+      "day": 3,
+      "name": "萧江宗祠",
+      "number": "04",
+      "anchor_id": "node/6146641868"
+    },
+    {
+      "coord": [
+        118.0491908,
+        29.3732885
+      ],
+      "osm": "node/5150836394",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/5150836394",
+      "day": 3,
+      "name": "江湾村中—北侧公共村巷（沿局部详图）",
+      "number": "05",
+      "anchor_id": "node/5150836394"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/F02-full.svg",
+    "image": "journeys/F02-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      117.75728910000001,
+      29.33511092,
+      118.07762550000001,
+      29.37885378
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.05346975793469114,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        589.9618877625918
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "江西省婺源县江湾村",
+      "url": "https://nmfsj.moa.gov.cn/sylbt/201908/t20190830_6327043.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=118.043,29.37,118.056,29.38",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=117.78,29.335,117.804,29.347",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "江湾村历史和村落资料",
+      "url": "https://nmfsj.moa.gov.cn/sylbt/201908/t20190830_6327043.htm",
+      "checked_at": "2026-10-25",
+      "note": "农业农村部页面本次实读；村落历史，不保证院落当日开放。"
+    }
+  ]
+}

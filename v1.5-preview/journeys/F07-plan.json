@@ -1,0 +1,600 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "5天3个完整日：省博+听涛岸线、昙华林+粮道街、汉口江汉关至黎黄陂路。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "武汉酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 武汉／汉口（按实购车票选择）",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "武汉实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "武汉／汉口（按实购车票选择）",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "湖北省博与东湖听涛",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "湖北省博物馆",
+          "osm": "way/363656371",
+          "coord": [
+            114.3599553377358,
+            30.563854532075478
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 210,
+          "activity": "按预约正式入口参观曾侯乙等常设主题，编钟演出和临展不默认包含。",
+          "kind": "visit",
+          "match": "湖北省博物馆",
+          "source_url": "https://www.openstreetmap.org/way/363656371",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              114.3599553377358,
+              30.563854532075478
+            ],
+            "osm": "way/363656371",
+            "version": 15,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/363656371"
+          }
+        },
+        {
+          "name": "东湖听涛大门与开放岸线",
+          "osm": "way/126869652",
+          "coord": [
+            114.36635872,
+            30.56505388
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "午餐后汽车/公交到听涛正式大门，沿湖侧成熟步道看湖景，在既有详图止点折返；不替代整条东湖绿道。",
+          "kind": "walk",
+          "match": "听涛大门",
+          "source_url": "https://www.openstreetmap.org/way/126869652",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              114.36635872,
+              30.56505388
+            ],
+            "osm": "way/126869652",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/126869652"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "湖北省博正式出口",
+          "to": "东湖听涛大门",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "听涛大门",
+          "to": "湖侧步道折返点",
+          "mode": "walk",
+          "instructions": "按现有路线覆盖的岸线往返，闭园段原路退回。"
+        }
+      ],
+      "detail_keys": [
+        "F07"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "昙华林近代街区与粮道街",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "昙华林公共主街",
+          "osm": "node/12163444195",
+          "coord": [
+            114.3006209,
+            30.5554619
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 120,
+          "activity": "从西端公开步行街入，观察保护建筑与街头文化空间，不穿中医药大学校区。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/12163444195",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              114.3006209,
+              30.5554619
+            ],
+            "osm": "node/12163444195",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/12163444195"
+          }
+        },
+        {
+          "name": "武昌历史文化博物馆",
+          "osm": "way/1120163127",
+          "coord": [
+            114.30795168,
+            30.55378798
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "按当日开放参观武昌历史主题；不能借馆址推断楼层入口。",
+          "kind": "visit",
+          "match": "武昌历史文化博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1120163127",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              114.30795168,
+              30.55378798
+            ],
+            "osm": "way/1120163127",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1120163127"
+          }
+        },
+        {
+          "name": "胭脂路—粮道街",
+          "osm": "node/1218887076",
+          "coord": [
+            114.304199,
+            30.5499671
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "午餐后按详图沿公开路网转到粮道街，观察城市生活与地方餐食，正规街口结束。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1218887076",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              114.304199,
+              30.5499671
+            ],
+            "osm": "node/1218887076",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1218887076"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "昙华林主街",
+          "to": "武昌历史文化博物馆",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "昙华林",
+          "to": "粮道街",
+          "mode": "walk",
+          "instructions": "经胭脂路与正式街口，不跨校区围墙或后门。"
+        }
+      ],
+      "detail_keys": [
+        "F07-tanhualin"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "汉口：江汉关、江汉路与黎黄陂路",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "江汉关博物馆",
+          "osm": "node/6799539485",
+          "coord": [
+            114.2920764,
+            30.5786927
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "按官方开放参观近代口岸主题与建筑，馆外钟楼不代表所有室内楼层可上。",
+          "kind": "visit",
+          "match": "江汉关博物馆",
+          "source_url": "https://www.openstreetmap.org/node/6799539485",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              114.2920764,
+              30.5786927
+            ],
+            "osm": "node/6799539485",
+            "version": 7,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/6799539485"
+          }
+        },
+        {
+          "name": "江汉路步行街",
+          "osm": "node/1880509259",
+          "coord": [
+            114.2903372,
+            30.5798642
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 75,
+          "activity": "午餐前后沿步行街看近代商业建筑。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1880509259",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              114.2903372,
+              30.5798642
+            ],
+            "osm": "node/1880509259",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1880509259"
+          }
+        },
+        {
+          "name": "鄱阳街—黎黄陂路历史街区",
+          "osm": "node/1880504401",
+          "coord": [
+            114.2951192,
+            30.589337
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 120,
+          "activity": "按OSM街区详图看近代建筑外观与开放公共街道，结束后地铁/汽车回酒店。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1880504401",
+          "map_number": "08",
+          "location": {
+            "coord": [
+              114.2951192,
+              30.589337
+            ],
+            "osm": "node/1880504401",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1880504401"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店所在岸",
+          "to": "汉口江汉关",
+          "mode": "metro",
+          "instructions": "跨江主方案地铁或汽车；以实际起点规划，不虚构固定站号出口。"
+        },
+        {
+          "from": "江汉关",
+          "to": "江汉路",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "江汉路",
+          "to": "鄱阳街—黎黄陂路",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F07-hankou"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 5,
+      "title": "返杭州交通日",
+      "start": "武汉酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 武汉实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "武汉／汉口（按实购车票选择）",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "把3个完整日的第二活动具体到听涛、武昌历史馆、江汉关，不再用咖啡填日程。",
+    "跨江明确地铁，不把两岸直线当步行。"
+  ],
+  "limitations": [
+    "各馆最新预约、闭馆及江汉关室内开放范围出行前单核；路线主体街巷不依赖登楼。"
+  ],
+  "points": [
+    {
+      "coord": [
+        114.3599553377358,
+        30.563854532075478
+      ],
+      "osm": "way/363656371",
+      "version": 15,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/363656371",
+      "day": 2,
+      "name": "湖北省博物馆",
+      "number": "01",
+      "anchor_id": "way/363656371"
+    },
+    {
+      "coord": [
+        114.36635872,
+        30.56505388
+      ],
+      "osm": "way/126869652",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/126869652",
+      "day": 2,
+      "name": "东湖听涛大门与开放岸线",
+      "number": "02",
+      "anchor_id": "way/126869652"
+    },
+    {
+      "coord": [
+        114.3006209,
+        30.5554619
+      ],
+      "osm": "node/12163444195",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/12163444195",
+      "day": 3,
+      "name": "昙华林公共主街",
+      "number": "03",
+      "anchor_id": "node/12163444195"
+    },
+    {
+      "coord": [
+        114.30795168,
+        30.55378798
+      ],
+      "osm": "way/1120163127",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1120163127",
+      "day": 3,
+      "name": "武昌历史文化博物馆",
+      "number": "04",
+      "anchor_id": "way/1120163127"
+    },
+    {
+      "coord": [
+        114.304199,
+        30.5499671
+      ],
+      "osm": "node/1218887076",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1218887076",
+      "day": 3,
+      "name": "胭脂路—粮道街",
+      "number": "05",
+      "anchor_id": "node/1218887076"
+    },
+    {
+      "coord": [
+        114.2920764,
+        30.5786927
+      ],
+      "osm": "node/6799539485",
+      "version": 7,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/6799539485",
+      "day": 4,
+      "name": "江汉关博物馆",
+      "number": "06",
+      "anchor_id": "node/6799539485"
+    },
+    {
+      "coord": [
+        114.2903372,
+        30.5798642
+      ],
+      "osm": "node/1880509259",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1880509259",
+      "day": 4,
+      "name": "江汉路步行街",
+      "number": "07",
+      "anchor_id": "node/1880509259"
+    },
+    {
+      "coord": [
+        114.2951192,
+        30.589337
+      ],
+      "osm": "node/1880504401",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1880504401",
+      "day": 4,
+      "name": "鄱阳街—黎黄陂路历史街区",
+      "number": "08",
+      "anchor_id": "node/1880504401"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F07-tingtao",
+      "title": "武汉 · 东湖听涛门与行吟阁、屈原纪念馆",
+      "day": 2,
+      "distance_m": 2564.7990734673413,
+      "files": {
+        "svg": "journeys/F07-tingtao.svg",
+        "gpx": "journeys/F07-tingtao.gpx",
+        "json": "journeys/F07-tingtao.json"
+      },
+      "issues": []
+    },
+    {
+      "key": "F07-hankou-expanded",
+      "title": "江汉关—江汉路—黎黄陂路",
+      "day": 4,
+      "distance_m": 3652.4206843784245,
+      "files": {
+        "svg": "journeys/F07-hankou-expanded.svg",
+        "gpx": "journeys/F07-hankou-expanded.gpx",
+        "json": "journeys/F07-hankou-expanded.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F07-full.svg",
+    "image": "journeys/F07-full.webp",
+    "width": 1400,
+    "height": 1500,
+    "bbox": [
+      114.28076082999999,
+      30.545242712,
+      114.37950247,
+      30.594061388
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.17559555779720243,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        243.399179897976
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "湖北省博物馆 Visitor Guide",
+      "url": "https://m-www.hbkgy.com/p/12728.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 2026-04-21更新，含常规/暑期不同时间与入口说明；出发前再核中文新公告。"
+    },
+    {
+      "title": "荆楚艺蕴·博美双璧",
+      "url": "https://wlt.hubei.gov.cn/bmdt/ztzl/wltztzyhhdxjc/wltztzyhbdxjcyxxl/wltztzyhbdxjclswh/202608/t20260827_6002248.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "昙华林历史文化街区提案答复",
+      "url": "https://www.wuhan.gov.cn/ztzl/jytabl/swlj/sjyta/202003/t20200316_949075.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=114.346,30.551,114.378,30.579",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=114.284,30.576,114.302,30.594",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=114.298,30.55,114.315,30.559",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "昙华林文化街区更新",
+      "url": "https://sw.wuhan.gov.cn/xwdt/gzdt/202609/t20260917_2849032.shtml",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 武汉商务局本次检索正文，艺术展厅及历史建筑；不默认校区向游客开放。"
+    },
+    {
+      "title": "昙华林文化街区更新",
+      "url": "https://sw.wuhan.gov.cn/xwdt/gzdt/202609/t20260917_2849032.shtml",
+      "checked_at": "2026-10-25",
+      "note": "武汉商务局本次检索正文，艺术展厅及历史建筑；不默认校区向游客开放。"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "上午固定杭州博物馆，午后老街与德寿宫南入北出；3.267km街巷图保留局部，北出口不是入场口。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭博—河坊街—南宋御街—德寿宫",
+      "start": "杭州博物馆公众入口（粮道山18号）",
+      "end": "德寿宫北出口外公共道路",
+      "visits": [
+        {
+          "name": "杭州博物馆城市史陈列",
+          "minutes": 105,
+          "activity": "09:30–11:15 按当日公开历史陈列读杭州城市发展，重点比较地理环境、钱塘城与宋代临安；具体珍品依在展情况。",
+          "kind": "visit",
+          "osm": "way/61232073",
+          "coord": [
+            120.1616218,
+            30.2412573
+          ],
+          "coord_system": "WGS84",
+          "point_role": "南馆建筑代表点，非入口",
+          "source_url": "https://wgly.hangzhou.gov.cn/art/2022/11/9/art_1229696394_58942372.html",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.16162179999999,
+              30.241257316666672
+            ],
+            "osm": "way/61232073",
+            "version": 7,
+            "point_role": "南馆建筑代表点，非入口",
+            "source_url": "https://www.openstreetmap.org/way/61232073"
+          }
+        },
+        {
+          "name": "河坊街正餐",
+          "minutes": 60,
+          "activity": "11:15–12:15 粮道山出馆，按公众台阶道路回河坊街，正常正餐而非以小吃充全天。",
+          "kind": "visit"
+        },
+        {
+          "name": "河坊街与大井巷",
+          "minutes": 45,
+          "activity": "12:15–13:00 按L10公共街巷走至大井巷北口，观察商业街尺度、传统店面与巷道。",
+          "kind": "visit",
+          "osm": "node/267697829",
+          "coord": [
+            120.1645197,
+            30.2424964
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.1645197,
+              30.2424964
+            ],
+            "osm": "node/267697829",
+            "version": 2,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/267697829"
+          }
+        },
+        {
+          "name": "中山中路南宋御街",
+          "minutes": 50,
+          "activity": "13:00–13:50 按L10到北段再沿街返回，阅读沿街历史信息，不把现代街面直接当南宋原貌。",
+          "kind": "visit",
+          "osm": "node/267699993",
+          "coord": [
+            120.1659244,
+            30.248101
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.1659244,
+              30.248101
+            ],
+            "osm": "node/267699993",
+            "version": 4,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/267699993"
+          }
+        },
+        {
+          "name": "至德寿宫望江路南进口",
+          "minutes": 25,
+          "activity": "13:50–14:15 汽车短接驳或依现场公共人行导航到望江路公众南进口；这里不使用北出口逆入的旧图终点。",
+          "kind": "transport"
+        },
+        {
+          "name": "德寿宫公众展线",
+          "minutes": 105,
+          "activity": "14:15–16:00 按已获当日预约，从南进口入，沿公众导览参观宫殿格局、南宋历史与开放遗址展示，再按组织由北出口离馆；不杜撰室内GPS。",
+          "kind": "visit",
+          "osm": "way/1387288543",
+          "coord": [
+            120.1686547,
+            30.2412968
+          ],
+          "coord_system": "WGS84",
+          "point_role": "馆区面积代表点，不能当南进口",
+          "source_url": "https://hznews.hangzhou.com.cn/chengshi/content/2022-11/21/content_8405563.htm",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              120.16865468125002,
+              30.241296775000002
+            ],
+            "osm": "way/1387288543",
+            "version": 3,
+            "point_role": "馆区面积代表点，不能当南进口",
+            "source_url": "https://www.openstreetmap.org/way/1387288543"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州博物馆入口",
+          "to": "河坊街",
+          "mode": "official_walk",
+          "instructions": "粮道山18号按馆区公众出口和公共台阶回河坊街，不把建筑面中心当门。",
+          "evidence_url": "https://wgly.hangzhou.gov.cn/art/2022/11/9/art_1229696394_58942372.html"
+        },
+        {
+          "from": "河坊街",
+          "to": "中山中路北段",
+          "mode": "walk",
+          "instructions": "L10街巷图覆盖大井巷北口与中山中路往返。"
+        },
+        {
+          "from": "中山中路",
+          "to": "德寿宫望江路南进口",
+          "mode": "car",
+          "instructions": "主方案汽车短接驳至望江路公众入口，实际落客服从现场管理；若采用步行，需独立核定人行道和中河过街点。",
+          "evidence_url": "https://hznews.hangzhou.com.cn/chengshi/content/2022-11/21/content_8405563.htm"
+        },
+        {
+          "from": "德寿宫南进口",
+          "to": "德寿宫北出口",
+          "mode": "official_walk",
+          "instructions": "馆内南进北出以当日导览为准，OSM北出口node/9742761188不是入场门。",
+          "evidence_url": "https://hznews.hangzhou.com.cn/chengshi/content/2022-11/21/content_8405563.htm"
+        }
+      ],
+      "detail_keys": [
+        "L10"
+      ],
+      "exit": "16:00北出口外按公共步道到允许接送点，汽车接地铁返家。",
+      "backup": "预先确认两馆维护日不同；德寿宫无预约则固定改为河坊街—鼓楼公共街区半日后返，不临时逆闯北出口。",
+      "planned_minutes": 390
+    }
+  ],
+  "changes": [
+    "固定杭博+德寿宫具体主题",
+    "纠正德寿宫北侧图终点不代表入口",
+    "交通和馆内动线独立于3.267km旧街巷图"
+  ],
+  "limitations": [
+    "杭州博物馆旧2022官方页称周一闭馆，但2023后多资料称周二闭馆；不发布固定闭馆日，出发前核馆方当周公告。",
+    "德寿宫南门精确OSM节点缺失，不用way中心或北出口替代。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.16162179999999,
+        30.241257316666672
+      ],
+      "osm": "way/61232073",
+      "version": 7,
+      "point_role": "南馆建筑代表点，非入口",
+      "source_url": "https://www.openstreetmap.org/way/61232073",
+      "day": 1,
+      "name": "杭州博物馆城市史陈列",
+      "number": "01",
+      "anchor_id": "way/61232073"
+    },
+    {
+      "coord": [
+        120.1645197,
+        30.2424964
+      ],
+      "osm": "node/267697829",
+      "version": 2,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/267697829",
+      "day": 1,
+      "name": "河坊街与大井巷",
+      "number": "02",
+      "anchor_id": "node/267697829"
+    },
+    {
+      "coord": [
+        120.1659244,
+        30.248101
+      ],
+      "osm": "node/267699993",
+      "version": 4,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/267699993",
+      "day": 1,
+      "name": "中山中路南宋御街",
+      "number": "03",
+      "anchor_id": "node/267699993"
+    },
+    {
+      "coord": [
+        120.16865468125002,
+        30.241296775000002
+      ],
+      "osm": "way/1387288543",
+      "version": 3,
+      "point_role": "馆区面积代表点，不能当南进口",
+      "source_url": "https://www.openstreetmap.org/way/1387288543",
+      "day": 1,
+      "name": "德寿宫公众展线",
+      "number": "04",
+      "anchor_id": "way/1387288543"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L10-full.svg",
+    "image": "journeys/L10-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.1559412,
+      30.239257316666674,
+      120.17065468125001,
+      30.250100999999997
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.8293501248526539,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        313.9115182223835,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "杭州市文化广电旅游局·城市漫步",
+      "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "侨见吴越·跟着太平年看杭州｜杭州市侨联",
+      "url": "https://ql.hangzhou.gov.cn/col/col1229597834/art/2026/art_d14f8d4bf3c7488489e8868877ae5ec0.html",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州文旅：杭州博物馆",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/11/9/art_1229696394_58942372.html",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州公交发布：德寿宫南进口与北出口",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2022-11/21/content_8405563.htm",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州文旅：杭州博物馆",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/11/9/art_1229696394_58942372.html",
+      "checked_at": "2026-10-25",
+      "note": "粮道山18号和南北馆定位。该2022页面闭馆日与后续资料冲突，故不复制旧周一闭馆结论。"
+    },
+    {
+      "title": "杭州公交发布：德寿宫南进口与北出口",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2022-11/21/content_8405563.htm",
+      "checked_at": "2026-10-25",
+      "note": "2022官方交通稿；只采用望江路南进、北侧离开的组织，不照搬当时未开通地铁出口或旧公交班次。"
+    }
+  ]
+}

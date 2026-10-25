@@ -1,0 +1,330 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "屯溪两日完整城市游：黎阳古宅与滨江、屯溪博物馆与老街，明确跨河连接；不为两天而加黄山登顶。",
+  "days": [
+    {
+      "day": 1,
+      "title": "抵达屯溪，黎阳古宅与三江岸景",
+      "start": "杭与城北区",
+      "end": "屯溪市区住宿",
+      "visits": [
+        {
+          "name": "家→黄山北→屯溪",
+          "minutes": 270,
+          "activity": "高铁车次以杭州西可用车次为准，汽车进屯溪后寄存行李",
+          "kind": "transport"
+        },
+        {
+          "name": "黎阳in巷",
+          "minutes": 90,
+          "activity": "看保存的徽派古宅与三条主题街区",
+          "kind": "visit",
+          "osm": "way/719692696",
+          "coord": [
+            118.29291069333333,
+            29.70804026
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11232731.html",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              118.29291069333333,
+              29.70804026
+            ],
+            "osm": "way/719692696",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/719692696"
+          }
+        },
+        {
+          "name": "黎阳滨江休闲街区",
+          "minutes": 60,
+          "activity": "沿正式开放滨水街区看三江汇流片区与古街夜色，不强行环河",
+          "kind": "walk",
+          "osm": "way/719692696",
+          "coord": [
+            118.29291069333333,
+            29.70804026
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11232731.html",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              118.29291069333333,
+              29.70804026
+            ],
+            "osm": "way/719692696",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/719692696"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "黄山北",
+          "to": "屯溪酒店",
+          "mode": "car",
+          "instructions": "车站到市区单独接驳"
+        },
+        {
+          "from": "酒店",
+          "to": "黎阳in巷",
+          "mode": "car",
+          "instructions": "位置随酒店实际地址，不画想象酒店入口"
+        },
+        {
+          "from": "黎阳街巷",
+          "to": "滨江休闲街区",
+          "mode": "official_walk",
+          "instructions": "按街区现场导览，使用N06-liyang已核部分，不靠节日演出填时间",
+          "evidence_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11232731.html"
+        }
+      ],
+      "detail_keys": [
+        "N06-liyang"
+      ],
+      "exit": "黎阳公共街口可汽车回酒店",
+      "backup": "雨天古宅开放空间择重点；节庆演出不保证每天有"
+    },
+    {
+      "day": 2,
+      "title": "屯溪老街与博物馆，午后返程",
+      "start": "屯溪住宿",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "屯溪博物馆",
+          "minutes": 75,
+          "activity": "看老街与屯溪地方展陈，开放先核；不误用黄山市博物馆旧OSM点",
+          "kind": "visit",
+          "osm": "node/7806206693",
+          "coord": [
+            118.3017976,
+            29.7105353
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              118.3017976,
+              29.7105353
+            ],
+            "osm": "node/7806206693",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/7806206693"
+          }
+        },
+        {
+          "name": "屯溪老街",
+          "minutes": 75,
+          "activity": "看徽商店铺、街屋与传统工艺店面，保留午餐时间",
+          "kind": "walk",
+          "osm": "way/62287276",
+          "coord": [
+            118.30039395,
+            29.710771984615388
+          ],
+          "coord_crs": "WGS84",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              118.30039395,
+              29.710771984615388
+            ],
+            "osm": "way/62287276",
+            "version": 11,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/62287276"
+          }
+        },
+        {
+          "name": "镇海桥与两岸河街",
+          "minutes": 30,
+          "activity": "如天气允许沿镇海桥正式人行桥与桥头公共河街观察老街和黎阳两岸空间关系；跨桥使用真实桥路，不沿水面切线",
+          "kind": "walk",
+          "osm": "way/1135913929",
+          "coord": [
+            118.29635975,
+            29.711013649999998
+          ],
+          "coord_crs": "WGS84",
+          "source_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11232731.html",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              118.29635975,
+              29.711013649999998
+            ],
+            "osm": "way/1135913929",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/1135913929"
+          }
+        },
+        {
+          "name": "屯溪→黄山北→家",
+          "minutes": 270,
+          "activity": "午餐取行李后返站，按车票留足市区接驳时间",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "屯溪博物馆",
+          "mode": "car",
+          "instructions": "步行可达的酒店用实际导航"
+        },
+        {
+          "from": "博物馆",
+          "to": "屯溪老街",
+          "mode": "walk",
+          "instructions": "N06旧图只是局部外街，展厅独立参观"
+        },
+        {
+          "from": "老街",
+          "to": "黎阳片区",
+          "mode": "official_walk",
+          "instructions": "如新核镇海桥连续公共路径可用再步行；缺口用汽车而非跨水直连",
+          "evidence_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11232731.html"
+        },
+        {
+          "from": "屯溪",
+          "to": "黄山北",
+          "mode": "car",
+          "instructions": "返站后高铁回杭州西"
+        }
+      ],
+      "detail_keys": [
+        "N06",
+        "N06-liyang"
+      ],
+      "exit": "老街公共街口可直接汽车到站，不必折返对岸",
+      "backup": "博物馆闭馆改街屋建筑观察并提早返程，不临时增加不明馆名"
+    }
+  ],
+  "changes": [
+    "取消第一天无名“大馆”，以有官方据的黎阳古宅为主",
+    "原N06走到黎阳桥并不等于已接黎阳in巷，新增全程按实际跨河路径核算"
+  ],
+  "limitations": [
+    "屯溪博物馆当前开放需再核，旧OSM黄山市博物馆不是本次替代馆",
+    "两岸连接必须以桥梁公共人行几何核准，否则汽车转场"
+  ],
+  "points": [
+    {
+      "coord": [
+        118.29291069333333,
+        29.70804026
+      ],
+      "osm": "way/719692696",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/719692696",
+      "day": 1,
+      "name": "黎阳in巷",
+      "number": "01",
+      "anchor_id": "way/719692696"
+    },
+    {
+      "coord": [
+        118.3017976,
+        29.7105353
+      ],
+      "osm": "node/7806206693",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/7806206693",
+      "day": 2,
+      "name": "屯溪博物馆",
+      "number": "02",
+      "anchor_id": "node/7806206693"
+    },
+    {
+      "coord": [
+        118.30039395,
+        29.710771984615388
+      ],
+      "osm": "way/62287276",
+      "version": 11,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/62287276",
+      "day": 2,
+      "name": "屯溪老街",
+      "number": "03",
+      "anchor_id": "way/62287276"
+    },
+    {
+      "coord": [
+        118.29635975,
+        29.711013649999998
+      ],
+      "osm": "way/1135913929",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/1135913929",
+      "day": 2,
+      "name": "镇海桥与两岸河街",
+      "number": "04",
+      "anchor_id": "way/1135913929"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "N06-two-banks",
+      "title": "屯溪老街—镇海桥—黎阳公共街巷",
+      "day": 2,
+      "distance_m": 970.2646078970719,
+      "files": {
+        "svg": "journeys/N06-two-banks.svg",
+        "gpx": "journeys/N06-two-banks.gpx",
+        "json": "journeys/N06-two-banks.json"
+      },
+      "issues": [
+        "部分POI是代表点，点到路网接驳未核实；虚线不视为可走路径。"
+      ]
+    }
+  ],
+  "map": {
+    "svg": "journeys/N06-full.svg",
+    "image": "journeys/N06-full.webp",
+    "width": 1400,
+    "height": 1363,
+    "bbox": [
+      118.2899644,
+      29.7057986,
+      118.3037976,
+      29.715708499999998
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.9074975657027418,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        293.8048364052138,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "黄山市政府：黎阳in巷三街两广场",
+      "url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11232731.html",
+      "checked_at": "2026-10-25T07:14:30.702Z",
+      "note": "本轮搜索可读官方正文；支持街区和古宅，不宣称全天展馆开放"
+    }
+  ]
+}

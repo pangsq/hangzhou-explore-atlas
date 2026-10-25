@@ -1,0 +1,568 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "5天3个完整日：湖南博物院与烈士公园、岳麓山成熟登山、太平街与贾谊故居—坡子街。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "长沙酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 长沙南",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "长沙实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "长沙南",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "湖南博物院与烈士公园",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "湖南博物院",
+          "osm": "way/269856520",
+          "coord": [
+            112.98839508636365,
+            28.21531552727273
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "minutes": 210,
+          "activity": "按预约参观马王堆与湖南历史主题；OSM旧名湖南省博物馆是同址名称记录，不取公交站为馆门。",
+          "kind": "visit",
+          "match": "湖南省博物馆",
+          "source_url": "https://www.openstreetmap.org/way/269856520",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              112.98839508636365,
+              28.21531552727273
+            ],
+            "osm": "way/269856520",
+            "version": 12,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/269856520"
+          }
+        },
+        {
+          "name": "烈士公园",
+          "osm": "way/273676907",
+          "coord": [
+            112.99390180493823,
+            28.213464551851853
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "午餐后汽车/公交到西门，沿园内成熟道路到纪念区及开放园林，正式南门结束。",
+          "kind": "walk",
+          "match": "烈士公园",
+          "source_url": "https://www.openstreetmap.org/way/273676907",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              112.99390180493823,
+              28.213464551851853
+            ],
+            "osm": "way/273676907",
+            "version": 15,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/273676907"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "湖南博物院正式出口",
+          "to": "烈士公园西门",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "公园西门",
+          "to": "南门",
+          "mode": "walk",
+          "instructions": "只走公园正式游路，不进入水上设施或未开放纪念建筑。"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "岳麓山南门—爱晚亭—山顶正式环线",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "岳麓山南门",
+          "osm": "node/3464569159",
+          "coord": [
+            112.9352145,
+            28.1820862
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 30,
+          "activity": "到南门确认当日山路开放，备水并设天气折返点。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/node/3464569159",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              112.9352145,
+              28.1820862
+            ],
+            "osm": "node/3464569159",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/3464569159"
+          }
+        },
+        {
+          "name": "爱晚亭及周围成熟游路",
+          "osm": "node/4407384362",
+          "coord": [
+            112.9322689,
+            28.1839235
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 60,
+          "activity": "观察亭与山谷植被，沿开放步道继续登山。",
+          "kind": "visit",
+          "source_url": "https://www.openstreetmap.org/node/4407384362",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              112.9322689,
+              28.1839235
+            ],
+            "osm": "node/4407384362",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/4407384362"
+          }
+        },
+        {
+          "name": "岳麓峰旁正式步道",
+          "osm": "node/690147683",
+          "coord": [
+            112.9308438,
+            28.1908415
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 180,
+          "activity": "按既有OSM成熟环线分段登高再下山，不另走未核山脊；时间含休息与观景。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/690147683",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              112.9308438,
+              28.1908415
+            ],
+            "osm": "node/690147683",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/690147683"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "南门",
+          "to": "爱晚亭",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "爱晚亭",
+          "to": "岳麓峰",
+          "mode": "walk",
+          "instructions": "依既有详图正式游路登高。"
+        },
+        {
+          "from": "岳麓峰",
+          "to": "南门",
+          "mode": "walk",
+          "instructions": "依既有详图下山；如当天封闭则折返已走路段。"
+        }
+      ],
+      "detail_keys": [
+        "F08"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "大雨、雷暴、高温不登高；博物院日与街区日可换。岳麓书院只另购票预约合适时替代登山时段，不额外堆入。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "太平街—贾谊故居—坡子街",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "太平街历史街区",
+          "osm": "node/13924026551",
+          "coord": [
+            112.9663025,
+            28.198648
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 105,
+          "activity": "从北段进入，观察旧城街巷和商业建筑，不追网红队伍占满一天。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/13924026551",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              112.9663025,
+              28.198648
+            ],
+            "osm": "node/13924026551",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/13924026551"
+          }
+        },
+        {
+          "name": "贾谊故居",
+          "osm": "node/8263101817",
+          "coord": [
+            112.9663243,
+            28.1960871
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_or_footprint_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "按开放参观人物主题展陈与建筑，未开放时只保留公共街面外观。",
+          "kind": "visit",
+          "match": "贾谊故居",
+          "source_url": "https://www.openstreetmap.org/node/8263101817",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              112.9663243,
+              28.1960871
+            ],
+            "osm": "node/8263101817",
+            "version": 3,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/8263101817"
+          }
+        },
+        {
+          "name": "三王街—坡子街",
+          "osm": "node/13922610466",
+          "coord": [
+            112.9707312,
+            28.1933402
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "午餐后按既有路网详图继续看街巷与地方饮食文化，公共街口结束。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/13922610466",
+          "map_number": "08",
+          "location": {
+            "coord": [
+              112.9707312,
+              28.1933402
+            ],
+            "osm": "node/13922610466",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/13922610466"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "太平街北段",
+          "to": "贾谊故居",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "贾谊故居",
+          "to": "三王街—坡子街",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F08-oldtown"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 5,
+      "title": "返杭州交通日",
+      "start": "长沙酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 长沙实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "长沙南",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "博物院下午具体化为烈士公园；老城明确贾谊故居，不再用“已核小馆”。",
+    "山日不强塞岳麓书院、不临时跨江加橘子洲。"
+  ],
+  "limitations": [
+    "烈士公园内部步道应补OSM详图，不能把西门—南门直连作测量轨迹。",
+    "贾谊故居当前预约按运营方新公告确认。"
+  ],
+  "points": [
+    {
+      "coord": [
+        112.98839508636365,
+        28.21531552727273
+      ],
+      "osm": "way/269856520",
+      "version": 12,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/269856520",
+      "day": 2,
+      "name": "湖南博物院",
+      "number": "01",
+      "anchor_id": "way/269856520"
+    },
+    {
+      "coord": [
+        112.99390180493823,
+        28.213464551851853
+      ],
+      "osm": "way/273676907",
+      "version": 15,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/273676907",
+      "day": 2,
+      "name": "烈士公园",
+      "number": "02",
+      "anchor_id": "way/273676907"
+    },
+    {
+      "coord": [
+        112.9352145,
+        28.1820862
+      ],
+      "osm": "node/3464569159",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/3464569159",
+      "day": 3,
+      "name": "岳麓山南门",
+      "number": "03",
+      "anchor_id": "node/3464569159"
+    },
+    {
+      "coord": [
+        112.9322689,
+        28.1839235
+      ],
+      "osm": "node/4407384362",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/4407384362",
+      "day": 3,
+      "name": "爱晚亭及周围成熟游路",
+      "number": "04",
+      "anchor_id": "node/4407384362"
+    },
+    {
+      "coord": [
+        112.9308438,
+        28.1908415
+      ],
+      "osm": "node/690147683",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/690147683",
+      "day": 3,
+      "name": "岳麓峰旁正式步道",
+      "number": "05",
+      "anchor_id": "node/690147683"
+    },
+    {
+      "coord": [
+        112.9663025,
+        28.198648
+      ],
+      "osm": "node/13924026551",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/13924026551",
+      "day": 4,
+      "name": "太平街历史街区",
+      "number": "06",
+      "anchor_id": "node/13924026551"
+    },
+    {
+      "coord": [
+        112.9663243,
+        28.1960871
+      ],
+      "osm": "node/8263101817",
+      "version": 3,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/8263101817",
+      "day": 4,
+      "name": "贾谊故居",
+      "number": "07",
+      "anchor_id": "node/8263101817"
+    },
+    {
+      "coord": [
+        112.9707312,
+        28.1933402
+      ],
+      "osm": "node/13922610466",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/13922610466",
+      "day": 4,
+      "name": "三王街—坡子街",
+      "number": "08",
+      "anchor_id": "node/13922610466"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F08-museum-park",
+      "title": "烈士公园西门—纪念区—南门",
+      "day": 2,
+      "distance_m": 848.0608858861508,
+      "files": {
+        "svg": "journeys/F08-museum-park.svg",
+        "gpx": "journeys/F08-museum-park.gpx",
+        "json": "journeys/F08-museum-park.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F08-full.svg",
+    "image": "journeys/F08-full.webp",
+    "width": 1400,
+    "height": 1500,
+    "bbox": [
+      112.91887871950617,
+      28.178098680727274,
+      113.00072208543206,
+      28.219303046545456
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.20697056995536336,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        70,
+        245.85945628876414
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "湖南博物院官网",
+      "url": "https://www.hnmuseum.com/",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 官方预约与公告入口；本次正文超时，未据旧文章锁定当日放票时刻。"
+    },
+    {
+      "title": "爱晚亭",
+      "url": "https://whhlyt.hunan.gov.cn/ggwh/201408/t20140804_5430585.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "长沙太平老街：湖湘文化时尚表达",
+      "url": "https://whhlyt.hunan.gov.cn/news/mtjj/202204/t20220412_22733797.html",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=112.924,28.179,112.946,28.199",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=112.962,28.189,112.975,28.202",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    }
+  ]
+}

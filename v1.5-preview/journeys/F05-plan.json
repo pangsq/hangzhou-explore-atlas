@@ -1,0 +1,554 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "5天3个完整日：本岛骑楼老城、主馆与沙坡尾、白城海滨；不把鼓浪屿分馆混入本岛。",
+  "days": [
+    {
+      "day": 1,
+      "title": "杭州出发与抵达交通日",
+      "start": "杭与城北区",
+      "end": "厦门酒店",
+      "visits": [
+        {
+          "name": "杭与城北区 → 杭州西站",
+          "minutes": 60,
+          "activity": "从家出发，预留进站与候车时间。",
+          "kind": "transport"
+        },
+        {
+          "name": "杭州西 → 厦门／厦门北（按实购车票选择）",
+          "kind": "transport",
+          "minutes": null,
+          "travel_stage": "intercity_rail",
+          "activity": "铁路段完整保留为交通日，实际耗时、换乘和到站按可购买车票；不承诺直达，不将市内接驳分钟误当全程高铁时间。",
+          "source_url": "https://www.12306.cn/"
+        },
+        {
+          "name": "厦门实际到达站 → 酒店",
+          "minutes": 120,
+          "activity": "按实际可购车票及目的站安排铁路、换乘和市区接驳，交通日不承诺额外景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "杭州西",
+          "to": "厦门／厦门北（按实购车票选择）",
+          "mode": "rail",
+          "instructions": "按真实可购车票落实列车与必要换乘；铁路时长独立于两端市内接驳，抵达过晚取消附加游览。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "列车抵达过晚则直接入住；取消散步，不挪用铁路换乘缓冲。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 2,
+      "title": "中山路—开元路：骑楼和老城生活",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "中山路步行街",
+          "osm": "node/1408154560",
+          "coord": [
+            118.072496,
+            24.4559063
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 150,
+          "activity": "从西段到东段读骑楼立面、商贸街巷，沿有标识公共通道步行。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/1408154560",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              118.072496,
+              24.4559063
+            ],
+            "osm": "node/1408154560",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/1408154560"
+          }
+        },
+        {
+          "name": "开元路周边老街巷",
+          "osm": "node/11983028170",
+          "coord": [
+            118.075854,
+            24.4604672
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 120,
+          "activity": "午餐后转开元路，比较支巷尺度与市井商业，再返回老城西侧；不把未经核实店铺当固定景点。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/11983028170",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              118.075854,
+              24.4604672
+            ],
+            "osm": "node/11983028170",
+            "version": 1,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/11983028170"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "中山路西段",
+          "to": "中山路东段",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "中山路东段",
+          "to": "开元路街巷",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        },
+        {
+          "from": "开元路",
+          "to": "老城西侧",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F05"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 3,
+      "title": "厦门市博物馆主馆—沙坡尾",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "厦门市博物馆（体育路95号主馆）",
+          "osm": "way/168406230",
+          "coord": [
+            118.10415843333334,
+            24.49372771666667
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 180,
+          "activity": "参观厦门历史、闽台民俗与古代石雕等主题，不能到鼓浪屿八卦楼旧馆或拿文化艺术中心整体当馆门。",
+          "kind": "visit",
+          "source_url": "https://www.xmmuseum.com/",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              118.10415843333334,
+              24.49372771666667
+            ],
+            "osm": "way/168406230",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/168406230"
+          }
+        },
+        {
+          "name": "沙坡尾艺术西区",
+          "osm": "way/366252362",
+          "coord": [
+            118.0824979611111,
+            24.440227000000007
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 90,
+          "activity": "汽车到本岛沙坡尾，参观开放公共艺术与旧渔港街区；展览须按当日场馆核。",
+          "kind": "visit",
+          "match": "沙坡尾艺术西区",
+          "source_url": "https://www.openstreetmap.org/way/366252362",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              118.0824979611111,
+              24.440227000000007
+            ],
+            "osm": "way/366252362",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/366252362"
+          }
+        },
+        {
+          "name": "沙坡尾避风坞周边公共街巷",
+          "osm": "node/4601158130",
+          "coord": [
+            118.0833017,
+            24.4421677
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 60,
+          "activity": "沿水岸公开街巷观察旧渔港格局，按现有步道回到正式出口。",
+          "kind": "walk",
+          "match": "沙坡尾社区",
+          "source_url": "https://www.openstreetmap.org/node/4601158130",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              118.0833017,
+              24.4421677
+            ],
+            "osm": "node/4601158130",
+            "version": 4,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/4601158130"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "体育路主馆",
+          "to": "沙坡尾艺术西区",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "艺术西区",
+          "to": "避风坞周边街巷",
+          "mode": "walk",
+          "instructions": "沿公开街巷、人行道及正式过街设施，遵从站内/景区导向；展厅内路线按当日导览。"
+        }
+      ],
+      "detail_keys": [
+        "F05-shapowei-coast"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "遇闭馆或恶劣天气，优先调换同城馆日与户外日；不以临时陌生山路补空。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 4,
+      "title": "白城海滨与演武观景步道",
+      "start": "酒店 → 当日首站的正式入口",
+      "end": "当日末站正式出口 → 酒店",
+      "visits": [
+        {
+          "name": "白城沙滩陆侧公共步道",
+          "osm": "way/164688343",
+          "coord": [
+            118.09862730256413,
+            24.433513356410252
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "footprint_representative_not_entrance",
+          "minutes": 120,
+          "activity": "汽车到白城公共入口，在陆侧成熟步道与沙滩开放区域观察海湾；不游泳、不下礁石、不进校园。",
+          "kind": "walk",
+          "match": "白城沙滩",
+          "source_url": "https://www.openstreetmap.org/way/164688343",
+          "map_number": "06",
+          "location": {
+            "coord": [
+              118.09862730256413,
+              24.433513356410252
+            ],
+            "osm": "way/164688343",
+            "version": 8,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/way/164688343"
+          }
+        },
+        {
+          "name": "演武大桥下方滨海观景步道",
+          "osm": "node/4812594506",
+          "coord": [
+            118.0840429,
+            24.4350438
+          ],
+          "coord_crs": "WGS84",
+          "anchor_role": "POI_not_assumed_entrance",
+          "minutes": 90,
+          "activity": "午餐后汽车至现有详图核准的沙坡尾滨海入口，在人行观景步道往返，不上桥面机动车道。",
+          "kind": "walk",
+          "source_url": "https://www.openstreetmap.org/node/4812594506",
+          "map_number": "07",
+          "location": {
+            "coord": [
+              118.0840429,
+              24.4350438
+            ],
+            "osm": "node/4812594506",
+            "version": 2,
+            "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+            "source_url": "https://www.openstreetmap.org/node/4812594506"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "酒店",
+          "to": "白城公共入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "白城",
+          "to": "沙坡尾滨海入口",
+          "mode": "car",
+          "instructions": "在正式出入口用地图导航叫车；按实时交通另留接驳缓冲。跨区段不画成直线步行或并入徒步里程。"
+        },
+        {
+          "from": "滨海入口",
+          "to": "观景步道折返点",
+          "mode": "walk",
+          "instructions": "使用旧详图核准海边人行设施往返；白城—演武间未核通道不擅画相连。"
+        }
+      ],
+      "detail_keys": [
+        "F05-shapowei-coast"
+      ],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "强风、暴雨或海滨临时关闭，取消岸边活动，可与博物馆日调换；不涉水绕封闭段。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    },
+    {
+      "day": 5,
+      "title": "返杭州交通日",
+      "start": "厦门酒店",
+      "end": "杭与城北区",
+      "visits": [
+        {
+          "name": "酒店退房 → 厦门实际出发站",
+          "minutes": 90,
+          "activity": "按车票退房，汽车/地铁到正确站房，提前安检候车。",
+          "kind": "transport"
+        },
+        {
+          "name": "铁路返杭州西 → 杭与城北区",
+          "minutes": 180,
+          "activity": "按实际车次与合法换乘返回；分钟仅市内接驳预留，铁路时长按车票，不安排返程日景点。",
+          "kind": "transport"
+        }
+      ],
+      "connections": [
+        {
+          "from": "厦门／厦门北（按实购车票选择）",
+          "to": "杭州西",
+          "mode": "rail",
+          "instructions": "正确出发站按票面，不把不同站名互换；返程日不安排远郊景点，长换乘应重排交通日。",
+          "evidence_url": "https://www.12306.cn/"
+        }
+      ],
+      "detail_keys": [],
+      "exit": "以末站正式出口为返程上车点；体力不足在中途已到达出口结束，不走未核捷径。",
+      "backup": "早班或跨夜方案需单独重排住宿，不假定返程日上午可游玩。",
+      "time_note": "停留分钟为编辑建议，含阅读/拍照，不含餐休与跨区接驳；不是轨迹计时。"
+    }
+  ],
+  "changes": [
+    "明确厦门市博物馆主馆，不混鼓浪屿旧馆。",
+    "海滨日有白城和演武明确目的地，两段之间汽车，不沿海岸线想象连通。"
+  ],
+  "limitations": [
+    "白城至演武间地面步行未全部核查，主方案汽车分段；详图仅代表演武/沙坡尾局部。"
+  ],
+  "points": [
+    {
+      "coord": [
+        118.072496,
+        24.4559063
+      ],
+      "osm": "node/1408154560",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/1408154560",
+      "day": 2,
+      "name": "中山路步行街",
+      "number": "01",
+      "anchor_id": "node/1408154560"
+    },
+    {
+      "coord": [
+        118.075854,
+        24.4604672
+      ],
+      "osm": "node/11983028170",
+      "version": 1,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/11983028170",
+      "day": 2,
+      "name": "开元路周边老街巷",
+      "number": "02",
+      "anchor_id": "node/11983028170"
+    },
+    {
+      "coord": [
+        118.10415843333334,
+        24.49372771666667
+      ],
+      "osm": "way/168406230",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/168406230",
+      "day": 3,
+      "name": "厦门市博物馆（体育路95号主馆）",
+      "number": "03",
+      "anchor_id": "way/168406230"
+    },
+    {
+      "coord": [
+        118.0824979611111,
+        24.440227000000007
+      ],
+      "osm": "way/366252362",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/366252362",
+      "day": 3,
+      "name": "沙坡尾艺术西区",
+      "number": "04",
+      "anchor_id": "way/366252362"
+    },
+    {
+      "coord": [
+        118.0833017,
+        24.4421677
+      ],
+      "osm": "node/4601158130",
+      "version": 4,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/4601158130",
+      "day": 3,
+      "name": "沙坡尾避风坞周边公共街巷",
+      "number": "05",
+      "anchor_id": "node/4601158130"
+    },
+    {
+      "coord": [
+        118.09862730256413,
+        24.433513356410252
+      ],
+      "osm": "way/164688343",
+      "version": 8,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/way/164688343",
+      "day": 4,
+      "name": "白城沙滩陆侧公共步道",
+      "number": "06",
+      "anchor_id": "way/164688343"
+    },
+    {
+      "coord": [
+        118.0840429,
+        24.4350438
+      ],
+      "osm": "node/4812594506",
+      "version": 2,
+      "point_role": "OSM景点/建筑代表位置；不是自动认证入口",
+      "source_url": "https://www.openstreetmap.org/node/4812594506",
+      "day": 4,
+      "name": "演武大桥下方滨海观景步道",
+      "number": "07",
+      "anchor_id": "node/4812594506"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "F05-baicheng",
+      "title": "白城—演武东端陆侧共用步道往返",
+      "day": 4,
+      "distance_m": 2915.179400781003,
+      "files": {
+        "svg": "journeys/F05-baicheng.svg",
+        "gpx": "journeys/F05-baicheng.gpx",
+        "json": "journeys/F05-baicheng.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/F05-full.svg",
+    "image": "journeys/F05-full.webp",
+    "width": 1400,
+    "height": 1500,
+    "bbox": [
+      118.06927739666666,
+      24.42628763317948,
+      118.10732943666667,
+      24.50095343989744
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 0.12044616567695164,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        668.0605316733936,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "厦门市博物馆｜福建省政府",
+      "url": "https://www.fj.gov.cn/english/cultureandtravel/attractions/202503/t20250311_6777625.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 馆址与展示背景；出发前查厦门市博物馆官方公告。"
+    },
+    {
+      "title": "厦门市博物馆参观参考",
+      "url": "https://xm.bendibao.com/tour/2022721/74444.shtm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 列各场馆免费及免预约，可能变动；不推广为所有收费特展。"
+    },
+    {
+      "title": "闽人智慧｜厦门市中山路历史文化街区",
+      "url": "https://zjt.fujian.gov.cn/hygl/lsfm/202602/t20260213_7098921.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "厦门沙坡尾：渔火照古今 渔港焕新生",
+      "url": "https://www.fj.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/hyjj/202603/t20260313_7109299.htm",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=118.071,24.453,118.084,24.464",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=118.077,24.431,118.096,24.447",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 用于文化背景或地理依据；不保证当天开放、营业或活动。"
+    },
+    {
+      "title": "厦门市博物馆官网",
+      "url": "https://www.xmmuseum.com/",
+      "checked_at": "2026-10-25",
+      "note": "沿用项目既有核验缓存；本轮已读缓存，非声明全部重新在线抓取。 官网检索正文，主馆在体育路95号文化艺术中心，区别鼓浪屿分馆；具体日期查新公告。"
+    },
+    {
+      "title": "厦门市博物馆官网",
+      "url": "https://www.xmmuseum.com/",
+      "checked_at": "2026-10-25",
+      "note": "官网检索正文，主馆在体育路95号文化艺术中心，区别鼓浪屿分馆；具体日期查新公告。"
+    }
+  ]
+}

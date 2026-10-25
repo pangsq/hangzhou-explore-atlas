@@ -337,5 +337,14 @@
     "missing_routes": [
       "N03"
     ]
+  },
+  "full_route_review": {
+    "date": "2026-10-25",
+    "routes": 30,
+    "days": 77,
+    "full_maps": 30,
+    "new_walks": 18,
+    "original_detail_maps": 48,
+    "scope": "逐日参观点与转场完整；精确GPX只覆盖已核连续路网，不把室内与官方文字补证伪造成轨迹"
   }
 }

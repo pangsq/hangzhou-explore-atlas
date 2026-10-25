@@ -1,0 +1,349 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "固定大运河博物馆与刀剪剑博物馆两馆，以运河文化广场、拱宸桥与桥西直街串联；新增0.815km连续人行图从桥东已绘人行道起，不冒充含博物馆最后接近段或馆内展线。",
+  "days": [
+    {
+      "day": 1,
+      "title": "大运河博物馆—拱宸桥—桥西—刀剪剑馆",
+      "start": "京杭大运河博物馆公众入口",
+      "end": "中国刀剪剑博物馆小河路336号公众出口",
+      "visits": [
+        {
+          "name": "京杭大运河博物馆",
+          "minutes": 110,
+          "activity": "09:15–11:05 先看《沟通南北》理解运河的开凿与变迁，再看《因河而兴》联系杭城生活；不沿用改造前的展厅名，也不依赖临展。",
+          "kind": "visit",
+          "osm": "way/424289940",
+          "coord": [
+            120.1369546,
+            30.319703
+          ],
+          "coord_system": "WGS84",
+          "point_role": "建筑足迹代表点，不是入口",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.13695458484851,
+              30.319702954545452
+            ],
+            "osm": "way/424289940",
+            "version": 2,
+            "point_role": "建筑足迹代表点，不是入口",
+            "source_url": "https://www.openstreetmap.org/way/424289940"
+          }
+        },
+        {
+          "name": "拱宸桥与两岸码头",
+          "minutes": 45,
+          "activity": "11:05–11:50 从东侧道路依L06过桥，停看桥拱、东西堍与运河航道。",
+          "kind": "visit",
+          "osm": "node/3517656008",
+          "coord": [
+            120.1342116,
+            30.3205433
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "02",
+          "location": {
+            "coord": [
+              120.1342116,
+              30.3205433
+            ],
+            "osm": "node/3517656008",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/3517656008"
+          }
+        },
+        {
+          "name": "桥西午餐",
+          "minutes": 60,
+          "activity": "11:50–12:50 桥西历史街区正常营业餐饮用餐。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "桥西直街工业遗产",
+          "minutes": 50,
+          "activity": "12:50–13:40 沿已绘街区主路南行，观察老街、厂房与仓库改造，不擅入院门。",
+          "kind": "visit",
+          "osm": "node/4512174469",
+          "coord": [
+            120.1335539,
+            30.3165751
+          ],
+          "coord_system": "WGS84",
+          "point_role": "OSM路网节点；非建筑中心/检票口",
+          "map_number": "03",
+          "location": {
+            "coord": [
+              120.1335539,
+              30.3165751
+            ],
+            "osm": "node/4512174469",
+            "version": 1,
+            "point_role": "OSM路网节点；非建筑中心/检票口",
+            "source_url": "https://www.openstreetmap.org/node/4512174469"
+          }
+        },
+        {
+          "name": "桥西南端回刀剪剑馆东侧人行道",
+          "minutes": 20,
+          "activity": "13:40–14:00 沿OSM way/445920869桥西直街向北回到刀剪剑馆东侧人行道node/4432679228，再按现场公众门牌入馆；最后入馆不以建筑中心吸附。",
+          "kind": "walk",
+          "osm": "node/4432679228",
+          "coord": [
+            120.1338705,
+            30.3184595
+          ],
+          "coord_system": "WGS84",
+          "point_role": "馆东侧桥西直街人行道节点，不是检票口",
+          "map_number": "04",
+          "location": {
+            "coord": [
+              120.1338705,
+              30.3184595
+            ],
+            "osm": "node/4432679228",
+            "version": 1,
+            "point_role": "馆东侧桥西直街人行道节点，不是检票口",
+            "source_url": "https://www.openstreetmap.org/node/4432679228"
+          }
+        },
+        {
+          "name": "中国刀剪剑博物馆",
+          "minutes": 105,
+          "activity": "14:00–15:45 以刀剑历史和剪刀制作、用途为两条参观主题，观察工具形态与制作技艺；不把工坊体验当保证参加。",
+          "kind": "visit",
+          "source_url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html",
+          "osm": "way/457632686",
+          "coord": [
+            120.1334014,
+            30.31856
+          ],
+          "coord_system": "WGS84",
+          "point_role": "建筑足迹代表点，非入口",
+          "map_number": "05",
+          "location": {
+            "coord": [
+              120.13340136250001,
+              30.3185600125
+            ],
+            "osm": "way/457632686",
+            "version": 2,
+            "point_role": "建筑足迹代表点，非入口",
+            "source_url": "https://www.openstreetmap.org/way/457632686"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "from": "大运河博物馆公众出口",
+          "to": "拱宸桥东侧已绘人行道端点",
+          "mode": "official_walk",
+          "instructions": "按杭州网公开交通导引经运河文化广场到拱宸桥东侧，接node/3517656010；广场接近段无本次连续OSM线，不经service点5214510402绕上主路。",
+          "evidence_url": "https://edu.hangzhou.com.cn/2024rdzt/zdagzyjd/content/content_8764482.html?k=1"
+        },
+        {
+          "from": "拱宸桥东堍",
+          "to": "桥西直街南端",
+          "mode": "walk",
+          "instructions": "L06只走过桥与南行部分，主方案不为凑里程强制原路回东岸。"
+        },
+        {
+          "from": "桥西直街南端",
+          "to": "刀剪剑馆东侧人行道",
+          "mode": "walk",
+          "instructions": "沿OSM way/445920869公共步行街回至node/4432679228；最后入馆按小河路336号公众导览，不直线穿楼。"
+        }
+      ],
+      "detail_keys": [
+        "L06",
+        "L06-MUSEUM-WALK"
+      ],
+      "exit": "15:45后从小河路336号公众出口汽车接地铁；不承诺另走小河直街。",
+      "backup": "馆群通常周二维护、运河馆另有维护日，出行前分别核。若第二馆闭馆，桥西户外保留半日版，不任意改成另一未核馆。",
+      "planned_minutes": 390
+    }
+  ],
+  "changes": [
+    "去掉第一馆择一、第二馆择一",
+    "明确2.067km图为局部；主方案不要求无意义回起点",
+    "补用旧scenic-v2/inputs/osm-west-bank-map.json，核刀剪剑馆建筑与桥西直街节点，取消初版不必要的汽车短接驳。"
+  ],
+  "limitations": [
+    "博物馆公众出口经运河文化广场到拱宸桥的游览连接有公开交通导引支持，但没有连续OSM人行几何，图中分开表达，不用未核主干道补连。",
+    "刀剪剑馆的东侧公共街道已核；建筑门最终入场按现场公众门牌和馆方指引，不将建筑边界节点称认证入口。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.13695458484851,
+        30.319702954545452
+      ],
+      "osm": "way/424289940",
+      "version": 2,
+      "point_role": "建筑足迹代表点，不是入口",
+      "source_url": "https://www.openstreetmap.org/way/424289940",
+      "day": 1,
+      "name": "京杭大运河博物馆",
+      "number": "01",
+      "anchor_id": "way/424289940"
+    },
+    {
+      "coord": [
+        120.1342116,
+        30.3205433
+      ],
+      "osm": "node/3517656008",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/3517656008",
+      "day": 1,
+      "name": "拱宸桥与两岸码头",
+      "number": "02",
+      "anchor_id": "node/3517656008"
+    },
+    {
+      "coord": [
+        120.1335539,
+        30.3165751
+      ],
+      "osm": "node/4512174469",
+      "version": 1,
+      "point_role": "OSM路网节点；非建筑中心/检票口",
+      "source_url": "https://www.openstreetmap.org/node/4512174469",
+      "day": 1,
+      "name": "桥西直街工业遗产",
+      "number": "03",
+      "anchor_id": "node/4512174469"
+    },
+    {
+      "coord": [
+        120.1338705,
+        30.3184595
+      ],
+      "osm": "node/4432679228",
+      "version": 1,
+      "point_role": "馆东侧桥西直街人行道节点，不是检票口",
+      "source_url": "https://www.openstreetmap.org/node/4432679228",
+      "day": 1,
+      "name": "桥西南端回刀剪剑馆东侧人行道",
+      "number": "04",
+      "anchor_id": "node/4432679228"
+    },
+    {
+      "coord": [
+        120.13340136250001,
+        30.3185600125
+      ],
+      "osm": "way/457632686",
+      "version": 2,
+      "point_role": "建筑足迹代表点，非入口",
+      "source_url": "https://www.openstreetmap.org/way/457632686",
+      "day": 1,
+      "name": "中国刀剪剑博物馆",
+      "number": "05",
+      "anchor_id": "way/457632686"
+    }
+  ],
+  "unlocated": [],
+  "walks": [
+    {
+      "key": "L06-MUSEUM-WALK",
+      "title": "拱宸桥东侧人行道—桥西直街—刀剪剑馆外人行道",
+      "day": 1,
+      "distance_m": 815.009516781702,
+      "files": {
+        "svg": "journeys/L06-MUSEUM-WALK.svg",
+        "gpx": "journeys/L06-MUSEUM-WALK.gpx",
+        "json": "journeys/L06-MUSEUM-WALK.json"
+      },
+      "issues": []
+    }
+  ],
+  "map": {
+    "svg": "journeys/L06-full.svg",
+    "image": "journeys/L06-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.13140136250001,
+      30.314575100000003,
+      120.139775,
+      30.3225549
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 1.1269969330506249,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        447.08187665608904,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "大运河世界文化遗产点——桥西历史街区",
+      "url": "https://www.gongshu.gov.cn/art/2024/4/30/art_1229789753_59080391.html",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "一馆一星河：博物馆之城背后的文化自觉",
+      "url": "https://www.gongshu.gov.cn/col/col1228917/art/2026/art_86efeca9d3604c52aba2a9327c323a8d.html",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "导览补充来源",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=120.1295,30.3154,120.1350,30.3220",
+      "type": "景区导览补充资料",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州文旅：杭州工艺美术博物馆群馆藏",
+      "url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州网走读爱国主义教育基地：大运河博物馆交通与新陈列",
+      "url": "https://edu.hangzhou.com.cn/2024rdzt/zdagzyjd/content/content_8764482.html?k=1",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州文旅：杭州工艺美术博物馆群馆藏",
+      "url": "https://wgly.hangzhou.gov.cn/art/2024/3/6/art_1229733881_58953479.html",
+      "checked_at": "2026-10-25",
+      "note": "馆群与工业遗产主题；不是各馆当日开放表。"
+    },
+    {
+      "title": "OSM桥西西岸缓存",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=120.1295,30.3154,120.1350,30.3220",
+      "checked_at": "2026-10-25",
+      "note": "本地既有route-edition/L06/scenic-v2/inputs/osm-west-bank-map.json 2709对象；way/445920869桥西直街与way/457632686刀剪剑馆。"
+    },
+    {
+      "title": "杭州网走读爱国主义教育基地：大运河博物馆交通与新陈列",
+      "url": "https://edu.hangzhou.com.cn/2024rdzt/zdagzyjd/content/content_8764482.html?k=1",
+      "checked_at": "2026-10-25",
+      "note": "公开交通说明桥西街区跨拱宸桥即到运河文化广场，支持博物馆与桥头步行游览关联；不作为逐米OSM几何或实时开放证明。"
+    }
+  ]
+}

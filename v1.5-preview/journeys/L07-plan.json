@@ -1,0 +1,193 @@
+{
+  "reviewed_at": "2026-10-25",
+  "summary": "固定之江馆浙江一万年、青瓷与宋韵三主题深读；1.320km外场图不当作全部活动长度。",
+  "days": [
+    {
+      "day": 1,
+      "title": "之江馆一日深读：通史—青瓷—宋韵",
+      "start": "浙江省博物馆之江馆公众入口",
+      "end": "浙江省博物馆之江馆公众出口",
+      "visits": [
+        {
+          "name": "浙江一万年·史前与早期文明",
+          "minutes": 85,
+          "activity": "09:15–10:40 沿通史陈列看浙江史前环境、稻作与良渚叙事；比较考古证据，不保证某件镇馆文物必在。",
+          "kind": "visit",
+          "osm": "way/1393054074",
+          "coord": [
+            120.0968979,
+            30.1621904
+          ],
+          "coord_system": "WGS84",
+          "point_role": "建筑足迹代表点，非游客门",
+          "map_number": "01",
+          "location": {
+            "coord": [
+              120.09689786666667,
+              30.16219039523809
+            ],
+            "osm": "way/1393054074",
+            "version": 2,
+            "point_role": "建筑足迹代表点，非游客门",
+            "source_url": "https://www.openstreetmap.org/way/1393054074"
+          }
+        },
+        {
+          "name": "浙江一万年·历史时期",
+          "minutes": 80,
+          "activity": "10:40–12:00 接续看吴越、宋元与后续社会发展，把时间线走完整而非到大厅拍照即结束。",
+          "kind": "visit",
+          "source_url": "https://hznews.hangzhou.com.cn/wenti/content/2026-08/03/content_9270810_2.htm",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "馆区午餐与休息",
+          "minutes": 60,
+          "activity": "12:00–13:00 按当日馆内餐饮/再入场规则用餐；再入场限制未明不擅自离馆。",
+          "kind": "visit",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "青瓷文化专题",
+          "minutes": 70,
+          "activity": "13:00–14:10 按公众导览进入青瓷主题陈列，比较胎釉、器形与窑业发展；具体展品以当日在展为准。",
+          "kind": "visit",
+          "source_url": "https://hznews.hangzhou.com.cn/wenti/content/2026-08/03/content_9270810_2.htm",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "宋韵文化专题",
+          "minutes": 70,
+          "activity": "14:10–15:20 看宋代社会与审美专题，联系上午浙江通史，而非再塞第三家场馆。",
+          "kind": "visit",
+          "source_url": "https://hznews.hangzhou.com.cn/wenti/content/2026-08/03/content_9270810_2.htm",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        },
+        {
+          "name": "之江文化中心外场",
+          "minutes": 40,
+          "activity": "15:20–16:00 体力允许时按L07外场1.320km道路看建筑与庭院后回南侧；不进入文学馆、图书馆阅览区充当主方案。",
+          "kind": "walk",
+          "location_context": "同片区/馆内活动，使用相邻已定位参观点；不另造坐标"
+        }
+      ],
+      "connections": [
+        {
+          "from": "之江馆公众入口",
+          "to": "浙江一万年通史",
+          "mode": "official_walk",
+          "instructions": "以馆内当前导览连接展厅，不编造楼层与室内GPS。",
+          "evidence_url": "https://www.zjmuseum.com.cn/cn/"
+        },
+        {
+          "from": "通史陈列",
+          "to": "青瓷与宋韵专题",
+          "mode": "official_walk",
+          "instructions": "乘公众电梯或楼梯，依当日场馆平面图。",
+          "evidence_url": "https://hznews.hangzhou.com.cn/wenti/content/2026-08/03/content_9270810_2.htm"
+        },
+        {
+          "from": "省博公众出口",
+          "to": "文化中心外场",
+          "mode": "official_walk",
+          "instructions": "出口至L07道路起点按公众铺装与过街设施；图中建筑中心不是门。"
+        }
+      ],
+      "detail_keys": [
+        "L07"
+      ],
+      "exit": "16:00前回南侧公共接送点汽车返家；逛不完时取消外场，保留核心展线。",
+      "backup": "省博当日闭馆则改期。个别专题维护时，以同馆当日公开常设专题替代并现场告知，不拼未核文学馆行程。",
+      "planned_minutes": 405
+    }
+  ],
+  "changes": [
+    "取消文学馆或非遗馆择一与图书馆或咖啡填时",
+    "固定三主题约5小时有效参观",
+    "明确外场路网只是辅助图"
+  ],
+  "limitations": [
+    "省博官网本次仅返回JS壳，未得到实时展厅维护名单；各主题需出发前核馆方公告。"
+  ],
+  "points": [
+    {
+      "coord": [
+        120.09689786666667,
+        30.16219039523809
+      ],
+      "osm": "way/1393054074",
+      "version": 2,
+      "point_role": "建筑足迹代表点，非游客门",
+      "source_url": "https://www.openstreetmap.org/way/1393054074",
+      "day": 1,
+      "name": "浙江一万年·史前与早期文明",
+      "number": "01",
+      "anchor_id": "way/1393054074"
+    }
+  ],
+  "unlocated": [],
+  "walks": [],
+  "map": {
+    "svg": "journeys/L07-full.svg",
+    "image": "journeys/L07-full.webp",
+    "width": 1400,
+    "height": 1226,
+    "bbox": [
+      120.093564,
+      30.1580562,
+      120.1015865,
+      30.1658965
+    ],
+    "projection": {
+      "crs": "WGS84",
+      "north_up": true,
+      "method": "equirectangular cosine-corrected; uniform contain",
+      "scale_px_per_m": 1.147049236171686,
+      "frame": {
+        "x": 70,
+        "y": 220,
+        "w": 1660,
+        "h": 1000
+      },
+      "origin": [
+        457.6495052864218,
+        220
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "浙江省博物馆官网",
+      "url": "https://www.zjmuseum.com.cn/cn/",
+      "type": "primary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "浙江图书馆入馆指南",
+      "url": "https://www.zjlib.cn/service/museumAdmissionGuide",
+      "type": "primary",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "杭州网：2026浙博常设展与文物外借提示",
+      "url": "https://hznews.hangzhou.com.cn/wenti/content/2026-08/03/content_9270810_2.htm",
+      "type": "全程游览补核",
+      "note": "沿用项目已存来源；本轮未重新请求该旧页面，不作为实时开放承诺。",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "title": "浙江省博物馆官方预约与公告入口",
+      "url": "https://www.zjmuseum.com.cn/cn/",
+      "checked_at": "2026-10-25",
+      "note": "本次网页仅返回JavaScript壳；入口可用，未从壳推定当日开放。"
+    },
+    {
+      "title": "杭州网：2026浙博常设展与文物外借提示",
+      "url": "https://hznews.hangzhou.com.cn/wenti/content/2026-08/03/content_9270810_2.htm",
+      "checked_at": "2026-10-25",
+      "note": "采用浙江一万年、青瓷、宋韵三类常设主题；报道说部分镇馆文物外借，因此不保证指定真品必见；8月延时已过不沿用。"
+    }
+  ]
+}
