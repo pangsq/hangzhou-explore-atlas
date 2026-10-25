@@ -2,15 +2,15 @@
 const $=s=>document.querySelector(s), A=window.ATLAS;
 const controls=$('.inputs');
 controls.insertAdjacentHTML('beforeend',`<label>行程天数<select id="duration"><option value="all">全部天数</option><option value="1">1日</option><option value="2">2日</option><option value="multi">3日及以上</option></select></label><label>游玩主题<select id="theme"><option value="all">全部主题</option><option value="hike">登山与徒步</option><option value="culture">人文与博物馆</option><option value="water">湖水与湿地</option><option value="city">城市与古镇慢游</option></select></label><label>主交通方案<select id="transport"><option value="all">全部交通</option><option value="metro">地铁进城</option><option value="car">自驾为主</option><option value="rail">高铁 / 火车</option><option value="mixed">多种方案待选</option></select></label>`);
-const cars=new Set(['L02','L03','L04','L05','L06','L07','L09','N01','N02','N03','N07','N08','N09']);
+const cars=new Set(['L03','N01','N02','N03','N07','N08','N09']);
 function matches(r){
  const duration=$('#duration').value,theme=$('#theme').value,transport=$('#transport').value,q=$('#search').value.trim().toLowerCase();
- const tags=r.tags.join(' '), mode=r.id.startsWith('F')||['N04','N05','N06','N10'].includes(r.id)?'rail':cars.has(r.id)?'car':r.id==='L01'?'metro':'mixed';
+ const tags=r.tags.join(' '), mode=r.id.startsWith('F')||['N04','N05','N06','N10'].includes(r.id)?'rail':cars.has(r.id)?'car':r.id.startsWith('L')?'metro':'mixed';
  const themes={hike:/徒步|登山|古道/.test(tags),culture:/博物馆|文化|文学|建筑|石窟|古都|陶瓷|藏书/.test(tags),water:/湖景|湿地|水城|运河|海景|赣江/.test(tags),city:/citywalk|古镇|老城|古村|村落/.test(tags)};
  return (duration==='all'||(duration==='multi'?r.days>=3:r.days===Number(duration)))&&(theme==='all'||themes[theme])&&(transport==='all'||transport===mode)&&(!q||[r.id,r.title,...r.tags].join(' ').toLowerCase().includes(q));
 }
 function filter(){let count=0;document.querySelectorAll('#collection .card').forEach(card=>{const id=new URLSearchParams(card.querySelector('a').hash.slice(1)).get('route'),r=A.routes.find(x=>x.id===id),ok=r&&matches(r);card.hidden=!ok;if(ok)count++;});
- const base=$('#people').value==='1'?'1人独行总额':'2人同行每人';$('#result-count').textContent=`${count} 条行程 · 金额为${base}，不是实时报价`;
+ const base=$('#people').value==='1'?'1人独行基础预计':'2人同行每人基础预计';$('#result-count').textContent=`${count} 条行程 · 金额为${base}，可选另计，非实时报价`;
  $('#filter-empty')?.remove();if(!count){const p=document.createElement('p');p.id='filter-empty';p.textContent='没有匹配的路线，试试减少筛选条件或搜索目的地。';$('#collection').append(p);}
 }
 $('#search').placeholder='搜索目的地、路线名或主题…';
@@ -21,7 +21,7 @@ new MutationObserver(records=>{if(records.some(r=>[...r.addedNodes].some(n=>n.no
 $('#people').addEventListener('change',filter);
 function enhanceRoute(){const detail=$('#detail');if(detail.hidden||!detail.querySelector('.route-head')||detail.querySelector('.route-toc'))return;
  const ids=[['全程安排','full-journey',null],['导览','guide','.scenic-section'],['交通','transport-section',null],['日程','schedule',null],['详细地图','maps-section',null],['预算','budget-section',null],['出发检查','departure','.checks']];
- const headings={'怎么出发，住在哪里':'transport-section','留出休息的日程':'schedule','地图不是装饰，是这一段怎么走':'maps-section','舒服出行的预算':'budget-section'};
+ const headings={'怎么出发，住在哪里':'transport-section','留出休息的日程':'schedule','地图不是装饰，是这一段怎么走':'maps-section','舒服出行的预算':'budget-section','基础游玩预算 · 可选另计':'budget-section'};
  detail.querySelectorAll('section>h2').forEach(h=>{if(headings[h.textContent])h.parentElement.id=headings[h.textContent];});
  ids.forEach(([,id,selector])=>{if(selector&&detail.querySelector(selector))detail.querySelector(selector).id=id;});
  const nav=document.createElement('nav');nav.className='route-toc';nav.setAttribute('aria-label','本路线快捷目录');

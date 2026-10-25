@@ -329,7 +329,7 @@
     }
   ],
   "publication": "public preview; original V1.4 unchanged",
-  "scenic_photos": 35,
+  "scenic_photos": 42,
   "scenic_photo_review_date": "2026-10-25",
   "scenic_photo_coverage": {
     "target_routes": 30,
@@ -346,5 +346,76 @@
     "new_walks": 18,
     "original_detail_maps": 48,
     "scope": "逐日参观点与转场完整；精确GPX只覆盖已核连续路网，不把室内与官方文字补证伪造成轨迹"
+  },
+  "pdf_full_route_refresh": {
+    "date": "2026-10-25",
+    "routes": 30,
+    "full_maps": 30,
+    "new_walks": 18,
+    "original_details": 48,
+    "scenic_pages": 40,
+    "photos": 42,
+    "pages": 324,
+    "files": [
+      {
+        "file": "01-local.pdf",
+        "title": "城市与近郊",
+        "pages": 84,
+        "bytes": 21422660,
+        "sha256": "9b645d6c9c275f233806263fd670e5115ba086372ca2f824618c092201aab002",
+        "routes": 10,
+        "full_maps": 10,
+        "original_detail_maps": 14,
+        "new_walk_maps": 1,
+        "scenic_pages": 13,
+        "photos": 13,
+        "date": "2026-10-25",
+        "edition": "full-route-budget-photo-refresh"
+      },
+      {
+        "file": "02-nearby.pdf",
+        "title": "周边城市",
+        "pages": 105,
+        "bytes": 22935877,
+        "sha256": "f84c8aaaa58639bee0064c6848b10e3fb9b99aa5d17500fd29592cfb788158b7",
+        "routes": 10,
+        "full_maps": 10,
+        "original_detail_maps": 15,
+        "new_walk_maps": 5,
+        "scenic_pages": 17,
+        "photos": 16,
+        "date": "2026-10-25",
+        "edition": "full-route-budget-photo-refresh"
+      },
+      {
+        "file": "03-far.pdf",
+        "title": "远方旅行",
+        "pages": 135,
+        "bytes": 24537743,
+        "sha256": "ef66e1ad6f57bbdab70eb116265fb1c229ab860c9267a13e0669ca3023c031e1",
+        "routes": 10,
+        "full_maps": 10,
+        "original_detail_maps": 19,
+        "new_walk_maps": 12,
+        "scenic_pages": 10,
+        "photos": 13,
+        "date": "2026-10-25",
+        "edition": "full-route-budget-photo-refresh"
+      },
+      {
+        "file": "complete-atlas.pdf",
+        "title": "三十条旅行特辑合订本",
+        "pages": 324,
+        "bytes": 68898010,
+        "sha256": "bc18fbc877d731008026d076d4ace36ee281d7b3533ef710f52991ac5f12eb1f",
+        "date": "2026-10-25",
+        "edition": "full-route-budget-photo-refresh"
+      }
+    ]
+  },
+  "budget_review": {
+    "date": "2026-10-25",
+    "routes": 30,
+    "scope": "基础游玩预计，可选另计，非即时成交报价"
   }
 }
